@@ -117,7 +117,7 @@ $(document).ready(function () {
 
   $('.sl2 .vec4 a').click(function() {
     // $('.m_pop8').fadeIn();
-    alert('Еще не готов попап!');
+    alert('Есть вопросы по этому попапу!');
   });
 
   $('.main-m .prev-move').click(function() {
