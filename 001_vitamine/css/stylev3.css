@@ -56,6 +56,7 @@ html {
   justify-content: space-around;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(13.34deg, #DBDBDB 14.6%, #ECEDEC 35.64%, #FFFFFF 90.84%);
 }
 
 .wrap .over-wrap {
@@ -113,7 +114,7 @@ html {
   opacity: 1;
 }
 
-.sl1 { background-image: url(../images/01/bg.png); }
+.sl1 { background-image: url(../images/01/bg2.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
 .sl3 { background-image: url(../images/03/bg.png); }
 .sl4 { background-image: url(../images/04/bg.png); }
