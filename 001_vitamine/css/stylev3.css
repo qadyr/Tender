@@ -56,8 +56,21 @@ html {
   justify-content: space-around;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(13.34deg, #DBDBDB 14.6%, #ECEDEC 35.64%, #FFFFFF 90.84%);
+  background: linear-gradient(13.34deg, #DBDBDB 14.6%, #ECEDEC 35.64%, #FFF 90.84%);
+  transition: all 0.75s;
 }
+
+.wrap .common-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+  transition: all 0.75s;
+}
+
+.wrap .common-bg.hide { opacity: 0; }
 
 .wrap .over-wrap {
   position: relative;
@@ -73,7 +86,11 @@ html {
 
   display: flex;
   justify-content: space-between;
+
+  transition: all 0.75s;
 }
+
+.main-m.hide { opacity: 0; }
 
 .main-m a {
   width: 40px;
