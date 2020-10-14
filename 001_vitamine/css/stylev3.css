@@ -280,6 +280,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop1 .m_pop1-p1 {
@@ -322,6 +323,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop2 .q1 {
@@ -475,6 +477,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop3 .w1 {
@@ -610,7 +613,6 @@ html {
   top: 316px;
 }
 
-
 .m_pop3 .w12,
 .m_pop3 .w13,
 .m_pop3 .w14,
@@ -700,6 +702,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev2.svg);
 }
 
 .m_pop4 .tub1 {
@@ -820,6 +823,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev2.svg);
 }
 
 .m_pop5 .tub1 {
@@ -950,6 +954,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop6 .tub1 {
@@ -1082,6 +1087,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev3.svg);
 }
 
 .m_pop7 .tub1 {

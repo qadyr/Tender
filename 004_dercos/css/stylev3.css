@@ -87,15 +87,15 @@ html {
 }
 
 .main-m .prev-move {
-  background-image: url(../images/01/prev.png);
+  background-image: url(../images/01/prev.svg);
 }
 
 .main-m .home-move {
-  background-image: url(../images/01/home.png);
+  background-image: url(../images/01/home.svg);
 }
 
 .main-m .next-move {
-  background-image: url(../images/01/next.png);
+  background-image: url(../images/01/next.svg);
 }
 
 .sl {
@@ -276,6 +276,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop1 .m_pop1-p1 {
@@ -318,6 +319,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop2 .q1 {
@@ -440,6 +442,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop3 .w1 {
@@ -593,6 +596,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop4 .e1 {

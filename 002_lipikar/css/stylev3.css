@@ -87,15 +87,15 @@ html {
 }
 
 .main-m .prev-move {
-  background-image: url(../images/01/prev.png);
+  background-image: url(../images/01/prev.svg);
 }
 
 .main-m .home-move {
-  background-image: url(../images/01/home.png);
+  background-image: url(../images/01/home.svg);
 }
 
 .main-m .next-move {
-  background-image: url(../images/01/next.png);
+  background-image: url(../images/01/next.svg);
 }
 
 .sl {
@@ -316,6 +316,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop1 .m_pop1-p1 {
@@ -358,6 +359,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev2.svg);
 }
 
 .m_pop2 .q1 {
@@ -455,6 +457,22 @@ html {
 .m_pop2 .q7 { right: 644px; text-align: right; }
 .m_pop2 .q8 { left: 634px; }
 
+.m_pop2 .f1 {
+  top: 484px;
+  left: 40px;
+  width: 340px;
+  height: 172px;
+  background-image: url(../images/02/f1.png);
+}
+
+.m_pop2 .f2 {
+  top: 484px;
+  left: 634px;
+  width: 351px;
+  height: 213px;
+  background-image: url(../images/02/f2.png);
+}
+
 .m_pop2 .q9 {
   width: 340px;
   height: 172px;
@@ -488,6 +506,7 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url(../images/02/prev2.svg);
 }
 
 .m_pop3 .w1 {
@@ -709,6 +728,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop4 .tub1 {
@@ -859,6 +879,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop5 .tub1 {
@@ -1008,6 +1029,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop6 .tub1 {
@@ -1171,6 +1193,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop7 .tub1 {
@@ -1547,6 +1570,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/prev.svg);
 }
 
 .m_pop9 .tub1 {
