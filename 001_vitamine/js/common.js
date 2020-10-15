@@ -82,9 +82,11 @@ $(document).ready(function () {
 
   $('.sl2 .vec1 a').click(function() {
     $('.m_pop1').fadeIn();
+    changeBGtoWhite();
   });
   $('.m_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    changeBGtoGray();
   });
 
   $('.sl2 .vec2 a').click(function() {
