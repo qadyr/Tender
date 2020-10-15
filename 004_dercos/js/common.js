@@ -2,6 +2,24 @@
 
 $(document).ready(function () {
 
+  var hideEl = function(data) {
+    $('.sl2').removeClass('_show');
+    $('.main-m').addClass('hide');
+  };
+
+  var showEl = function(data) {
+    $('.sl2').addClass('_show');
+    $('.main-m').removeClass('hide');
+  };
+
+  var changeBGtoWhite = function() {
+    $('.wrap .common-bg').removeClass('hide');
+  };
+
+  var changeBGtoRed = function() {
+    $('.wrap .common-bg').addClass('hide');
+  };
+
   var it1 = 768 / 100;
   var it2;
   var it4 = 1024 / 100;
@@ -64,53 +82,42 @@ $(document).ready(function () {
 
   $('.sl2 .vec1 a').click(function() {
     $('.m_pop1').fadeIn();
+    changeBGtoWhite();
   });
   $('.m_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    changeBGtoRed();
   });
 
   $('.sl2 .vec2 a').click(function() {
     $('.m_pop2').fadeIn();
+    changeBGtoWhite();
+    hideEl();
   });
   $('.m_pop2 .x').click(function() {
     $(this).parent().fadeOut();
+    changeBGtoRed();
+    showEl();
   });
 
   $('.sl2 .vec3 a').click(function() {
     $('.m_pop3').fadeIn();
-    $('.sl2 .ovec').removeClass('ac');
+    hideEl();
   });
   $('.m_pop3 .x').click(function() {
     $(this).parent().fadeOut();
+    showEl();
   });
 
   $('.m_pop3 .o1').click(function() {
     $('.m_pop4').fadeIn();
+    changeBGtoWhite();
   });
   $('.m_pop4 .x').click(function() {
     $(this).parent().fadeOut();
+    changeBGtoRed();
   });
-  $('.m_pop3 .o2').click(function() {
-    $('.m_pop5').fadeIn();
-  });
-  $('.m_pop5 .x').click(function() {
-    $(this).parent().fadeOut();
-  });
-  $('.m_pop3 .o3').click(function() {
-    $('.m_pop6').fadeIn();
-  });
-  $('.m_pop6 .x').click(function() {
-    $(this).parent().fadeOut();
-  });
-  $('.m_pop3 .o4').click(function() {
-    $('.m_pop7').fadeIn();
-  });
-  $('.m_pop7 .x').click(function() {
-    $(this).parent().fadeOut();
-  });
-  $('.m_pop3 .o5').click(function() {
-    $('.m_pop9').fadeIn();
-  });
+
   $('.m_pop9 .x').click(function() {
     $(this).parent().fadeOut();
   });

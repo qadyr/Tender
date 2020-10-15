@@ -56,7 +56,20 @@ html {
   justify-content: space-around;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(160deg, #ebe8e8 0%, #c79393 100%);
 }
+
+.wrap .common-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+  transition: all 0.75s;
+}
+
+.wrap .common-bg.hide { opacity: 0; }
 
 .wrap .over-wrap {
   position: relative;
@@ -73,6 +86,8 @@ html {
   display: flex;
   justify-content: space-between;
 }
+
+.main-m.hide { z-index: 0; opacity: 0; }
 
 .main-m a {
   width: 40px;
@@ -115,11 +130,6 @@ html {
 
 .sl1 { background-image: url(../images/01/bg.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
-.sl3 { background-image: url(../images/03/bg.png); }
-.sl4 { background-image: url(../images/04/bg.png); }
-.sl5 { background-image: url(../images/05/bg.png); }
-.sl6 { background-image: url(../images/06/bg.png); }
-.sl7 { background-image: url(../images/07/bg.png); }
 
 .sl1 h1 {
   top: 259px;
@@ -195,6 +205,8 @@ html {
   opacity: 1;
 }
 
+.sl2 .ovec a { background-image: url(../images/02/o2.svg); }
+
 .sl2 .vec1 {
   top: 0;
   left: 0;
@@ -205,7 +217,7 @@ html {
 
 .sl2 .vec1 a {
   top: 193px;
-  left: 587px;
+  left: 597px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -236,8 +248,8 @@ html {
 }
 
 .sl2 .vec3 a {
-  top: 181px;
-  left: 560px;
+  top: 190px;
+  left: 550px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -252,8 +264,8 @@ html {
 }
 
 .sl2 .vec4 a {
-  top: 201px;
-  left: 573px;
+  top: 217px;
+  left: 564px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -304,7 +316,6 @@ html {
 
 .m_pop2 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -427,7 +438,6 @@ html {
 
 .m_pop3 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -575,13 +585,13 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/o.svg);
 }
 
 .m_pop3 .o1 { left: 302px; }
 
 .m_pop4 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;

@@ -56,7 +56,32 @@ html {
   justify-content: space-around;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(to bottom, rgba(228,239,255,1) 0%, rgba(73,140,213,1) 100%);
 }
+
+.wrap .common-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+  transition: all 0.75s;
+}
+
+.wrap .common-bg.hide { opacity: 0; }
+
+.wrap .common-bg2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(0deg, #E7F1FF 0%, #FFFFFF 100%, #FFFFFF 100%);
+  transition: all 0.75s;
+}
+
+.wrap .common-bg2.hide { opacity: 0; }
 
 .wrap .over-wrap {
   position: relative;
@@ -73,6 +98,8 @@ html {
   display: flex;
   justify-content: space-between;
 }
+
+.main-m.hide { z-index: 0; opacity: 0; }
 
 .main-m a {
   width: 40px;
@@ -115,11 +142,6 @@ html {
 
 .sl1 { background-image: url(../images/01/bg.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
-.sl3 { background-image: url(../images/03/bg.png); }
-.sl4 { background-image: url(../images/04/bg.png); }
-.sl5 { background-image: url(../images/05/bg.png); }
-.sl6 { background-image: url(../images/06/bg.png); }
-.sl7 { background-image: url(../images/07/bg.png); }
 
 .sl1 h1 {
   top: 230px;
@@ -194,6 +216,8 @@ html {
   opacity: 1;
 }
 
+.sl2 .ovec a { background-image: url(../images/02/o2.svg); }
+
 .sl2 .vec1 {
   top: 0;
   left: 0;
@@ -203,8 +227,8 @@ html {
 }
 
 .sl2 .vec1 a {
-  top: 201px;
-  left: 588px;
+  top: 210px;
+  left: 585px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -219,7 +243,7 @@ html {
 }
 
 .sl2 .vec2 a {
-  top: 209px;
+  top: 226px;
   left: 590px;
   width: 40px;
   height: 40px;
@@ -236,7 +260,7 @@ html {
 
 .sl2 .vec3 a {
   top: 171px;
-  left: 538px;
+  left: 550px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -251,8 +275,8 @@ html {
 }
 
 .sl2 .vec4 a {
-  top: 205px;
-  left: 576px;
+  top: 225px;
+  left: 586px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -459,7 +483,6 @@ html {
 
 .m_pop3 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -573,6 +596,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/o.svg);
 }
 
 .m_pop3 .o1 { left: 223px; }
@@ -581,7 +605,6 @@ html {
 
 .m_pop4 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -684,7 +707,6 @@ html {
 
 .m_pop5 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -800,7 +822,6 @@ html {
 
 .m_pop6 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;

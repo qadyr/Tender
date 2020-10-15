@@ -131,13 +131,8 @@ html {
   opacity: 1;
 }
 
-.sl1 { background-image: url(../images/01/bg2.png); }
+.sl1 { background-image: url(../images/01/bg.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
-.sl3 { background-image: url(../images/03/bg.png); }
-.sl4 { background-image: url(../images/04/bg.png); }
-.sl5 { background-image: url(../images/05/bg.png); }
-.sl6 { background-image: url(../images/06/bg.png); }
-.sl7 { background-image: url(../images/07/bg.png); }
 
 .sl1 h1 {
   width: 431px;
@@ -224,9 +219,11 @@ html {
   background-image: url(../images/02/v1.png);
 }
 
+.sl2 .ovec a { background-image: url(../images/02/o2.svg); }
+
 .sl2 .vec1 a {
-  top: 196px;
-  left: 592px;
+  top: 224px;
+  left: 589px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -241,8 +238,8 @@ html {
 }
 
 .sl2 .vec2 a {
-  top: 175px;
-  left: 610px;
+  top: 201px;
+  left: 613px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -257,8 +254,8 @@ html {
 }
 
 .sl2 .vec3 a {
-  top: 170px;
-  left: 528px;
+  top: 175px;
+  left: 532px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -273,8 +270,8 @@ html {
 }
 
 .sl2 .vec4 a {
-  top: 196px;
-  left: 564px;
+  top: 206px;
+  left: 572px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -695,6 +692,7 @@ html {
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url(../images/02/o.svg);
 }
 
 .m_pop3 .o1 { left: 132px; }
