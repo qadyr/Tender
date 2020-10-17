@@ -13,6 +13,12 @@ $(function(){
 		e.preventDefault();
 		$('.show-1').toggleClass('show');
 		$('.show-3').toggleClass('show');
+		$('.container').css({
+			'background' : 'linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%);'
+		})
+		$('.white-bar').css({
+			'opacity' : '0'
+		})
 	});
 	$('#arrow-5').click(function(e){
 		e.preventDefault();
@@ -68,6 +74,12 @@ $(function(){
 		e.preventDefault();
 		$('.show-1').toggleClass('show');
 		$('.show-3').removeClass('show');
+		$('.container').css({
+			'background' : 'linear-gradient(180deg, rgba(176,206,255,1) 35%, rgba(255,255,255,1) 100%)'
+		})
+		$('.white-bar').css({
+			'opacity' : '1'
+		})
 	});
 	$('.plus-2').click(function(e){
 		e.preventDefault();
