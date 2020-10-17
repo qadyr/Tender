@@ -179,16 +179,99 @@ html {
   text-shadow: 0px 0px 128px #A6C1EC;
 }
 
+.sl1 .tub {
+  width: 230px;
+  height: 690px;
+  left: 131px;
+  top: 38px;
+  background-image: url(../images/01/tub.png);
+
+  transition: all 0.5s;
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.sl1 .tub.mv {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sl2 .mtub {
+  top: 15px;
+  left: 40px;
+  width: 290px;
+  height: 750px;
+  background-image: url(../images/02/mtub.png);
+
+  transition: all 0.5s;
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.sl2 .mtub.mv {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .sl2 .sl2-links {
   z-index: 5;
   width: 109px;
   height: 130px;
   border-radius: 35px;
+  transition: all 0.25s;
+  transform: translateY(40px);
+  opacity: 0;
 }
+
+.sl2 .sl2-links.ac {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.sl2 .sl2-links span {
+  top: 106px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.sl2 .sl2-link1 span { left: -8px; }
+.sl2 .sl2-link3 span { left: 6px; }
+.sl2 .sl2-link4 span { left: -2px; }
 
 .sl2 .sl2-link1 {
   top: 610px;
   left: 445px;
+}
+
+.sl2 .sl2-link1:before,
+.sl2 .sl2-link2:before,
+.sl2 .sl2-link3:before,
+.sl2 .sl2-link4:before {
+  content: '';
+  position: absolute;
+  top: 75px;
+  left: -30px;
+  width: 148px;
+  height: 39px;
+  background-image: url(../images/02/ishadow.png);
+}
+
+.sl2 .sl2-link1:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 93px;
+  height: 92px;
+  background-image: url(../images/02/item1.png);
 }
 
 .sl2 .sl2-link2 {
@@ -196,14 +279,44 @@ html {
   left: 580px;
 }
 
+.sl2 .sl2-link2:after {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  width: 79px;
+  height: 79px;
+  background-image: url(../images/02/item2.png);
+}
+
 .sl2 .sl2-link3 {
   top: 610px;
   left: 717px;
 }
 
+.sl2 .sl2-link3:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  width: 101px;
+  height: 101px;
+  background-image: url(../images/02/item3.png);
+}
+
 .sl2 .sl2-link4 {
   top: 610px;
   left: 860px;
+}
+
+.sl2 .sl2-link4:after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -5px;
+  width: 107px;
+  height: 107px;
+  background-image: url(../images/02/item4.png);
 }
 
 .sl2 .ovec {
