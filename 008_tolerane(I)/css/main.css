@@ -70,7 +70,6 @@ a{
 	height: 768px;
 	width: 1024px;
 	margin: 0 auto;
-	background: url(../img/background-11.png) no-repeat;
 	position: absolute;
 }
 .container-3{
@@ -690,7 +689,7 @@ a{
 	width: 180px;
 	height: 225px;
 }
-.show-main, .show-4,{
+.show-main, .show-4{
 	opacity: 1;
 	transition: all 0.75s;
 }
@@ -703,6 +702,15 @@ a{
 	transform: translateY(-80px);
 	opacity: 0;
 	transition: all 0.25s;
+}
+.white-bar{
+	background: #fff;
+	position: absolute;
+	z-index: 0;
+	height: 130px;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.75s;
 }
 .ac{
 	transform: translateY(0);
