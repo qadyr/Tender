@@ -53,7 +53,6 @@ a{
 	cursor: pointer;
 }
 .container-size{
-	height: 768px;
 	width: 1024px;
 	margin: 0 auto;
 }
@@ -136,6 +135,9 @@ a{
 	margin: 0 auto;
 	position: absolute;
 	background: url(../img/background-10.png) no-repeat;
+}
+.container-12{
+	background: linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%);
 }
 .arrows{
 	padding-top: 40px;
@@ -695,14 +697,26 @@ a{
 .show-cube-1, .show-cube-2, .show-cube-3, .show-cube-4{
 	transform: translateY(-80px);
 	opacity: 0;
-	z-index: -1;
 	transition: all 0.25s;
 }
 .ac{
 	transform: translateY(0);
 	transition: all 0.25s;
-	z-index: 1;
 	opacity: 1;
+	position: absolute;
+	z-index: 1;
+}
+.light{
+	transform: translateY(-80px);
+	opacity: 0;
+	transition: all 0.25s;
+}
+.ac-1{
+	transform: translateY(0);
+	transition: all 0.25s;
+	opacity: 1;
+	position: absolute;
+	z-index: 0;
 }
 .show{
 	opacity: 0;
@@ -1923,7 +1937,4 @@ a{
 span{
 	font-weight: 300;
 }
-/*.animate__fadeInDown{
-	opacity: 1;
-	z-index: 1;
-}*/
+
