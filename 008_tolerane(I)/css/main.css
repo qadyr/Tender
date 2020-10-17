@@ -690,11 +690,11 @@ a{
 	width: 180px;
 	height: 225px;
 }
-.show-main{
+.show-main, .show-4,{
 	opacity: 1;
 	transition: all 0.75s;
 }
-.show-1, .show-2, .show-3, .show-4,.show-cube-1, .show-cube-2, .show-cube-3, .show-cube-4, .video-site, .bottle-screen-1, .bottle-screen-2, .bottle-screen-3, .bottle-screen-4, .bottle-screen-5, .bottle-screen-6, .bottle-screen-7, .bottle-screen-8{
+.show-1, .show-2, .show-3, .show-cube-1, .show-cube-2, .show-cube-3, .show-cube-4, .video-site, .bottle-screen-1, .bottle-screen-2, .bottle-screen-3, .bottle-screen-4, .bottle-screen-5, .bottle-screen-6, .bottle-screen-7, .bottle-screen-8{
 	opacity: 1;
 	transition: all 0.75s;
 	position: absolute;
