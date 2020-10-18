@@ -82,6 +82,13 @@ a{
 	position: absolute;
 	background: url(../img/background-2-1.png) no-repeat;
 }
+.container-3-1{
+	height: 768px;
+	width: 1024px;
+	margin: 0 auto;
+	position: absolute;
+	background: url(../img/background-2-2.png) no-repeat;
+}
 .container-4{
 	height: 768px;
 	width: 1024px;
