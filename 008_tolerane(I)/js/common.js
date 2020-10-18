@@ -14,7 +14,7 @@ $(function(){
 		$('.show-1').toggleClass('show');
 		$('.show-3').toggleClass('show');
 		$('.container').css({
-			'background' : 'linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%);'
+			'background' : 'linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%)'
 		})
 		$('.white-bar').css({
 			'opacity' : '0'
@@ -29,41 +29,49 @@ $(function(){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-1').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-7').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-2').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-8').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-3').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-9').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-4').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-10').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-5').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-11').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-6').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-12').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-7').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('#arrow-13').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-8').toggleClass('show');
+		$('.container').removeClass('container-white');
 	});
 	$('.plus-12').click(function(e){
 		e.preventDefault();
@@ -90,41 +98,49 @@ $(function(){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-1').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-5').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-2').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-6').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-3').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-7').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-4').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-8').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-5').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-9').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-6').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-10').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-7').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('.plus-11').click(function(e){
 		e.preventDefault();
 		$('.show-4').toggleClass('show');
 		$('.bottle-screen-8').removeClass('show');
+		$('.container').addClass('container-white');
 	});
 	$('#cube-1').click(function(e){
 		e.preventDefault();
