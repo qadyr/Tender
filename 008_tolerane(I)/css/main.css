@@ -721,7 +721,7 @@ a{
 	background: #fff;
 	position: absolute;
 	z-index: 0;
-	height: 190px;
+	height: 160px;
 	width: 100%;
 	opacity: 0;
 	transition: all 0.75s;
@@ -1956,4 +1956,10 @@ a{
 span{
 	font-weight: 300;
 }
+/*Responsive*/ 
 
+@media screen and (max-width: 1280px) {
+  .white-bar{
+    height: 151px;
+  }
+}
