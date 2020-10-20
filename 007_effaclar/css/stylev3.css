@@ -201,7 +201,7 @@ html {
 
   transition: all 0.8s;
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(-80px);
 }
 
 .sl1 .tub.mv {
@@ -218,7 +218,7 @@ html {
 
   transition: all 0.8s;
   opacity: 0;
-  transform: translateX(50px);
+  transform: translateX(80px);
 }
 
 .sl2 .mtub.mv {
