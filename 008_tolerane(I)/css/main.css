@@ -721,7 +721,7 @@ a{
 	background: #fff;
 	position: absolute;
 	z-index: 0;
-	height: 190px;
+	height: 130px;
 	width: 100%;
 	opacity: 0;
 	transition: all 0.75s;
@@ -1956,8 +1956,18 @@ span{
 }
 /*Responsive*/ 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1500px) {
   .white-bar{
-    height: 151px;
+    height: 97px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .white-bar{
+    height: 158px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .white-bar{
+    height: 152px;
   }
 }

@@ -16,12 +16,28 @@ $(document).ready(function () {
     $('.wrap .common-bg').removeClass('hide');
   };
 
+  var changeBGtoWB = function() {
+    $('.wrap .common-bg1add').removeClass('hide');
+  };
+
+  var removeWB = function() {
+    $('.wrap .common-bg1add').addClass('hide');
+  };
+
   var changeBGtoWhite = function() {
     $('.wrap .common-bg2').removeClass('hide');
   };
 
   var removeWhite = function() {
     $('.wrap .common-bg2').addClass('hide');
+  };
+
+  var changeBGtoGB = function() {
+    $('.wrap .common-bg3').removeClass('hide');
+  };
+
+  var removeGB = function() {
+    $('.wrap .common-bg3').addClass('hide');
   };
 
   var it1 = 768 / 100;
@@ -61,6 +77,7 @@ $(document).ready(function () {
 
   ress();
   $(window).resize(function () {
+    console.log( $('#page').height() );
     ress();
   });
   $(window).load(function () {
@@ -93,6 +110,136 @@ $(document).ready(function () {
     $(this).parent().fadeOut();
     showEl();
     removeWhite();
+  });
+
+  $('.sl2 .vec2 a').click(function() {
+    $('.m_pop2').fadeIn();
+    hideEl();
+    changeBGtoWB();
+  });
+  $('.m_pop2 .x').click(function() {
+    $(this).parent().fadeOut();
+    showEl();
+    removeWB();
+  });
+
+  $('.sl2 .vec3 a').click(function() {
+    $('.m_pop3').fadeIn();
+    hideEl();
+    changeBGtoGB();
+  });
+  $('.m_pop3 .x').click(function() {
+    $(this).parent().fadeOut();
+    showEl();
+    removeGB();
+  });
+
+  $('.sl2 .vec4 a').click(function() {
+    $('.m_pop4').fadeIn();
+    changeBGtoWhite();
+    hideEl();
+  });
+
+  var changeBGtoFirstBG = function() {
+    $('.wrap .common-bg4').removeClass('hide');
+  };
+
+  var removeFirstBG = function() {
+    $('.wrap .common-bg4').addClass('hide');
+  };
+
+  var changeBGtoSecondBG = function() {
+    $('.wrap .common-bg5').removeClass('hide');
+  };
+
+  var removeSecondBG = function() {
+    $('.wrap .common-bg5').addClass('hide');
+  };
+
+  var changeBGtoThirdBG = function() {
+    $('.wrap .common-bg6').removeClass('hide');
+  };
+
+  var removeThirdBG = function() {
+    $('.wrap .common-bg6').addClass('hide');
+  };
+
+  var changeBGtoFourthBG = function() {
+    $('.wrap .common-bg7').removeClass('hide');
+  };
+
+  var removeFourthBG = function() {
+    $('.wrap .common-bg7').addClass('hide');
+  };
+
+  $('.m_pop3 .o1').click(function() {
+    $('.x_pop1').fadeIn();
+    changeBGtoFirstBG();
+  });
+
+  $('.x_pop1 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeFirstBG();
+  });
+
+  $('.m_pop3 .o2').click(function() {
+    $('.x_pop2').fadeIn();
+    changeBGtoSecondBG();
+  });
+
+  $('.x_pop2 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeSecondBG();
+  });
+
+  $('.m_pop3 .o3').click(function() {
+    $('.x_pop3').fadeIn();
+    changeBGtoFirstBG();
+  });
+
+  $('.x_pop3 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeFirstBG();
+  });
+
+  $('.m_pop3 .o4').click(function() {
+    $('.x_pop4').fadeIn();
+    changeBGtoThirdBG();
+  });
+
+  $('.x_pop4 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeThirdBG();
+  });
+
+  $('.m_pop3 .o5').click(function() {
+    $('.x_pop4').fadeIn();
+    changeBGtoThirdBG();
+  });
+
+  $('.x_pop5 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeThirdBG();
+  });
+
+  $('.m_pop3 .o6').click(function() {
+    $('.x_pop4').fadeIn();
+    changeBGtoThirdBG();
+  });
+
+  $('.x_pop6 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeThirdBG();
+  });
+
+  $('.m_pop3 .o7').click(function() {
+    $('.x_pop7').fadeIn();
+    changeBGtoFourthBG();
+  });
+
+  $('.x_pop7 .x').click(function() {
+    $(this).parent().fadeOut();
+    removeFourthBG();
   });
 
   $('.main-m .prev-move').click(function() {
