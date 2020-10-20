@@ -179,6 +179,19 @@ html {
   text-shadow: 0px 0px 128px #A6C1EC;
 }
 
+.sl1 .drop {
+  top: 79px;
+  left: 0;
+  width: 451px;
+  height: 525px;
+  background-image: url(../images/01/drop.png);
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+}
+
+.sl1 .drop.hide { transform: scale(0); opacity: 0; }
+
 .sl1 .tub {
   width: 230px;
   height: 690px;
@@ -197,10 +210,10 @@ html {
 }
 
 .sl2 .mtub {
-  top: 15px;
-  left: 40px;
-  width: 290px;
-  height: 750px;
+  top: 38px;
+  left: 131px;
+  width: 230px;
+  height: 690px;
   background-image: url(../images/02/mtub.png);
 
   transition: all 0.5s;
