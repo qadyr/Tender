@@ -95,6 +95,21 @@ $(document).ready(function () {
     removeWhite();
   });
 
+  $('.sl2 .vec2 a').click(function() {
+    $('.m_pop2').fadeIn();
+    hideEl();
+  });
+  $('.m_pop2 .x').click(function() {
+    $(this).parent().fadeOut();
+    showEl();
+  });
+
+  $('.sl2 .vec4 a').click(function() {
+    $('.m_pop4').fadeIn();
+    changeBGtoWhite();
+    hideEl();
+  });
+
   $('.main-m .prev-move').click(function() {
     $('.sl._show').removeClass('_show').prev().addClass('_show');
     $(this).addClass('hide');
