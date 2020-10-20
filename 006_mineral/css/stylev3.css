@@ -1050,3 +1050,18 @@ html {
 .m_pop8 .y15 { left: 279px; }
 .m_pop8 .y16 { left: 517px; }
 .m_pop8 .y17 { left: 752px; }
+
+.title-accent {
+  position: absolute;
+  width: 324px;
+  height: 119px;
+  left: 491px;
+  top: 384px;
+
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #565656;
+}

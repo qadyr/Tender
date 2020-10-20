@@ -843,7 +843,6 @@ a{
 	font-size: 12px;
 	line-height: 12px;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
 	color: #565656;
 	margin-left: 41px;
 	position: absolute;
@@ -855,7 +854,6 @@ a{
 	font-size: 12px;
 	line-height: 12px;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
 	color: #565656;
 	margin-left: 674px;
 	position: absolute;
@@ -1415,7 +1413,7 @@ a{
 	margin-top: 252px;
 }
 .back-text-31{
-	margin-left: 212px;
+	margin-left: 225px;
 	margin-top: 252px;
 }
 .back-text-32{
