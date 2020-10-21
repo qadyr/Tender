@@ -220,7 +220,7 @@ $(document).ready(function () {
   });
 
   $('.m_pop3 .o5').click(function() {
-    $('.x_pop4').fadeIn();
+    $('.x_pop5').fadeIn();
     $('.m_pop3').fadeOut();
     changeBGtoThirdBG();
   });
@@ -232,7 +232,7 @@ $(document).ready(function () {
   });
 
   $('.m_pop3 .o6').click(function() {
-    $('.x_pop4').fadeIn();
+    $('.x_pop6').fadeIn();
     $('.m_pop3').fadeOut();
     changeBGtoThirdBG();
   });
