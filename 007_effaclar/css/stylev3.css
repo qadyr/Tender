@@ -179,38 +179,33 @@ html {
   text-shadow: 0px 0px 128px #A6C1EC;
 }
 
+.sl1 .drop {
+  top: 79px;
+  left: 0;
+  width: 451px;
+  height: 525px;
+  background-image: url(../images/01/drop.png);
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+}
+
+.sl1 .drop.hide { transform: scale(0); opacity: 0; }
+
 .sl1 .tub {
   width: 230px;
   height: 690px;
   left: 131px;
   top: 38px;
   background-image: url(../images/01/tub.png);
-
-  transition: all 0.5s;
-  opacity: 0;
-  transform: translateX(-50px);
-}
-
-.sl1 .tub.mv {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 .sl2 .mtub {
-  top: 15px;
-  left: 40px;
-  width: 290px;
-  height: 750px;
+  top: 38px;
+  left: 131px;
+  width: 230px;
+  height: 690px;
   background-image: url(../images/02/mtub.png);
-
-  transition: all 0.5s;
-  opacity: 0;
-  transform: translateX(50px);
-}
-
-.sl2 .mtub.mv {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 .sl2 .sl2-links {

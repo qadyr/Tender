@@ -77,7 +77,6 @@ $(document).ready(function () {
 
   ress();
   $(window).resize(function () {
-    console.log( $('#page').height() );
     ress();
   });
   $(window).load(function () {
@@ -174,71 +173,85 @@ $(document).ready(function () {
 
   $('.m_pop3 .o1').click(function() {
     $('.x_pop1').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoFirstBG();
   });
 
   $('.x_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeFirstBG();
   });
 
   $('.m_pop3 .o2').click(function() {
     $('.x_pop2').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoSecondBG();
   });
 
   $('.x_pop2 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeSecondBG();
   });
 
   $('.m_pop3 .o3').click(function() {
     $('.x_pop3').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoFirstBG();
   });
 
   $('.x_pop3 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeFirstBG();
   });
 
   $('.m_pop3 .o4').click(function() {
     $('.x_pop4').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoThirdBG();
   });
 
   $('.x_pop4 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeThirdBG();
   });
 
   $('.m_pop3 .o5').click(function() {
-    $('.x_pop4').fadeIn();
+    $('.x_pop5').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoThirdBG();
   });
 
   $('.x_pop5 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeThirdBG();
   });
 
   $('.m_pop3 .o6').click(function() {
-    $('.x_pop4').fadeIn();
+    $('.x_pop6').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoThirdBG();
   });
 
   $('.x_pop6 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeThirdBG();
   });
 
   $('.m_pop3 .o7').click(function() {
     $('.x_pop7').fadeIn();
+    $('.m_pop3').fadeOut();
     changeBGtoFourthBG();
   });
 
   $('.x_pop7 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop3').fadeIn();
     removeFourthBG();
   });
 
