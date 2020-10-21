@@ -718,10 +718,10 @@ a{
 	transition: all 0.25s;
 }
 .white-bar{
-	background: #fff;
+	background: url(../img/background-12.png) no-repeat;
 	position: absolute;
 	z-index: 0;
-	height: 130px;
+	height: 110px;
 	width: 100%;
 	opacity: 0;
 	transition: all 0.75s;
@@ -843,6 +843,7 @@ a{
 	font-size: 12px;
 	line-height: 12px;
 	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	color: #565656;
 	margin-left: 41px;
 	position: absolute;
@@ -854,6 +855,7 @@ a{
 	font-size: 12px;
 	line-height: 12px;
 	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	color: #565656;
 	margin-left: 674px;
 	position: absolute;
@@ -1413,7 +1415,7 @@ a{
 	margin-top: 252px;
 }
 .back-text-31{
-	margin-left: 225px;
+	margin-left: 212px;
 	margin-top: 252px;
 }
 .back-text-32{
@@ -1954,20 +1956,18 @@ a{
 span{
 	font-weight: 300;
 }
-/*Responsive*/ 
-
 @media screen and (max-width: 1500px) {
   .white-bar{
-    height: 97px;
+  	height:160px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .white-bar{
+  	height:110px;
   }
 }
 @media screen and (max-width: 1024px) {
   .white-bar{
-    height: 158px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .white-bar{
-    height: 152px;
+  	height:150px;
   }
 }
