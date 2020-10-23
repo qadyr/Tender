@@ -35,6 +35,7 @@ $(document).ready(function () {
 
     if ($(window).height() < 768 || $(window).width() < 1024) {
       it2 = Math.round($(window).width() / it4);
+      console.log(it2, (it2 - 1) / 100);
       $('#page').attr('style', '').css({
         'transform': 'scale(' + (it2 - 1) / 100 + ')'
       }).css({

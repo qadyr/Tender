@@ -48,6 +48,8 @@ html {
   top: 0;
   transform-origin: top center;
   width: 1024px;
+
+  outline: 1px solid red;
 }
 
 .wrap {
