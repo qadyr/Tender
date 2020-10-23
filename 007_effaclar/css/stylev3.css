@@ -70,7 +70,9 @@ html {
   transition: all 0.75s;
 }
 
-.wrap .common-bg.hide { opacity: 0; }
+.wrap .common-bg.hide,
+.wrap .common-bg2.hide,
+.wrap .common-bg3.hide { opacity: 0; }
 
 .wrap .common-bg2 {
   position: absolute;
@@ -82,7 +84,15 @@ html {
   transition: all 0.75s;
 }
 
-.wrap .common-bg2.hide { opacity: 0; }
+.wrap .common-bg3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #46B7B7;
+  transition: all 0.75s;
+}
 
 .wrap .over-wrap {
   position: relative;

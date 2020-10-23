@@ -20,6 +20,22 @@ $(document).ready(function () {
     $('.wrap .common-bg').addClass('hide');
   };
 
+  var changeOne = function() {
+    $('.wrap .common-bg2').removeClass('hide');
+  };
+
+  var removeOne = function() {
+    $('.wrap .common-bg2').addClass('hide');
+  };
+
+  var changeTwo = function() {
+    $('.wrap .common-bg3').removeClass('hide');
+  };
+
+  var removeTwo = function() {
+    $('.wrap .common-bg3').addClass('hide');
+  };
+
   var it1 = 768 / 100;
   var it2;
   var it4 = 1024 / 100;
@@ -110,19 +126,19 @@ $(document).ready(function () {
 
   $('.m_pop3 .o1').click(function() {
     $('.m_pop4').fadeIn();
-    changeBGtoWhite();
+    changeOne();
   });
   $('.m_pop4 .x').click(function() {
     $(this).parent().fadeOut();
-    changeBGtoBlue();
+    removeOne();
   });
   $('.m_pop3 .o2').click(function() {
     $('.m_pop5').fadeIn();
-    changeBGtoWhite();
+    changeTwo();
   });
   $('.m_pop5 .x').click(function() {
     $(this).parent().fadeOut();
-    changeBGtoBlue();
+    removeTwo();
   });
   $('.m_pop3 .o3').click(function() {
     changeBGtoWhite();

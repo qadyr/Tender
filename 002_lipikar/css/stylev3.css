@@ -60,17 +60,34 @@ html {
   transition: all 0.75s;
 }
 
-.wrap .common-bg {
+.wrap .common-bg,
+.wrap .common-bg2,
+.wrap .common-bg3,
+.wrap .common-bg4 {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #FFF;
   transition: all 0.75s;
 }
 
-.wrap .common-bg.hide { opacity: 0; }
+.wrap .common-bg {
+  background-color: #FFF;
+}
+
+.wrap .common-bg2 {
+  background-color: #EEEBE5;
+}
+
+.wrap .common-bg3 {
+  background-color: #EFE4C3;
+}
+
+.wrap .common-bg.hide,
+.wrap .common-bg2.hide,
+.wrap .common-bg3.hide,
+.wrap .common-bg4.hide { opacity: 0; }
 
 .wrap .over-wrap {
   position: relative;
