@@ -56,11 +56,25 @@ html {
   justify-content: space-around;
   position: relative;
   overflow: hidden;
-  background: #172733;
+  background: #172935;
 }
 
 .wrap .over-wrap {
   position: relative;
+}
+
+.wrap .bg0 {
+  background-color: #172935;
+}
+
+.wrap .bg0:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  width: 50%;
+  background-color: #182934;
 }
 
 .wrap .bg {
