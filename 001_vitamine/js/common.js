@@ -142,6 +142,7 @@ $(document).ready(function () {
 
   $('.sl2 .vec4 a').click(function() {
     $('.m_pop8').fadeIn();
+    changeBGtoWhite();
   });
 
   $('.main-m .prev-move').click(function() {

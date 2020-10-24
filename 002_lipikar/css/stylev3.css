@@ -61,6 +61,7 @@ html {
 }
 
 .wrap .common-bg,
+.wrap .common-bg1,
 .wrap .common-bg2,
 .wrap .common-bg3,
 .wrap .common-bg4 {
@@ -76,6 +77,20 @@ html {
   background-color: #FFF;
 }
 
+.wrap .common-bg1 {
+  background-color: #13253C;
+}
+
+.wrap .common-bg1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  width: 50%;
+  background-color: #092B64;
+}
+
 .wrap .common-bg2 {
   background-color: #EEEBE5;
 }
@@ -84,7 +99,12 @@ html {
   background-color: #EFE4C3;
 }
 
+.wrap .common-bg4 {
+  background-color: #173052;
+}
+
 .wrap .common-bg.hide,
+.wrap .common-bg1.hide,
 .wrap .common-bg2.hide,
 .wrap .common-bg3.hide,
 .wrap .common-bg4.hide { opacity: 0; }
@@ -105,7 +125,7 @@ html {
   justify-content: space-between;
 }
 
-.main-m.hide { opacity: 0; }
+.main-m.hide { z-index: 0; opacity: 0; }
 
 .main-m a {
   width: 40px;
@@ -282,7 +302,7 @@ html {
 }
 
 .sl2 .vec2 {
-  top: 0;
+  top: -19px;
   left: 0;
   width: 1024px;
   height: 768px;
@@ -331,7 +351,6 @@ html {
 
 .m_pop1 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -379,7 +398,23 @@ html {
   left: 0;
   width: 1024px;
   height: 768px;
-  background-image: url(../images/02/pop2.png);
+}
+
+.m_pop2 .bg {
+  top: 0;
+  left: 0;
+  max-width: 1024px;
+  width: 1024px;
+  height: auto;
+}
+
+.m_pop2 .radial-gr {
+  width: 1024px;
+  height: 768px;
+  left: 0;
+  top: 0;
+
+  background: radial-gradient(50% 50% at 50% 50%, #264E98 29.69%, rgba(2, 4, 4, 0) 100%);
 }
 
 .m_pop2 .x {
@@ -744,7 +779,6 @@ html {
 
 .m_pop4 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -895,7 +929,6 @@ html {
 
 .m_pop5 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1045,7 +1078,6 @@ html {
 
 .m_pop6 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1209,7 +1241,6 @@ html {
 
 .m_pop7 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1378,7 +1409,6 @@ html {
 
 .m_pop8 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1586,7 +1616,6 @@ html {
 
 .m_pop9 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;

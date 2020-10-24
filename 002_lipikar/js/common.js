@@ -12,6 +12,14 @@ $(document).ready(function () {
     $('.main-m').removeClass('hide');
   };
 
+  var hideThree = function() {
+    $('.m_pop3').fadeOut();
+  };
+
+  var showThree = function() {
+    $('.m_pop3').fadeIn();
+  };
+
   var changeBGtoWhite = function() {
     $('.wrap .common-bg').removeClass('hide');
   };
@@ -34,6 +42,14 @@ $(document).ready(function () {
 
   var removeTwo = function() {
     $('.wrap .common-bg3').addClass('hide');
+  };
+
+  var changeThree = function() {
+    $('.wrap .common-bg4').removeClass('hide');
+  };
+
+  var removeThree = function() {
+    $('.wrap .common-bg4').addClass('hide');
   };
 
   var it1 = 768 / 100;
@@ -99,19 +115,23 @@ $(document).ready(function () {
 
   $('.sl2 .vec1 a').click(function() {
     $('.m_pop1').fadeIn();
+    hideEl();
     changeBGtoWhite();
   });
   $('.m_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    showEl();
     changeBGtoBlue();
   });
 
   $('.sl2 .vec2 a').click(function() {
     $('.m_pop2').fadeIn();
+    changeThree();
     hideEl();
   });
   $('.m_pop2 .x').click(function() {
     $(this).parent().fadeOut();
+    removeThree();
     showEl();
   });
 
@@ -126,47 +146,68 @@ $(document).ready(function () {
 
   $('.m_pop3 .o1').click(function() {
     $('.m_pop4').fadeIn();
+    hideThree();
+    hideEl();
     changeOne();
   });
   $('.m_pop4 .x').click(function() {
     $(this).parent().fadeOut();
+    showThree();
+    showEl();
     removeOne();
   });
   $('.m_pop3 .o2').click(function() {
     $('.m_pop5').fadeIn();
+    hideThree();
+    hideEl();
     changeTwo();
   });
   $('.m_pop5 .x').click(function() {
     $(this).parent().fadeOut();
+    showThree();
+    showEl();
     removeTwo();
   });
   $('.m_pop3 .o3').click(function() {
     changeBGtoWhite();
+    hideThree();
+    hideEl();
     $('.m_pop6').fadeIn();
   });
   $('.m_pop6 .x').click(function() {
     $(this).parent().fadeOut();
+    showThree();
+    showEl();
     changeBGtoBlue();
   });
   $('.m_pop3 .o4').click(function() {
     changeBGtoWhite();
+    hideThree();
+    hideEl();
     $('.m_pop7').fadeIn();
   });
   $('.m_pop7 .x').click(function() {
     $(this).parent().fadeOut();
+    showThree();
+    showEl();
     changeBGtoBlue();
   });
   $('.m_pop3 .o5').click(function() {
     changeBGtoWhite();
+    hideThree();
+    hideEl();
     $('.m_pop9').fadeIn();
   });
   $('.m_pop9 .x').click(function() {
     $(this).parent().fadeOut();
+    showThree();
+    showEl();
     changeBGtoBlue();
   });
 
   $('.sl2 .vec4 a').click(function() {
     $('.m_pop8').fadeIn();
+    hideEl();
     changeBGtoWhite();
   });
 

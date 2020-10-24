@@ -12,6 +12,14 @@ $(document).ready(function () {
     $('.main-m').removeClass('hide');
   };
 
+  var pop3Hide = function() {
+    $('.m_pop3').fadeOut();
+  };
+
+  var pop3Show = function() {
+    $('.m_pop3').fadeIn();
+  };
+
   var changeBGtoWhite = function() {
     $('.wrap .common-bg').removeClass('hide');
   };
@@ -34,6 +42,14 @@ $(document).ready(function () {
 
   var removeOne = function() {
     $('.wrap .common-bg3').addClass('hide');
+  };
+
+  var changeTwo = function() {
+    $('.wrap .common-bg4').removeClass('hide');
+  };
+
+  var removeTwo = function() {
+    $('.wrap .common-bg4').addClass('hide');
   };
 
   var it1 = 768 / 100;
@@ -98,10 +114,12 @@ $(document).ready(function () {
 
   $('.sl2 .vec1 a').click(function() {
     $('.m_pop1').fadeIn();
+    hideEl();
     changeBGtoWhite();
   });
   $('.m_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    showEl();
     changeBGtoBlue();
   });
 
@@ -118,64 +136,91 @@ $(document).ready(function () {
 
   $('.sl2 .vec3 a').click(function() {
     $('.m_pop3').fadeIn();
+    changeTwo();
     hideEl();
   });
   $('.m_pop3 .x').click(function() {
     $(this).parent().fadeOut();
+    removeTwo();
     showEl();
   });
 
   $('.m_pop3 .o1').click(function() {
     $('.m_pop4').fadeIn();
+    pop3Hide();
+    removeTwo();
     changeBGtoWhite();
   });
   $('.m_pop4 .x').click(function() {
     $(this).parent().fadeOut();
+    pop3Show();
+    changeTwo();
     changeBGtoBlue();
   });
   $('.m_pop3 .o2').click(function() {
     $('.m_pop5').fadeIn();
+    pop3Hide();
+    removeTwo();
     changeBGtoWhite();
   });
   $('.m_pop5 .x').click(function() {
     $(this).parent().fadeOut();
+    pop3Show();
+    changeTwo();
     changeBGtoBlue();
   });
   $('.m_pop3 .o3').click(function() {
-    changeBGtoWhite();
     $('.m_pop6').fadeIn();
+    pop3Hide();
+    changeBGtoWhite();
+    removeTwo();
   });
   $('.m_pop6 .x').click(function() {
     $(this).parent().fadeOut();
+    pop3Show();
+    changeTwo();
     changeBGtoBlue();
   });
   $('.m_pop3 .o4').click(function() {
-    changeBGtoWhite();
     $('.m_pop7').fadeIn();
+    pop3Hide();
+    changeBGtoWhite();
+    removeTwo();
   });
   $('.m_pop7 .x').click(function() {
     $(this).parent().fadeOut();
+    pop3Show();
+    changeTwo();
     changeBGtoBlue();
   });
   $('.m_pop3 .o5').click(function() {
-    changeToOne();
     $('.m_pop9').fadeIn();
+    pop3Hide();
+    changeToOne();
+    removeTwo();
   });
   $('.m_pop9 .x').click(function() {
     $(this).parent().fadeOut();
+    pop3Show();
+    changeTwo();
     removeOne()
   });
   $('.m_pop3 .o6').click(function() {
-    changeBGtoWhite();
     $('.m_pop10').fadeIn();
+    pop3Hide();
+    changeBGtoWhite();
+    removeTwo();
   });
   $('.m_pop10 .x').click(function() {
     $(this).parent().fadeOut();
+    pop3Show();
+    changeTwo();
     changeBGtoBlue();
   });
 
   $('.sl2 .vec4 a').click(function() {
     $('.m_pop8').fadeIn();
+    hideEl();
     changeBGtoWhite();
   });
 

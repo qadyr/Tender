@@ -56,7 +56,7 @@ html {
   justify-content: space-around;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(45deg, #19B89B 0%, #009D8A 100%);
+  background: #009D8A;
   transition: all 0.75s;
 }
 
@@ -72,7 +72,8 @@ html {
 
 .wrap .common-bg.hide,
 .wrap .common-bg2.hide,
-.wrap .common-bg3.hide { opacity: 0; }
+.wrap .common-bg3.hide,
+.wrap .common-bg4.hide { opacity: 0; }
 
 .wrap .common-bg2 {
   position: absolute;
@@ -94,6 +95,26 @@ html {
   transition: all 0.75s;
 }
 
+.wrap .common-bg4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #02836D;
+  transition: all 0.75s;
+}
+
+.wrap .common-bg4:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  background-color: #0A737A;
+}
+
 .wrap .over-wrap {
   position: relative;
 }
@@ -110,7 +131,7 @@ html {
   justify-content: space-between;
 }
 
-.main-m.hide { opacity: 0; }
+.main-m.hide { z-index: 0; opacity: 0; }
 
 .main-m a {
   width: 40px;
@@ -355,7 +376,7 @@ html {
 }
 
 .sl2 .vec2 {
-  top: 0;
+  top: -18px;
   left: 0;
   width: 1024px;
   height: 768px;
@@ -404,7 +425,6 @@ html {
 
 .m_pop1 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -447,7 +467,6 @@ html {
 
 .m_pop2 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -655,7 +674,6 @@ html {
 
 .m_pop3 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -833,7 +851,6 @@ html {
 
 .m_pop4 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -962,7 +979,6 @@ html {
 
 .m_pop5 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1111,7 +1127,6 @@ html {
 
 .m_pop6 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1253,7 +1268,6 @@ html {
 
 .m_pop7 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1379,7 +1393,6 @@ html {
 
 .m_pop8 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1675,7 +1688,6 @@ html {
 
 .m_pop9 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
@@ -1784,7 +1796,6 @@ html {
 
 .m_pop10 {
   display: none;
-  z-index: 2;
   top: 0;
   left: 0;
   width: 1024px;
