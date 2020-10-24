@@ -83,7 +83,7 @@ $(function(){
 		$('.show-1').toggleClass('show');
 		$('.show-3').removeClass('show');
 		$('.container').css({
-			'background' : 'linear-gradient(180deg, rgba(176,206,255,1) 35%, rgba(255,255,255,1) 100%)'
+			'background' : 'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 20.7%,rgba(194,216,254,1) 20.7%,rgba(255,255,255,1) 100%)'
 		})
 		$('.white-bar').css({
 			'opacity' : '1'
