@@ -54,7 +54,6 @@ $(document).ready(function () {
       }).css({
         '-webkit-transform': 'scale(' + newSize + ')'
       });
-      console.log('gone!');
       return;
     }
 
