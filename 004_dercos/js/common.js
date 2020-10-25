@@ -46,7 +46,7 @@ $(document).ready(function () {
     // if ( $(window).height() < 768) {
     if ( $(window).width() > $(window).height() ) {
       newSize = $(window).height() / 1000 + ( ( $(window).height() / 1000 ) / 100 * 29.9 );
-      if ( newSize > 1 ) {
+      if ( newSize > 1 && $(window).width() < 1024 && $(window).height() < 768 ) {
         newSize = 0.95;
       }
       $('#page').attr('style', '').css({
