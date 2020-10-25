@@ -164,7 +164,6 @@ html {
   width: 1024px;
   height: 768px;
   opacity: 0;
-  transition: all 0.75s;
 }
 
 .sl._show {
