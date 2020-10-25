@@ -230,6 +230,7 @@ $(document).ready(function () {
     $('.main-m .next-move').removeClass('hide');
     $('.sl1 .drop').removeClass('hide');
     $('.sl2 .sl2-links').removeClass('ac');
+    $('.sl2 .ovec').removeClass('ac');
   });
   $('.main-m .next-move').click(function() {
     $(this).addClass('hide');
