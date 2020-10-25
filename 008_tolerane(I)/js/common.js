@@ -4,7 +4,7 @@ $(function(){
 		$('.bottle').css({
 			'transform' : 'translateX(-700px)',
 			'transition' : '2s',
-			'opacity' : '0.8'
+			'opacity' : '1'
 		});
 		setTimeout(function() {
 			$('.show-1').css({
