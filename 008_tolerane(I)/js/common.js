@@ -6,7 +6,16 @@ $(function(){
 			'transition' : '2s',
 			'opacity' : '0.8'
 		});
-		$('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
+		setTimeout(function() {
+			$('.show-1').css({
+			'opacity' : '1',
+			'transition' : '2s',
+		});
+			$('.show-main').css({
+			'opacity' : '0',
+			'transition' : '2s',
+		});
+			$('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
 			'opacity' : '0',
 			'transition' : '2s',
 		});
@@ -23,30 +32,25 @@ $(function(){
 		$('.show-1 .arrows').css({
 			'opacity' : '1',
 		});
-		$('.show-1').css({
-			'opacity' : '1',
-			'transition' : '2s',
-		});
-		$('.show-main').css({
-			'opacity' : '0',
-			'transition' : '2s',
-		});
+		}, 2000);
 	});
 	$('#arrow-2').click(function(e){
 		e.preventDefault();
-		$('.bottle').css({
+		setTimeout(function() {
+          $('.bottle').css({
 			'transform' : 'translateX(0px)',
 			'transition' : '2s',
 			'opacity' : '1'
 		});
 		$('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
 			'opacity' : '1',
-			'transition' : '4s',
+			'transition' : '2s',
 		});
 		$('.foam, .new').css({
 			'opacity' : '1',
-			'transition' : '4s',
+			'transition' : '2s',
 		});
+		}, 1000);
 		$('.show-main .arrows').css({
 			'opacity' : '1',
 		});
