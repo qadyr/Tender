@@ -1,145 +1,347 @@
 $(function(){
-	$('#arrow-1, #arrow-2').click(function(e){
+	$('#arrow-1').click(function(e){
 		e.preventDefault();
-		$('.show-1').toggleClass('show');
-		$('.show-main').toggleClass('show');
+		$('.bottle').css({
+			'transform' : 'translateX(-700px)',
+			'transition' : '2s',
+			'opacity' : '0.8'
+		});
+		$('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
+			'opacity' : '0',
+			'transition' : '2s',
+		});
+		$('.foam, .new').css({
+			'opacity' : '0',
+			'transition' : '2s',
+		});
+		$('.bottle').css({
+			'opacity' : '0'
+		});
+		$('.show-main .arrows').css({
+			'opacity' : '0',
+		});
+		$('.show-1 .arrows').css({
+			'opacity' : '1',
+		});
+		$('.show-1').css({
+			'opacity' : '1',
+			'transition' : '2s',
+		});
+		$('.show-main').css({
+			'opacity' : '0',
+			'transition' : '2s',
+		});
+	});
+	$('#arrow-2').click(function(e){
+		e.preventDefault();
+		$('.bottle').css({
+			'transform' : 'translateX(0px)',
+			'transition' : '2s',
+			'opacity' : '1'
+		});
+		$('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
+			'opacity' : '1',
+			'transition' : '4s',
+		});
+		$('.foam, .new').css({
+			'opacity' : '1',
+			'transition' : '4s',
+		});
+		$('.show-main .arrows').css({
+			'opacity' : '1',
+		});
+		$('.show-1 .arrows').css({
+			'opacity' : '0',
+		});
+		$('.show-1').css({
+			'opacity' : '0',
+			'transition' : '2s',
+		});
+		$('.show-main').css({
+			'opacity' : '1',
+			'transition' : '2s',
+		});
 	});
 	$('#arrow-3').click(function(e){
 		e.preventDefault();
-		$('.show-1').toggleClass('show');
-		$('.video-site').toggleClass('show');
+		$('.show-1').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.video-site').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 	});
 	$('#arrow-4').click(function(e){
 		e.preventDefault();
-		$('.show-1').toggleClass('show');
-		$('.show-3').toggleClass('show');
+		$('.show-1').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.show-3').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').css({
-			'background' : 'linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%)'
+			'background' : 'linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%)',
+			'transition' : '0.75s',
 		})
 		$('.white-bar').css({
-			'opacity' : '0'
+			'opacity' : '0',
+			'transition' : '0.75s',
+		})
+		$('.white-bar-1').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
 		})
 	});
 	$('#arrow-5').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.show-1').toggleClass('show');
+		$('.show-1').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 	});
 	$('#arrow-6').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-1').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-1').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-7').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-2').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-2').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-8').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-3').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-3').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-9').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-4').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-10').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-5').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-5').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-11').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-6').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-6').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-12').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-7').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-7').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('#arrow-13').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-8').toggleClass('show');
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-8').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
 		$('.container').removeClass('container-white');
 	});
 	$('.plus-12').click(function(e){
 		e.preventDefault();
-		$('.show-1').toggleClass('show');
-		$('.video-site').removeClass('show');
+		$('.show-1').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.video-site').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 	});
 	$('.plus-1').click(function(e){
 		e.preventDefault();
-		$('.show-1').toggleClass('show');
-		$('.show-3').removeClass('show');
+		$('.show-1').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.show-3').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').css({
-			'background' : 'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 20.7%,rgba(194,216,254,1) 20.7%,rgba(255,255,255,1) 100%)'
+			'background' : 'linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 20.7%,rgba(194,216,254,1) 20.7%,rgba(255,255,255,1) 100%)',
+			'transition' : '0.75s',
 		})
 		$('.white-bar').css({
-			'opacity' : '1'
+			'opacity' : '1',
+			'transition' : '0.75s',
+		})
+		$('.white-bar-1').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
 		})
 	});
 	$('.plus-2').click(function(e){
 		e.preventDefault();
-		$('.show-1').toggleClass('show');
-		$('.show-4').removeClass('show');
+		$('.show-1').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.show-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 	});
 	$('.plus-4').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-1').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-1').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-5').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-2').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-2').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-6').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-3').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-3').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-7').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-4').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-4').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-8').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-5').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-5').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-9').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-6').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-6').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-10').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-7').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-7').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('.plus-11').click(function(e){
 		e.preventDefault();
-		$('.show-4').toggleClass('show');
-		$('.bottle-screen-8').removeClass('show');
+		$('.show-4').css({
+			'opacity' : '0',
+			'transition' : '0.75s',
+		});
+		$('.bottle-screen-8').css({
+			'opacity' : '1',
+			'transition' : '0.75s',
+		});
 		$('.container').addClass('container-white');
 	});
 	$('#cube-1').click(function(e){
