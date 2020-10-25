@@ -52,6 +52,8 @@ $(document).ready(function () {
     $('.wrap .common-bg4').addClass('hide');
   };
 
+  var canClick = true;
+
   var it1 = 768 / 100;
   var it2;
   var it4 = 1024 / 100;
@@ -225,14 +227,21 @@ $(document).ready(function () {
   });
 
   $('.main-m .prev-move').click(function() {
+    if (!canClick) return;
+    canClick = !canClick;
     $('.sl._show').removeClass('_show').prev().addClass('_show');
     $(this).addClass('hide');
     $('.main-m .next-move').removeClass('hide');
     $('.sl1 .drop').removeClass('hide');
     $('.sl2 .sl2-links').removeClass('ac');
     $('.sl2 .ovec').removeClass('ac');
+    setTimeout(function() {
+      canClick = !canClick;
+    }, 1000);
   });
   $('.main-m .next-move').click(function() {
+    if (!canClick) return;
+    canClick = !canClick;
     $(this).addClass('hide');
     $('.main-m .prev-move').removeClass('hide');
     $('.sl1 .drop').addClass('hide');
@@ -250,6 +259,9 @@ $(document).ready(function () {
       setTimeout(function() {
         $('.sl2 .sl2-link4').addClass('ac');
       }, 1250);
+      setTimeout(function() {
+        canClick = !canClick;
+      }, 1500);
     }, 1250);
   });
 
