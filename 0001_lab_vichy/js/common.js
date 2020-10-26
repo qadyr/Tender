@@ -67,28 +67,28 @@ $(document).ready(function () {
     }, 500);
     setTimeout(function() {
       $('.sl1 .tub1').addClass('ac');
-    }, 1000);
+    }, 1300);
     setTimeout(function() {
       $('.sl1 .tub2').addClass('ac');
-    }, 2000);
+    }, 2100);
     setTimeout(function() {
       $('.sl1 .tub3').addClass('ac');
-    }, 3000);
+    }, 2900);
     setTimeout(function() {
       $('.sl1 .tub4').addClass('ac');
-    }, 4000);
+    }, 3700);
     setTimeout(function() {
       $('.sl1 .o5').addClass('ac');
-    }, 4500);
+    }, 4200);
     setTimeout(function() {
       $('.sl1 .o6').addClass('ac');
-    }, 5000);
+    }, 4700);
     setTimeout(function() {
       $('.sl1 .o7').addClass('ac');
-    }, 5500);
+    }, 5200);
     setTimeout(function() {
       $('.sl1 .o8').addClass('ac');
-    }, 6000);
+    }, 5700);
   }, 500);
 
 });
