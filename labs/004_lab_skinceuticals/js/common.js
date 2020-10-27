@@ -1,6 +1,6 @@
 "use strict";
 
-$(document).ready(function () {
+$(window).load(function () {
 
   var it1 = 768 / 100;
   var it2;
@@ -78,17 +78,23 @@ $(document).ready(function () {
       $('.sl1 .tub4').addClass('ac');
     }, 3700);
     setTimeout(function() {
+      $('.sl1 .tub5').addClass('ac');
+    }, 4500);
+    setTimeout(function() {
       $('.sl1 .o5').addClass('ac');
-    }, 4200);
+    }, 5300);
     setTimeout(function() {
       $('.sl1 .o6').addClass('ac');
-    }, 4700);
+    }, 5800);
     setTimeout(function() {
       $('.sl1 .o7').addClass('ac');
-    }, 5200);
+    }, 6300);
     setTimeout(function() {
       $('.sl1 .o8').addClass('ac');
-    }, 5700);
+    }, 6800);
+    setTimeout(function() {
+      $('.sl1 .o9').addClass('ac');
+    }, 7300);
   }, 500);
 
 });
