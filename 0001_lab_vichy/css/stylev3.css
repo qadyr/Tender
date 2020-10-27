@@ -163,11 +163,16 @@ html {
   transform: translateY(0) scale(1);
 }
 
-.sl1 .tub1 {
+.sl1 .tub1,
+.sl1 .tub2,
+.sl1 .tub3,
+.sl1 .tub4 {
   opacity: 0;
-  transform: translateY(-60px) scale(0.5);
+  transform: translateY(60px) scale(0.85);
   transition: all 0.8s;
+}
 
+.sl1 .tub1 {
   top: 340px;
   left: 296px;
   width: 138px;
@@ -176,10 +181,6 @@ html {
 }
 
 .sl1 .tub2 {
-  opacity: 0;
-  transform: translateY(-60px) scale(0.5);
-  transition: all 0.8s;
-
   top: 340px;
   left: 440px;
   width: 132px;
@@ -188,10 +189,6 @@ html {
 }
 
 .sl1 .tub3 {
-  opacity: 0;
-  transform: translateY(-60px) scale(0.5);
-  transition: all 0.8s;
-
   top: 387px;
   left: 583px;
   width: 66px;
@@ -200,10 +197,6 @@ html {
 }
 
 .sl1 .tub4 {
-  opacity: 0;
-  transform: translateY(-60px) scale(0.5);
-  transition: all 0.8s;
-
   top: 391px;
   left: 700px;
   width: 90px;
