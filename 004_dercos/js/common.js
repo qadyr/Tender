@@ -34,16 +34,6 @@ $(document).ready(function () {
 
     it2 = Math.round($(window).height() / it1);
 
-    // if ($(window).height() < 768 || $(window).width() < 1024) {
-    //   it2 = Math.round($(window).width() / it4);
-    //   $('#page').attr('style', '').css({
-    //     'transform': 'scale(' + (it2 - 1) / 100 + ')'
-    //   }).css({
-    //     '-webkit-transform': 'scale(' + (it2 - 1) / 100 + ')'
-    //   });
-    // }
-
-    // if ( $(window).height() < 768) {
     if ( $(window).width() > $(window).height() ) {
       newSize = $(window).height() / 1000 + ( ( $(window).height() / 1000 ) / 100 * 29.9 );
       if ( newSize > 1 && $(window).width() < 1024 && $(window).height() < 768 ) {
