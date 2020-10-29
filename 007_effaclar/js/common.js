@@ -167,72 +167,213 @@ $(document).ready(function () {
     pop3Hide();
     removeTwo();
     changeBGtoWhite();
+    setTimeout(function() {
+      $('.m_pop4 .tub1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop4 .plsh1').addClass('ac');
+    }, 1250);
+    setTimeout(function() {
+      $('.m_pop4 .plsh2').addClass('ac');
+    }, 1750);
+    setTimeout(function() {
+      $('.m_pop4 .plsh3').addClass('ac');
+    }, 2250);
+    setTimeout(function() {
+      $('.m_pop4 .plsh4').addClass('ac');
+    }, 2750);
+    setTimeout(function() {
+      $('.m_pop4 .mlist').addClass('ac');
+    }, 3250);
+    setTimeout(function() {
+      $('.m_pop4 .e6').addClass('ac');
+    }, 3750);
   });
   $('.m_pop4 .x').click(function() {
     $(this).parent().fadeOut();
     pop3Show();
     changeTwo();
     changeBGtoBlue();
+    $('.m_pop4 .tub1').removeClass('ac');
+    $('.m_pop4 .plsh1').removeClass('ac');
+    $('.m_pop4 .plsh2').removeClass('ac');
+    $('.m_pop4 .plsh3').removeClass('ac');
+    $('.m_pop4 .plsh4').removeClass('ac');
+    $('.m_pop4 .mlist').removeClass('ac');
+    $('.m_pop4 .e6').removeClass('ac');
   });
   $('.m_pop3 .o2').click(function() {
     $('.m_pop5').fadeIn();
     pop3Hide();
     removeTwo();
     changeBGtoWhite();
+    setTimeout(function() {
+      $('.m_pop5 .tub1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop5 .plsh1').addClass('ac');
+    }, 1250);
+    setTimeout(function() {
+      $('.m_pop5 .plsh2').addClass('ac');
+    }, 1750);
+    setTimeout(function() {
+      $('.m_pop5 .plsh3').addClass('ac');
+    }, 2250);
+    setTimeout(function() {
+      $('.m_pop5 .plsh4').addClass('ac');
+    }, 2750);
+    setTimeout(function() {
+      $('.m_pop5 .mlist').addClass('ac');
+    }, 3250);
+    setTimeout(function() {
+      $('.m_pop5 .e6').addClass('ac');
+    }, 3750);
   });
   $('.m_pop5 .x').click(function() {
     $(this).parent().fadeOut();
     pop3Show();
     changeTwo();
     changeBGtoBlue();
+    $('.m_pop5 .tub1').removeClass('ac');
+    $('.m_pop5 .plsh1').removeClass('ac');
+    $('.m_pop5 .plsh2').removeClass('ac');
+    $('.m_pop5 .plsh3').removeClass('ac');
+    $('.m_pop5 .plsh4').removeClass('ac');
+    $('.m_pop5 .mlist').removeClass('ac');
+    $('.m_pop5 .e6').removeClass('ac');
   });
   $('.m_pop3 .o3').click(function() {
     $('.m_pop6').fadeIn();
     pop3Hide();
     changeBGtoWhite();
     removeTwo();
+    setTimeout(function() {
+      $('.m_pop6 .tub1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop6 .plsh1').addClass('ac');
+    }, 1250);
+    setTimeout(function() {
+      $('.m_pop6 .plsh2').addClass('ac');
+    }, 1750);
+    setTimeout(function() {
+      $('.m_pop6 .plsh3').addClass('ac');
+    }, 2250);
+    setTimeout(function() {
+      $('.m_pop6 .mlist').addClass('ac');
+    }, 2750);
   });
   $('.m_pop6 .x').click(function() {
     $(this).parent().fadeOut();
     pop3Show();
     changeTwo();
     changeBGtoBlue();
+
+    $('.m_pop6 .tub1').removeClass('ac');
+    $('.m_pop6 .plsh1').removeClass('ac');
+    $('.m_pop6 .plsh2').removeClass('ac');
+    $('.m_pop6 .plsh3').removeClass('ac');
+    $('.m_pop6 .mlist').removeClass('ac');
   });
   $('.m_pop3 .o4').click(function() {
     $('.m_pop7').fadeIn();
     pop3Hide();
     changeBGtoWhite();
     removeTwo();
+    setTimeout(function() {
+      $('.m_pop7 .tub1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop7 .plsh1').addClass('ac');
+    }, 1250);
+    setTimeout(function() {
+      $('.m_pop7 .plsh2').addClass('ac');
+    }, 1750);
+    setTimeout(function() {
+      $('.m_pop7 .plsh3').addClass('ac');
+    }, 2250);
+    setTimeout(function() {
+      $('.m_pop7 .plsh4').addClass('ac');
+    }, 2750);
+    setTimeout(function() {
+      $('.m_pop7 .mlist').addClass('ac');
+    }, 3250);
   });
   $('.m_pop7 .x').click(function() {
     $(this).parent().fadeOut();
     pop3Show();
     changeTwo();
     changeBGtoBlue();
+    $('.m_pop7 .tub1').removeClass('ac');
+    $('.m_pop7 .plsh1').removeClass('ac');
+    $('.m_pop7 .plsh2').removeClass('ac');
+    $('.m_pop7 .plsh3').removeClass('ac');
+    $('.m_pop7 .plsh4').removeClass('ac');
+    $('.m_pop7 .mlist').removeClass('ac');
   });
   $('.m_pop3 .o5').click(function() {
     $('.m_pop9').fadeIn();
     pop3Hide();
     changeToOne();
     removeTwo();
+    setTimeout(function() {
+      $('.m_pop9 .tub1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop9 .plsh1').addClass('ac');
+    }, 1250);
+    setTimeout(function() {
+      $('.m_pop9 .plsh2').addClass('ac');
+    }, 1750);
+    setTimeout(function() {
+      $('.m_pop9 .plsh3').addClass('ac');
+    }, 2250);
+    setTimeout(function() {
+      $('.m_pop9 .mlist').addClass('ac');
+    }, 2750);
   });
   $('.m_pop9 .x').click(function() {
     $(this).parent().fadeOut();
     pop3Show();
     changeTwo();
-    removeOne()
+    removeOne();
+    $('.m_pop9 .tub1').removeClass('ac');
+    $('.m_pop9 .plsh1').removeClass('ac');
+    $('.m_pop9 .plsh2').removeClass('ac');
+    $('.m_pop9 .plsh3').removeClass('ac');
+    $('.m_pop9 .mlist').removeClass('ac');
   });
   $('.m_pop3 .o6').click(function() {
     $('.m_pop10').fadeIn();
     pop3Hide();
     changeBGtoWhite();
     removeTwo();
+    setTimeout(function() {
+      $('.m_pop10 .tub1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop10 .plsh1').addClass('ac');
+    }, 1250);
+    setTimeout(function() {
+      $('.m_pop10 .plsh2').addClass('ac');
+    }, 1750);
+    setTimeout(function() {
+      $('.m_pop10 .plsh3').addClass('ac');
+    }, 2250);
+    setTimeout(function() {
+      $('.m_pop10 .mlist').addClass('ac');
+    }, 2750);
   });
   $('.m_pop10 .x').click(function() {
     $(this).parent().fadeOut();
     pop3Show();
     changeTwo();
     changeBGtoBlue();
+    $('.m_pop10 .tub1').removeClass('ac');
+    $('.m_pop10 .plsh1').removeClass('ac');
+    $('.m_pop10 .plsh2').removeClass('ac');
+    $('.m_pop10 .plsh3').removeClass('ac');
+    $('.m_pop10 .mlist').removeClass('ac');
   });
 
   $('.sl2 .vec4 a').click(function() {

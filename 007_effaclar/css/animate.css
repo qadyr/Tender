@@ -1,0 +1,165 @@
+.m_pop4 .plsh,
+.m_pop5 .plsh,
+.m_pop6 .plsh,
+.m_pop7 .plsh,
+.m_pop9 .plsh,
+.m_pop10 .plsh {
+  left: -50px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .plsh.ac,
+.m_pop5 .plsh.ac,
+.m_pop6 .plsh.ac,
+.m_pop7 .plsh.ac,
+.m_pop9 .plsh.ac,
+.m_pop10 .plsh.ac {
+  left: 0;
+  opacity: 1;
+}
+
+.m_pop4 .tub1,
+.m_pop5 .tub1,
+.m_pop6 .tub1,
+.m_pop7 .tub1,
+.m_pop9 .tub1,
+.m_pop10 .tub1 {
+  opacity: 0;
+  transition: all 0.75s;
+}
+
+.m_pop4 .tub1 { top: 208px; }
+.m_pop5 .tub1 { top: 181px; }
+.m_pop6 .tub1 { top: 128px; }
+.m_pop7 .tub1 { top: 208px; }
+.m_pop9 .tub1 { top: 202px; }
+.m_pop10 .tub1 { top: 192px; }
+
+.m_pop4 .tub1.ac {
+  top: 158px;
+  opacity: 1;
+}
+
+.m_pop5 .tub1.ac {
+  top: 131px;
+  opacity: 1;
+}
+
+.m_pop6 .tub1.ac {
+  top: 88px;
+  opacity: 1;
+}
+
+.m_pop7 .tub1.ac {
+  top: 158px;
+  opacity: 1;
+}
+
+.m_pop9 .tub1.ac {
+  top: 152px;
+  opacity: 1;
+}
+
+.m_pop10 .tub1.ac {
+  top: 142px;
+  opacity: 1;
+}
+
+.m_pop4 .mlist {
+  left: 426px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .mlist.ac {
+  left: 456px;
+  opacity: 1;
+}
+
+.m_pop4 .e6 {
+  left: 600px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .e6.ac {
+  left: 630px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop5 .mlist {
+  left: 426px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop5 .mlist.ac {
+  left: 456px;
+  opacity: 1;
+}
+
+.m_pop5 .e6 {
+  left: 600px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop5 .e6.ac {
+  left: 630px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop6 .mlist {
+  left: 426px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop6 .mlist.ac {
+  left: 456px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop7 .mlist {
+  left: 426px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop7 .mlist.ac {
+  left: 456px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop9 .mlist {
+  left: 470px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop9 .mlist.ac {
+  left: 500px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop10 .mlist {
+  left: 470px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop10 .mlist.ac {
+  left: 500px;
+  opacity: 1;
+}
