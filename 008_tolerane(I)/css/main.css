@@ -789,7 +789,7 @@ a{
 }
 .zero{
 	position: absolute;
-	margin-left: 797px;
+	margin-left: 655px;
 	margin-top: 640px;
 	background: url(../img/zero.png) no-repeat;
 	width: 103px;
@@ -797,7 +797,7 @@ a{
 }
 .zero-1{
 	position: absolute;
-	margin-left: 800px;
+	margin-left: 638px;
 	margin-top: 630px;
 	background: url(../img/zero.png) no-repeat;
 	width: 103px;
@@ -805,7 +805,7 @@ a{
 }
 .zero-2{
 	position: absolute;
-	margin-left: 800px;
+	margin-left: 675px;
 	margin-top: 655px;
 	background: url(../img/zero.png) no-repeat;
 	width: 103px;
@@ -840,7 +840,7 @@ a{
 	font-size: 12px;
 	line-height: 12px;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
+	text-transform: initial;
 	color: #565656;
 	margin-left: 41px;
 	position: absolute;
@@ -852,7 +852,7 @@ a{
 	font-size: 12px;
 	line-height: 12px;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
+	text-transform: initial;
 	color: #565656;
 	margin-left: 674px;
 	position: absolute;
@@ -1144,7 +1144,7 @@ a{
 }
 .bars-2{
 	position: absolute;
-	margin-top: 435px;
+	margin-top: 385px;
 }
 .bars-3{
 	position: absolute;
@@ -1167,16 +1167,16 @@ a{
 	text-transform: uppercase;
 }
 .strings-text-1{
-    margin-top: 637px;
-	margin-left: 640px;
+  margin-top: 637px;
+	margin-left: 780px;
 }
 .strings-text-2{
     margin-top: 681px;
 	margin-left: 640px;
 }
 .strings-text-3{
-    margin-top: 593px;
-	margin-left: 640px;
+  margin-top: 593px;
+	margin-left: 762px;
 }
 .strings-text-4{
     margin-top: 681px;
@@ -1184,12 +1184,12 @@ a{
 	text-align: right;
 }
 .strings-text-5{
-    margin-top: 637px;
-	margin-left: 650px;
+  margin-top: 637px;
+	margin-left: 760px;
 }
 .strings-text-6{
     margin-top: 637px;
-	margin-left: 660px;
+	margin-left: 802px;
 }
 .strings-text-7{
     margin-top: 212px;
@@ -1793,7 +1793,7 @@ a{
 	height: 63px;
 	position: absolute;
 	margin-left: 800px;
-	margin-top: 81px;
+	margin-top: 36px;
 }
 .label-1{
 	background: url(../img/label.png) no-repeat;

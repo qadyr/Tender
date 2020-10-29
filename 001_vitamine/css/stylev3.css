@@ -222,7 +222,7 @@ html {
 .sl2 .ovec a { background-image: url(../images/02/o2.svg); }
 
 .sl2 .vec1 a {
-  top: 224px;
+  top: 192px;
   left: 589px;
   width: 40px;
   height: 40px;
@@ -238,8 +238,8 @@ html {
 }
 
 .sl2 .vec2 a {
-  top: 201px;
-  left: 613px;
+  top: 172px;
+  left: 610px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -254,8 +254,8 @@ html {
 }
 
 .sl2 .vec3 a {
-  top: 175px;
-  left: 532px;
+  top: 170px;
+  left: 538px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -271,7 +271,7 @@ html {
 
 .sl2 .vec4 a {
   top: 206px;
-  left: 572px;
+  left: 575px;
   width: 40px;
   height: 40px;
   border-radius: 50%;

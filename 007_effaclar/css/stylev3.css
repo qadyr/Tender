@@ -183,7 +183,7 @@ html {
 .sl2 { background-image: url(../images/02/bg.png); }
 
 .sl1 h1 {
-  width: 567px;
+  width: 575px;
   height: 125px;
   left: 417px;
   top: 251px;
@@ -1490,8 +1490,7 @@ html {
 .m_pop8 .qw1,
 .m_pop8 .qw2,
 .m_pop8 .qw3,
-.m_pop8 .qw4,
-.m_pop8 .qw5 {
+.m_pop8 .qw4 {
   width: 170px;
   height: 17px;
   left: 55px;
@@ -1508,21 +1507,20 @@ html {
 }
 
 .m_pop8 .qw1 { top: 107px; }
-.m_pop8 .qw2 { top: 234px; }
-.m_pop8 .qw3 { top: 361px; }
-.m_pop8 .qw4 { top: 488px; }
-.m_pop8 .qw5 { top: 615px; }
+.m_pop8 .qw2 { top: 266px; }
+.m_pop8 .qw3 { top: 423px; }
+.m_pop8 .qw4 { top: 586px; }
 
 .m_pop8 .qe1,
 .m_pop8 .qe2,
 .m_pop8 .qe3,
 .m_pop8 .qe4 {
-  width: 128px;
+  width: 148px;
   height: 16px;
-  left: 56px;
+  left: 43px;
 
   font-weight: 300;
-  font-size: 6px;
+  font-size: 7px;
   line-height: 114%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -1530,10 +1528,10 @@ html {
   color: #FFFFFF;
 }
 
-.m_pop8 .qe1 { top: 126px; }
-.m_pop8 .qe2 { top: 253px; }
-.m_pop8 .qe3 { top: 381px; }
-.m_pop8 .qe4 { top: 507px; }
+.m_pop8 .qe1 { top: 134px; }
+.m_pop8 .qe2 { top: 287px; }
+.m_pop8 .qe3 { top: 390px; }
+.m_pop8 .qe4 { top: 453px; }
 
 .m_pop8 .qr1,
 .m_pop8 .qr2,
@@ -1554,11 +1552,11 @@ html {
   color: #444444;
 }
 
-.m_pop8 .qr1 { top: 126px; }
-.m_pop8 .qr2 { top: 253px; }
+.m_pop8 .qr1 { top: 130px; }
+.m_pop8 .qr2 { top: 287px; }
 .m_pop8 .qr3 { top: 380px; }
-.m_pop8 .qr4 { top: 507px; }
-.m_pop8 .qr5 { top: 635px; }
+.m_pop8 .qr4 { top: 457px; }
+.m_pop8 .qr5 { top: 612px; }
 
 .m_pop8 .rr {
   font-weight: 300;
@@ -1571,58 +1569,58 @@ html {
 }
 
 .m_pop8 .rr1 {
-  left: 287px;
-  top: 127px;
+  left: 290px;
+  top: 132px;
 }
 
 .m_pop8 .rr2 {
   left: 580px;
-  top: 127px;
+  top: 132px;
 }
 
 .m_pop8 .rr3 {
   left: 620px;
-  top: 224px;
+  top: 248px;
 }
 
 .m_pop8 .rr4 {
   left: 226px;
-  top: 254px;
+  top: 289px;
 }
 
 .m_pop8 .rr5 {
   left: 336px;
-  top: 254px;
+  top: 289px;
 }
 
 .m_pop8 .rr6 {
-  left: 503px;
-  top: 254px;
+  left: 500px;
+  top: 289px;
 }
 
 .m_pop8 .rr7 {
-  left: 672px;
-  top: 254px;
+  left: 676px;
+  top: 289px;
 }
 
 .m_pop8 .rr8 {
-  left: 543px;
-  top: 351px;
+  left: 540px;
+  top: 407px;
 }
 
 .m_pop8 .rr9 {
   left: 226px;
-  top: 381px;
+  top: 455px;
 }
 
 .m_pop8 .rr10 {
   left: 336px;
-  top: 381px;
+  top: 455px;
 }
 
 .m_pop8 .rr11 {
   left: 503px;
-  top: 381px;
+  top: 455px;
 }
 
 .m_pop8 .rr12 {
@@ -1637,42 +1635,42 @@ html {
 
 .m_pop8 .rr14 {
   left: 200px;
-  top: 508px;
+  top: 454px;
 }
 
 .m_pop8 .rr15 {
   left: 336px;
-  top: 508px;
+  top: 454px;
 }
 
 .m_pop8 .rr16 {
-  left: 474px;
-  top: 508px;
+  left: 481px;
+  top: 454px;
 }
 
 .m_pop8 .rr17 {
-  left: 600px;
-  top: 508px;
+  left: 603px;
+  top: 454px;
 }
 
 .m_pop8 .rr18 {
-  left: 681px;
-  top: 508px;
+  left: 695px;
+  top: 454px;
 }
 
 .m_pop8 .rr19 {
-  left: 511px;
-  top: 605px;
+  left: 508px;
+  top: 573px;
 }
 
 .m_pop8 .rr20 {
   left: 262px;
-  top: 636px;
+  top: 612px;
 }
 
 .m_pop8 .rr21 {
   left: 546px;
-  top: 634px;
+  top: 612px;
 }
 
 .m_pop8 .footer-t {
@@ -1916,7 +1914,7 @@ html {
 .m_pop10 .e4 span { font-weight: 300; }
 
 .m_pop10 .e5 {
-  width: 472px;
+  width: 600px;
   height: 56px;
   left: 96px;
   top: 80px;
