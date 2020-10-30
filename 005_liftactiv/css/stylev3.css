@@ -143,6 +143,52 @@ html {
 .sl1 { background-image: url(../images/01/bg.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
 
+.sl1 .tub {
+  left: 110px;
+  top: 34px;
+  width: 281px;
+  height: 734px;
+  background-image: url(../images/01/tub.png);
+}
+
+.sl1 .like {
+  width: 748px;
+  height: 104px;
+  left: 276px;
+  top: 600px;
+
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.81) 59.9%, rgba(255, 255, 255, 0.48) 89.06%, rgba(255, 255, 255, 0) 100%);
+
+  padding-left: 174px;
+
+  display: flex;
+  align-items: center;
+}
+
+.sl1 .like p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #565656;
+  text-shadow: 0px 0px 15px #FFFFFF;
+}
+
+.sl1 .like form {
+  top: -7px;
+  left: 595px;
+}
+
+.sl1 .like form input {
+  display: block;
+  width: 145px;
+  height: 144px;
+  background-image: url(../images/01/like.svg);
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
 .sl1 h1 {
   width: 552px;
   height: 150px;
@@ -159,17 +205,11 @@ html {
   color: #C71A1A;
 }
 
-.sl1 h1 span {
-  display: block;
-  font-weight: 300;
-  color: #444;
-}
-
 .sl1 h2 {
   width: 520px;
   height: 172px;
   left: 450px;
-  top: 372px;
+  top: 330px;
 
   font-weight: 800;
   font-size: 32px;
@@ -192,7 +232,7 @@ html {
   width: 534px;
   height: 58px;
   left: 450px;
-  top: 592px;
+  top: 521px;
 
   font-weight: 800;
   font-size: 24px;

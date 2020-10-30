@@ -128,8 +128,54 @@ html {
   opacity: 1;
 }
 
-.sl1 { background-image: url(../images/01/bg.png); }
+.sl1 {}
 .sl2 { background-image: url(../images/02/bg.png); }
+
+.sl1 .tub {
+  left: 108px;
+  top: 40px;
+  width: 307px;
+  height: 728px;
+  background-image: url(../images/01/tub.png);
+}
+
+.sl1 .like {
+  width: 748px;
+  height: 104px;
+  left: 276px;
+  top: 590px;
+
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.81) 59.9%, rgba(255, 255, 255, 0.48) 89.06%, rgba(255, 255, 255, 0) 100%);
+
+  padding-left: 174px;
+
+  display: flex;
+  align-items: center;
+}
+
+.sl1 .like p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #565656;
+  text-shadow: 0px 0px 15px #FFFFFF;
+}
+
+.sl1 .like form {
+  top: -7px;
+  left: 593px;
+}
+
+.sl1 .like form input {
+  display: block;
+  width: 145px;
+  height: 144px;
+  background-image: url(../images/01/like.svg);
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
 
 .sl1 h1 {
   top: 230px;
