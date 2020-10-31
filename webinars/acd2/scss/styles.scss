@@ -1,0 +1,579 @@
+@font-face {
+    font-family: 'GillSansLightC';
+    src: url('../fonts/GillSansLightC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'GillSansC';
+    src: url('../fonts/GillSansC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    overflow: auto;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+main {
+    min-height: 100%;
+}
+
+.wrapper {
+    padding: 60px 50px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 93%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 73px;
+    z-index: 3
+}
+
+.logo {
+    background-image: url(../images/logo.png);
+    width: 367px;
+    height: 49px;
+}
+
+.alliance {
+    background-image: url(../images/alliance.png);
+    width: 312px;
+    height: 67px;
+    filter: drop-shadow(0px 0px 128px #35A0B3);
+}
+
+.phone {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    &>b {
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    &__item {
+        max-width: 339px;
+        padding: 0 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.archive {
+    max-width: 339px;
+    width: 100%;
+    
+    &__item {
+        height: 65px;
+        background: rgba(255, 255, 255, 0.26);
+        padding: 0 15px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: #444444;
+
+        &:not(:last-child) {
+            margin-bottom: 4px;
+        }
+    }
+}
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 80px;
+    left: 50px;
+    width: 48px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #007DB7;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+/* элементы меню */
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+.icon {
+    min-height: 210px;
+
+    &__acd {
+        background-image: url(../images/q1.png);
+        width: 200px;
+        height: 187px;
+    }
+
+    &__roche {
+        background-image: url(../images/q2.png);
+        width: 200px;
+        height: 201px;
+    }
+
+    &__vichy {
+        background-image: url(../images/q3.png);
+        width: 200px;
+        height: 194px;
+    }
+
+    &__cerave {
+        background-image: url(../images/q4.png);
+        width: 200px;
+        height: 202px;
+    }
+
+    &__skin {
+        background-image: url(../images/q5.png);
+        width: 200px;
+        height: 201px;
+    }
+}
+
+.sidemenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #9BD3D4;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.55);
+    max-width: 563px;
+    width: 100%;
+    // max-height: 100%;
+    z-index: 2;
+    display: flex;
+    padding-top: 210px;
+    height: 100vh;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s;
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &__wrapper {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .scrollable {
+        padding: 0 50px 35px;
+        overflow-y: auto;
+    }
+
+    .lk {
+        padding: 0 50px;
+    }
+}
+
+.profile {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        background: url(../images/profile.png);
+        width: 46px;
+        height: 46px;
+        margin-right: 7px;
+    }
+
+    &__name {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        color: #444444;
+    }
+}
+
+.btn {
+    max-width: 464px;
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.008em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0;
+    display: inline-block;
+    line-height: 65px;
+    text-align: center;
+    cursor: pointer;
+
+    &__primary {
+        background: #007DB7;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+.progress {
+    font: 12px Arial, Tahoma, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-top: 15px;
+    height: 45px;
+    position: relative;
+    &>progress {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        left: -777px;
+    }
+}
+
+.progress-bar {
+    overflow: hidden;
+    background: #fff;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-value {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #444444;
+}
+
+.progress-bg {
+    background: #fff;
+    position: relative;
+    height: 8px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-bar:after {
+    background: linear-gradient(90deg, #007DB7 0%, #65BDDA 100%);
+    background-size: 400px 40px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -40px 0;
+    }
+}
+
+.progress-bar {
+    transition: width 1s linear;
+}
+
+.progress-bar:after {
+    animation: progress_bar 0.8s linear infinite;
+}
+
+@for $i from 0 through 100 {
+    .progress progress[value="#{$i}"] {
+        &+.progress-value:before {
+            content : '#{$i}%'
+        }
+
+        &~.progress-bg .progress-bar {
+            width: $i * 1%
+        }
+    }
+}
+
+.achievements {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #444444;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    & > svg {
+        margin-left: 3px;;
+    }
+}
+
+.mt-3 {
+    margin-top: 35px;
+}
+
+.checkbox {
+    padding-left: 32px;
+    height: 32px;
+    margin: 0;
+    &__input {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+
+
+        /* Checked */
+        &:checked + .checkbox__custom {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='33' viewBox='0 0 32 33' fill='none'%3E%3Cpath d='M28 0.5H4C2.89583 0.5 1.94792 0.895833 1.15625 1.6875C0.385417 2.45833 0 3.39583 0 4.5V28.5C0 29.6042 0.385417 30.5417 1.15625 31.3125C1.94792 32.1042 2.89583 32.5 4 32.5H28C29.1042 32.5 30.0417 32.1042 30.8125 31.3125C31.6042 30.5417 32 29.6042 32 28.5V4.5C32 3.39583 31.6042 2.45833 30.8125 1.6875C30.0417 0.895833 29.1042 0.5 28 0.5ZM14 25.3438L6.59375 17.9062L9.40625 15.0938L14 19.6562L23.5938 10.0938L26.4062 12.9062L14 25.3438Z' fill='%23007DB7'/%3E%3C/svg%3E");
+        }
+
+    }
+
+    &__custom {
+        position: absolute;
+        margin-left: -32px;
+        width: 32px;
+        height: 32px;
+        border-radius: 5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='33' viewBox='0 0 32 33' fill='none'%3E%3Cpath d='M28 0.5H4C2.89583 0.5 1.94792 0.895833 1.15625 1.6875C0.385417 2.45833 0 3.39583 0 4.5V28.5C0 29.6042 0.385417 30.5417 1.15625 31.3125C1.94792 32.1042 2.89583 32.5 4 32.5H28C29.1042 32.5 30.0417 32.1042 30.8125 31.3125C31.6042 30.5417 32 29.6042 32 28.5V4.5C32 3.39583 31.6042 2.45833 30.8125 1.6875C30.0417 0.895833 29.1042 0.5 28 0.5ZM28 28.5H4V4.5H28V28.5Z' fill='%23007DB7'/%3E%3C/svg%3E");
+        background-color: #fff;
+    }
+}
+
+.select {
+    position: relative;
+    &:hover &__list {
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+    }
+
+    &:hover .select__arrow {
+        transform: rotate(90deg);
+    }
+
+    &__input {
+        background: #FFFFFF;
+        height: 65px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 18px 20px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    &__text {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #444444;
+    }
+
+    &__arrow {
+        background-image: url("data:image/svg+xml,%0A%3Csvg width='15' height='25' viewBox='0 0 15 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2L12 12.5L2 23' stroke='%23007DB7' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+        width: 15px;
+        height: 25px;
+        position: absolute;
+        right: 25px;
+        transition: transform .3s;
+    }
+
+    &__list {
+        max-width: 411px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.26);
+        height: 0;
+       
+        opacity: 0;
+        overflow-y: auto;
+
+        visibility: hidden;
+        transition: opacity .5s linear, visibility .5s linear, height .3s;
+    }
+
+    &__item {
+        height: 65px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: #444444;
+        padding: 0 15px;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 210px;
+    background: #9bd3d4;
+    display: block;
+    z-index: 111;
+}
