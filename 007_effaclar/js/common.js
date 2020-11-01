@@ -112,6 +112,10 @@ $(document).ready(function () {
     ress();
   });
 
+  $('.sl1 .like form input').click(function() {
+    $(this).attr('disabled', 'disabled');
+  });
+
   $('.sl2 .sl2-link1').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec1').addClass('ac');
@@ -142,11 +146,19 @@ $(document).ready(function () {
 
   $('.sl2 .vec2 a').click(function() {
     $('.m_pop2').fadeIn();
+    setTimeout(function() {
+      $('.m_pop2 .g2').addClass('ac');
+      $('.m_pop2 .g4').addClass('ac');
+      $('.m_pop2 .g6').addClass('ac');
+    }, 500);
     changeBGtoLightGreen();
     hideEl();
   });
   $('.m_pop2 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop2 .g2').removeClass('ac');
+    $('.m_pop2 .g4').removeClass('ac');
+    $('.m_pop2 .g6').removeClass('ac');
     removeLightGreenBG();
     showEl();
   });
