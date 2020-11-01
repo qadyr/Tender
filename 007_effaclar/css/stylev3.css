@@ -220,6 +220,10 @@ html {
   border: 0;
 }
 
+.sl1 .like form input[disabled] {
+  background-image: url(../images/01/clicked.svg);
+}
+
 .sl1 h1 {
   width: 575px;
   height: 125px;
@@ -393,7 +397,7 @@ html {
 .sl2 .ovec {
   transform: translateY(-80px);
   opacity: 0;
-  transition: all 0.25s;
+  transition: all 0.5s;
 }
 
 .sl2 .ovec.ac {
@@ -653,7 +657,7 @@ html {
 }
 
 .m_pop2 .g2 {
-  height: 120px;
+  height: 0;
   left: 691.09px;
   background: #9BD3D0;
 }
@@ -665,7 +669,7 @@ html {
 }
 
 .m_pop2 .g4 {
-  height: 83px;
+  height: 0;
   left: 811.58px;
   background: #9BD3D0;
 }
@@ -677,7 +681,7 @@ html {
 }
 
 .m_pop2 .g6 {
-  height: 76px;
+  height: 0;
   left: 933.66px;
   background: #9BD3D0;
 }
@@ -692,6 +696,28 @@ html {
   text-transform: uppercase;
   color: #34B1A7;
 }
+
+.m_pop2 .g2,
+.m_pop2 .g4,
+.m_pop2 .g6 {
+  height: 150px;
+  transition: all 1s;
+}
+
+.m_pop2 .g2.ac { height: 120px; }
+.m_pop2 .g4.ac { height: 83px; }
+.m_pop2 .g6.ac { height: 76px; }
+
+.m_pop2 .g2 span,
+.m_pop2 .g4 span,
+.m_pop2 .g6 span {
+  transition: all 0.75s 1s;
+  opacity: 0;
+}
+
+.m_pop2 .g2.ac span,
+.m_pop2 .g4.ac span,
+.m_pop2 .g6.ac span { opacity: 1; }
 
 .m_pop2 .f1 {
   top: 456px;
