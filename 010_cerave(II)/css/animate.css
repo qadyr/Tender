@@ -1,0 +1,30 @@
+.x_pop1 .tub,
+.x_pop2 .tub { opacity: 0; transition: all 0.5s; }
+
+.x_pop1 .tub.ac,
+.x_pop2 .tub.ac { opacity: 1; }
+
+.x_pop1 .tub { top: 238px; }
+.x_pop2 .tub { top: 231px; }
+
+.x_pop1 .tub.ac { top: 168px; }
+.x_pop2 .tub.ac { top: 161px; }
+
+.x_pop1 .l    { left: -40px; opacity: 0; transition: all 0.5s; }
+.x_pop1 .l.ac { left: 0; opacity: 1; }
+.x_pop1 .r    { right: -40px; opacity: 0; transition: all 0.5s; }
+.x_pop1 .r.ac { right: 0; opacity: 1; }
+
+.x_pop2 .l    { left: -40px; opacity: 0; transition: all 0.5s; }
+.x_pop2 .l.ac { left: 0; opacity: 1; }
+.x_pop2 .r    { right: -40px; opacity: 0; transition: all 0.5s; }
+.x_pop2 .r.ac { right: 0; opacity: 1; }
+
+.x_pop1 h3 { left: 244px; opacity: 0; transition: all 0.5s; }
+.x_pop1 h3.ac { left: 284px; opacity: 1; }
+
+.x_pop1 h4 { left: 726px; opacity: 0; transition: all 0.5s; }
+.x_pop1 h4.ac { left: 686px; opacity: 1; }
+
+.x_pop1 .b { opacity: 0; transform: scale(0.8); transition: all 0.5s; }
+.x_pop1 .b.ac { opacity: 1; transform: scale(1); }

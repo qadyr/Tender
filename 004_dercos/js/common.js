@@ -106,11 +106,23 @@ $(document).ready(function () {
 
   $('.sl2 .vec2 a').click(function() {
     $('.m_pop2').fadeIn();
+    setTimeout(function() {
+      $('.m_pop2 .plsh1').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop2 .plsh2').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.m_pop2 .list').addClass('ac');
+    }, 1500);
     changeBGtoWhite();
     hideEl();
   });
   $('.m_pop2 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop2 .plsh1').removeClass('ac');
+    $('.m_pop2 .plsh2').removeClass('ac');
+    $('.m_pop2 .list').removeClass('ac');
     changeBGtoRed();
     showEl();
   });
@@ -126,10 +138,26 @@ $(document).ready(function () {
 
   $('.m_pop3 .o1').click(function() {
     $('.m_pop4').fadeIn();
+    setTimeout(function() {
+      $('.m_pop4 .list').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.m_pop4 .plsh1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.m_pop4 .plsh2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.m_pop4 .plsh3').addClass('ac');
+    }, 2000);
     changeBGtoWhite();
   });
   $('.m_pop4 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.m_pop4 .list').removeClass('ac');
+    $('.m_pop4 .plsh1').removeClass('ac');
+    $('.m_pop4 .plsh2').removeClass('ac');
+    $('.m_pop4 .plsh3').removeClass('ac');
     changeBGtoRed();
   });
 

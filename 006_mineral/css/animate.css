@@ -1,0 +1,47 @@
+.m_pop2 .g2 {
+  height: 85px;
+  transition: all 0.75s;
+}
+
+.m_pop2 .g2.ac { height: 64px; }
+
+.m_pop2 .g4 {
+  height: 85px;
+  transition: all 0.75s;
+}
+
+.m_pop2 .g4.ac { height: 189px; }
+
+/* ================================= */
+
+.m_pop4 .list,
+.m_pop5 .list,
+.m_pop6 .list {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: scale(0.8);
+}
+
+.m_pop4 .list.ac,
+.m_pop5 .list.ac,
+.m_pop6 .list.ac { opacity: 1; transform: scale(1); }
+
+.m_pop4 .plsh,
+.m_pop5 .plsh,
+.m_pop6 .plsh {
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .plsh.ac,
+.m_pop5 .plsh.ac,
+.m_pop6 .plsh.ac { left: 41px; opacity: 1; }
+
+.m_pop6 .e3 {
+  left: 4px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop6 .e3.ac { left: 44px; opacity: 1; }

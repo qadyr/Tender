@@ -189,91 +189,247 @@ $(document).ready(function () {
   $('.m_pop3 .o1').click(function() {
     $('.x_pop1').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop1 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop1 .l1').addClass('ac');
+      $('.x_pop1 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop1 .l2').addClass('ac');
+      $('.x_pop1 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop1 .l3').addClass('ac');
+      $('.x_pop1 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop1 h3').addClass('ac');
+      $('.x_pop1 h4').addClass('ac');
+    }, 2500);
     changeBGtoFirstBG();
   });
 
   $('.x_pop1 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop1 .tub').removeClass('ac');
+    $('.x_pop1 .l').removeClass('ac');
+    $('.x_pop1 .r').removeClass('ac');
+    $('.x_pop1 h3').removeClass('ac');
+    $('.x_pop1 h4').removeClass('ac');
     removeFirstBG();
   });
 
   $('.m_pop3 .o2').click(function() {
     $('.x_pop2').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop2 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop2 .l1').addClass('ac');
+      $('.x_pop2 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop2 .l2').addClass('ac');
+      $('.x_pop2 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop2 .l3').addClass('ac');
+      $('.x_pop2 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop2 .l4').addClass('ac');
+      $('.x_pop2 .r4').addClass('ac');
+    }, 2500);
     changeBGtoSecondBG();
   });
 
   $('.x_pop2 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop2 .tub').removeClass('ac');
+    $('.x_pop2 .l').removeClass('ac');
+    $('.x_pop2 .r').removeClass('ac');
     removeSecondBG();
   });
 
   $('.m_pop3 .o3').click(function() {
     $('.x_pop3').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop3 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop3 .l1').addClass('ac');
+      $('.x_pop3 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop3 .l2').addClass('ac');
+      $('.x_pop3 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop3 .l3').addClass('ac');
+      $('.x_pop3 .r3').addClass('ac');
+    }, 2000);
     changeBGtoFirstBG();
   });
 
   $('.x_pop3 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop3 .tub').removeClass('ac');
+    $('.x_pop3 .l').removeClass('ac');
+    $('.x_pop3 .r').removeClass('ac');
     removeFirstBG();
   });
 
   $('.m_pop3 .o4').click(function() {
     $('.x_pop4').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop4 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop4 .l1').addClass('ac');
+      $('.x_pop4 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop4 .l2').addClass('ac');
+      $('.x_pop4 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop4 .l3').addClass('ac');
+      $('.x_pop4 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop4 h3').addClass('ac');
+      $('.x_pop4 h4').addClass('ac');
+    }, 2500);
     changeBGtoThirdBG();
   });
 
   $('.x_pop4 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop4 .tub').removeClass('ac');
+    $('.x_pop4 .l').removeClass('ac');
+    $('.x_pop4 .r').removeClass('ac');
+    $('.x_pop4 h3').removeClass('ac');
+    $('.x_pop4 h4').removeClass('ac');
     removeThirdBG();
   });
 
   $('.m_pop3 .o5').click(function() {
     $('.x_pop5').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop5 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop5 .l1').addClass('ac');
+      $('.x_pop5 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop5 .l2').addClass('ac');
+      $('.x_pop5 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop5 .l3').addClass('ac');
+      $('.x_pop5 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop5 .r4').addClass('ac');
+      $('.x_pop5 h3').addClass('ac');
+    }, 2500);
     changeBGtoThirdBG();
   });
 
   $('.x_pop5 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop5 .tub').removeClass('ac');
+    $('.x_pop5 .l').removeClass('ac');
+    $('.x_pop5 .r').removeClass('ac');
+    $('.x_pop5 h3').removeClass('ac');
     removeThirdBG();
   });
 
   $('.m_pop3 .o6').click(function() {
     $('.x_pop6').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop6 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop6 .l1').addClass('ac');
+      $('.x_pop6 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop6 .l2').addClass('ac');
+      $('.x_pop6 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop6 .l3').addClass('ac');
+      $('.x_pop6 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop6 .r4').addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.x_pop6 .r5').addClass('ac');
+    }, 3000);
     changeBGtoThirdBG();
   });
 
   $('.x_pop6 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop6 .tub').removeClass('ac');
+    $('.x_pop6 .l').removeClass('ac');
+    $('.x_pop6 .r').removeClass('ac');
     removeThirdBG();
   });
 
   $('.m_pop3 .o7').click(function() {
     $('.x_pop7').fadeIn();
     $('.m_pop3').fadeOut();
+    setTimeout(function() {
+      $('.x_pop7 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop7 .l1').addClass('ac');
+      $('.x_pop7 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop7 .l2').addClass('ac');
+      $('.x_pop7 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop7 .l3').addClass('ac');
+      $('.x_pop7 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop7 .r4').addClass('ac');
+    }, 2500);
     changeBGtoFourthBG();
   });
 
   $('.x_pop7 .x').click(function() {
     $(this).parent().fadeOut();
     $('.m_pop3').fadeIn();
+    $('.x_pop7 .tub').removeClass('ac');
+    $('.x_pop7 .l').removeClass('ac');
+    $('.x_pop7 .r').removeClass('ac');
     removeFourthBG();
   });
 
   $('.main-m .prev-move').click(function() {
-    $('.sl._show').removeClass('_show').prev().addClass('_show');
-    $(this).addClass('hide');
-    $('.main-m .next-move').removeClass('hide');
+    // $('.sl._show').removeClass('_show').prev().addClass('_show');
+    // $(this).addClass('hide');
+    // $('.main-m .next-move').removeClass('hide');
   });
   $('.main-m .next-move').click(function() {
     $('.sl._show').removeClass('_show').next().addClass('_show');

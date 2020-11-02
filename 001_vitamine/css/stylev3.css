@@ -256,7 +256,7 @@ html {
 .sl2 .ovec {
   transform: translateY(-80px);
   opacity: 0;
-  transition: all 0.25s;
+  transition: all 0.5s;
 }
 
 .sl2 .ovec.ac {
@@ -1233,8 +1233,8 @@ html {
   color: #444444;
 }
 
-.m_pop7 .e6 { right: 645px; }
-.m_pop7 .e7 { left: 570px; }
+.m_pop7 .e6 { right: 675px; }
+.m_pop7 .e7 { left: 620px; }
 
 .m_pop7 .e4 {
   width: 500px;

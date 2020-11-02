@@ -144,24 +144,76 @@ $(document).ready(function () {
 
   $('.m_pop3 .o1').click(function() {
     $('.x_pop1').fadeIn();
+    setTimeout(function() {
+      $('.x_pop1 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop1 h3').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop1 .l1').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop1 .l2').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop1 h4').addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.x_pop1 .r1').addClass('ac');
+    }, 3000);
+    setTimeout(function() {
+      $('.x_pop1 .b').addClass('ac');
+    }, 3500);
   });
 
   $('.x_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.x_pop1 .tub').removeClass('ac');
+    $('.x_pop1 h3').removeClass('ac');
+    $('.x_pop1 .l1').removeClass('ac');
+    $('.x_pop1 .l2').removeClass('ac');
+    $('.x_pop1 h4').removeClass('ac');
+    $('.x_pop1 .r1').removeClass('ac');
+    $('.x_pop1 .b').removeClass('ac');
   });
 
   $('.m_pop3 .o2').click(function() {
     $('.x_pop2').fadeIn();
+    setTimeout(function() {
+      $('.x_pop2 .tub').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.x_pop2 .l1').addClass('ac');
+      $('.x_pop2 .r1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.x_pop2 .l2').addClass('ac');
+      $('.x_pop2 .r2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.x_pop2 .l3').addClass('ac');
+      $('.x_pop2 .r3').addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.x_pop2 .r4').addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.x_pop2 .r5').addClass('ac');
+    }, 3000);
   });
 
   $('.x_pop2 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.x_pop2 .tub').removeClass('ac');
+    $('.x_pop2 .l').removeClass('ac');
+    $('.x_pop2 .r').removeClass('ac');
   });
 
   $('.main-m .prev-move').click(function() {
-    $('.sl._show').removeClass('_show').prev().addClass('_show');
-    $(this).addClass('hide');
-    $('.main-m .next-move').removeClass('hide');
+    // $('.sl._show').removeClass('_show').prev().addClass('_show');
+    // $(this).addClass('hide');
+    // $('.main-m .next-move').removeClass('hide');
   });
   $('.main-m .next-move').click(function() {
     $('.sl._show').removeClass('_show').next().addClass('_show');

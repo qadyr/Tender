@@ -1,0 +1,53 @@
+.m_pop2 .g4 {
+  height: 151px;
+  transition: all 0.75s;
+}
+
+.m_pop2 .g4.ac { height: 108px; }
+
+.m_pop2 .g5 {
+  height: 113.22px;
+  transition: all 0.75s;
+}
+
+.m_pop2 .g5.ac { height: 62.65px; }
+
+.m_pop2 .g6 {
+  height: 78.26px;
+  transition: all 0.75s;
+}
+
+.m_pop2 .g6.ac { height: 39.65px; }
+
+.m_pop2 .g span { opacity: 0; transition: all 0.5s 0.75s; }
+.m_pop2 .g.ac span { opacity: 1; }
+
+/* ====================================== */
+
+.m_pop4 .list,
+.m_pop5 .list,
+.m_pop6 .list,
+.m_pop7 .list {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: scale(0.8);
+}
+
+.m_pop4 .list.ac,
+.m_pop5 .list.ac,
+.m_pop6 .list.ac,
+.m_pop7 .list.ac { opacity: 1; transform: scale(1); }
+
+.m_pop4 .plsh,
+.m_pop5 .plsh,
+.m_pop6 .plsh,
+.m_pop7 .plsh {
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .plsh.ac,
+.m_pop5 .plsh.ac,
+.m_pop6 .plsh.ac,
+.m_pop7 .plsh.ac { left: 41px; opacity: 1; }

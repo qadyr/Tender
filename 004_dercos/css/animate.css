@@ -1,0 +1,29 @@
+.m_pop2 .plsh {
+  opacity: 0;
+  left: -40px;
+  transition: all 0.5s;
+}
+
+.m_pop2 .plsh.ac { left: 0; opacity: 1; }
+
+.m_pop2 .list {
+  top: 365px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop2 .list.ac { top: 405px; opacity: 1; }
+
+/* ======================================== */
+
+.m_pop4 .list {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .list.ac { opacity: 1; transform: scale(1); }
+
+.m_pop4 .plsh { left: -40px; opacity: 0; transition: all 0.5s; }
+
+.m_pop4 .plsh.ac { left: 0; opacity: 1; }

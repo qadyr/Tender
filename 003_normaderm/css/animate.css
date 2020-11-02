@@ -1,0 +1,43 @@
+.m_pop2 .arrow {
+  width: 0;
+  transition: all 0.75s;
+}
+
+.m_pop2 .arrow.ac { width: 276px; }
+
+.m_pop2 .q12 { opacity: 0; transition: all 0.75s; }
+.m_pop2 .q12.ac { opacity: 1; }
+
+/* ====================================== */
+
+.m_pop4 .list,
+.m_pop5 .list,
+.m_pop6 .list,
+.m_pop7 .list,
+.m_pop9 .list {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: scale(0.8);
+}
+
+.m_pop4 .list.ac,
+.m_pop5 .list.ac,
+.m_pop6 .list.ac,
+.m_pop7 .list.ac,
+.m_pop9 .list.ac { opacity: 1; transform: scale(1); }
+
+.m_pop4 .plsh,
+.m_pop5 .plsh,
+.m_pop6 .plsh,
+.m_pop7 .plsh,
+.m_pop9 .plsh {
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .plsh.ac,
+.m_pop5 .plsh.ac,
+.m_pop6 .plsh.ac,
+.m_pop7 .plsh.ac,
+.m_pop9 .plsh.ac { left: 41px; opacity: 1; }

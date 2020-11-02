@@ -253,7 +253,7 @@ html {
 .sl2 .ovec {
   transform: translateY(-80px);
   opacity: 0;
-  transition: all 0.25s;
+  transition: all 0.5s;
 }
 
 .sl2 .ovec.ac {
@@ -825,17 +825,6 @@ html {
 
 .m_pop5 .list1 { top: 275px; left: 659px; }
 
-.m_pop5 .list1:after {
-  content: '';
-  position: absolute;
-  z-index: 3;
-  bottom: -15px;
-  left: -75px;
-  width: 49px;
-  height: 49px;
-  background-image: url(../images/02/line.png);
-}
-
 .m_pop5 .plsh {
   left: 0;
   width: 460px;
@@ -864,6 +853,14 @@ html {
   width: 675px;
   height: 669px;
   background-image: url(../images/02/t2.png);
+}
+
+.m_pop5 .angle {
+  top: 569px;
+  left: 584px;
+  width: 49px;
+  height: 49px;
+  background-image: url(../images/02/line.png);
 }
 
 .m_pop6 {

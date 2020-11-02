@@ -1,0 +1,151 @@
+.m_pop2 .q3 { left: 0; opacity: 0; transition: all 0.5s; }
+.m_pop2 .q3.ac { left: 50px; opacity: 1; }
+
+.m_pop2 .q4 { left: 674px; right: 0; opacity: 0; transition: all 0.5s; }
+.m_pop2 .q4.ac { left: 624px; opacity: 1; }
+
+.m_pop2 .q5 { right: 685px; left: 0; opacity: 0; transition: all 0.5s; }
+.m_pop2 .q5.ac { right: 625px; opacity: 1; }
+
+.m_pop2 .q6 { left: 674px; right: 0; opacity: 0; transition: all 0.5s; }
+.m_pop2 .q6.ac { left: 625px; opacity: 1; }
+
+.m_pop2 .q7 { right: 685px; left: 0; opacity: 0; transition: all 0.5s; }
+.m_pop2 .q7.ac { right: 625px; opacity: 1; }
+
+.m_pop2 .q8 { left: 674px; right: 0; opacity: 0; transition: all 0.5s; }
+.m_pop2 .q8.ac { left: 625px; opacity: 1; }
+
+/* ================================ */
+
+.m_pop4 .plsh,
+.m_pop5 .plsh,
+.m_pop6 .plsh,
+.m_pop7 .plsh {
+  left: -50px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .plsh.ac,
+.m_pop5 .plsh.ac,
+.m_pop6 .plsh.ac,
+.m_pop7 .plsh.ac {
+  left: 0;
+  opacity: 1;
+}
+
+.m_pop4 .tub1,
+.m_pop5 .tub1,
+.m_pop6 .tub1,
+.m_pop7 .tub1 {
+  opacity: 0;
+  transition: all 0.75s;
+}
+
+.m_pop4 .tub1 { top: 256px; }
+.m_pop5 .tub1 { top: 250px; }
+.m_pop6 .tub1 { top: 210px; }
+.m_pop7 .tub1 { top: 242px; }
+
+.m_pop4 .tub1.ac {
+  top: 216px;
+  opacity: 1;
+}
+
+.m_pop5 .tub1.ac {
+  top: 200px;
+  opacity: 1;
+}
+
+.m_pop6 .tub1.ac {
+  top: 160px;
+  opacity: 1;
+}
+
+.m_pop7 .tub1.ac {
+  top: 192px;
+  opacity: 1;
+}
+
+.m_pop4 .mlist {
+  left: 462px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop4 .mlist.ac {
+  left: 512px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop5 .mlist {
+  left: 462px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop5 .mlist.ac {
+  left: 512px;
+  opacity: 1;
+}
+
+.m_pop5 .e6,
+.m_pop5 .e7 {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop5 .e6.ac {
+  right: 655px;
+  opacity: 1;
+}
+
+.m_pop5 .e7.ac {
+  left: 630px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop6 .mlist {
+  left: 462px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop6 .mlist.ac {
+  left: 512px;
+  opacity: 1;
+}
+
+/* -------------------------------- */
+
+.m_pop7 .mlist {
+  left: 440px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop7 .mlist.ac {
+  left: 480px;
+  opacity: 1;
+}
+
+.m_pop7 .e6,
+.m_pop7 .e7 {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.m_pop7 .e6.ac {
+  right: 645px;
+  opacity: 1;
+}
+
+.m_pop7 .e7.ac {
+  left: 590px;
+  opacity: 1;
+}
