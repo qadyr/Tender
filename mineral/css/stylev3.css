@@ -189,6 +189,10 @@ html {
   border: 0;
 }
 
+.sl1 .like form input[disabled] {
+  background-image: url(../images/01/clicked.svg);
+}
+
 .sl1 h1 {
   top: 186px;
   left: 422px;

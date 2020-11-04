@@ -624,6 +624,10 @@ html {
   border: 0;
 }
 
+.m_pop3 .like form input[disabled] {
+  background-image: url(../images/01/clicked.svg);
+}
+
 .m_pop3 .x {
   top: 40px;
   left: 40px;

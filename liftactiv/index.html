@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="css/animate.css">
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
+	   <script src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#button').on('click', function() { 		
+        $.ajax({
+			url: 'click.php',         
+			method: 'get',             
+			dataType: 'json',          
+			data: {id: '5'},     //id счетчика
+			success: function(data){   
+				$('#count').html(data.count);
+				//alert(data.ip);
+				if(data.ip){
+					$('#button').prop('disabled', true);
+				}
+			}
+		});
+		
+	});
+	
+	
+});
+</script>
   </head>
   <body>
     <div class="wrap">
@@ -21,13 +44,18 @@
           </nav>
           <div class="sl sl1 _show">
             <div class="abs like">
+				<?php
+	$id_counter = "5"; //id счетчика
+	require_once "select_count.php";
+?>
               <p>
                 Я рекомендую СЫВОРОТКУ<br>
                 <b>LIFTACTIV SPECIALIST PEPTIDE-C</b><br>
-                <b>27 коллег</b> рекомендуют
+                <b><span id="count"><?php echo $count; ?></span> коллег</b> рекомендуют
               </p>
-              <form action="#" method="post" class="abs">
-                <input type="submit" value="">
+              <input id="input_count" type="hidden" value="0">
+       			<form class="abs">
+				 <input type="button" id="button" value="" >
               </form>
             </div>
             <div class="abs tub"></div>

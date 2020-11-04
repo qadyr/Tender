@@ -70,6 +70,10 @@ $(document).ready(function () {
     ress();
   });
 
+  $('.m_pop3 .like form input').click(function() {
+    $(this).attr('disabled', 'disabled');
+  });
+
   $('.sl2 .sl2-link1').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec1').addClass('ac');
