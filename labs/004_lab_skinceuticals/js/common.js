@@ -97,4 +97,25 @@ $(window).load(function () {
     }, 7300);
   }, 500);
 
+  $('.sl1 .o1').click(function() {
+    $('.m_pop1').fadeIn();
+  });
+  $('.m_pop1 .x').click(function() {
+    $('.m_pop1').fadeOut();
+  });
+
+  $('.sl1 .o2').click(function() {
+    $('.m_pop2').fadeIn();
+  });
+  $('.m_pop2 .x').click(function() {
+    $('.m_pop2').fadeOut();
+  });
+
+  $('.sl1 .o3').click(function() {
+    $('.m_pop3').fadeIn();
+  });
+  $('.m_pop3 .x').click(function() {
+    $('.m_pop3').fadeOut();
+  });
+
 });

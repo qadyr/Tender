@@ -91,4 +91,11 @@ $(window).load(function () {
     }, 5700);
   }, 500);
 
+  $('.sl1 .o1').click(function() {
+    $('.m_pop1').fadeIn();
+  });
+  $('.m_pop1 .x').click(function() {
+    $('.m_pop1').fadeOut();
+  });
+
 });

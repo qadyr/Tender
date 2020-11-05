@@ -290,9 +290,9 @@ $(document).ready(function () {
     changeBGtoWhite();
   });
 
-  $('.main-m .prev-move').click(function() {
+  $('.main-m .prev-move').click(function(e) {
+    if ( $('.sl2').hasClass('_show') ) e.preventDefault();
     $('.sl._show').removeClass('_show').prev().addClass('_show');
-    $(this).addClass('hide');
     $('.main-m .next-move').removeClass('hide');
     $('.sl2 .sl2-links').removeClass('ac');
     $('.sl2 .ovec').removeClass('ac');
@@ -300,7 +300,6 @@ $(document).ready(function () {
   $('.main-m .next-move').click(function() {
     $('.sl._show').removeClass('_show').next().addClass('_show');
     $(this).addClass('hide');
-    $('.main-m .prev-move').removeClass('hide');
     setTimeout(function() {
       $('.sl2 .sl2-link1').addClass('ac');
     }, 500);
