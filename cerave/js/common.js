@@ -98,6 +98,23 @@ $(document).ready(function () {
     ress();
   });
 
+  setTimeout(function() {
+    $('.sl2 .sl2-link1').addClass('ac');
+  }, 500);
+  setTimeout(function() {
+    $('.sl2 .sl2-link2').addClass('ac');
+  }, 750);
+  setTimeout(function() {
+    $('.sl2 .sl2-link3').addClass('ac');
+  }, 1000);
+  setTimeout(function() {
+    $('.sl2 .sl2-link4').addClass('ac');
+  }, 1250);
+
+  $('.m_pop3 .like form input').click(function() {
+    $(this).attr('disabled', 'disabled');
+  });
+
   $('.sl2 .sl2-link1').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec1').addClass('ac');

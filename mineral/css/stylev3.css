@@ -189,6 +189,10 @@ html {
   border: 0;
 }
 
+.sl1 .like form input[disabled] {
+  background-image: url(../images/01/clicked.svg);
+}
+
 .sl1 h1 {
   top: 186px;
   left: 422px;
@@ -228,26 +232,112 @@ html {
   width: 109px;
   height: 130px;
   border-radius: 35px;
+  transition: all 0.25s;
+  transform: translateY(40px);
+  opacity: 0;
 }
+
+.sl2 .sl2-links.ac {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.sl2 .sl2-links span {
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.sl2 .sl2-link1 span { top: 105px; left: 0; }
+.sl2 .sl2-link2 span { top: 104px; left: 2px; }
+.sl2 .sl2-link3 span { top: 107px; left: 5px; }
+.sl2 .sl2-link4 span { top: 105px; left: 2px; }
 
 .sl2 .sl2-link1 {
   top: 610px;
-  left: 445px;
+  left: 448px;
+}
+
+.sl2 .sl2-link1:before,
+.sl2 .sl2-link2:before,
+.sl2 .sl2-link3:before,
+.sl2 .sl2-link4:before {
+  content: '';
+  position: absolute;
+  width: 148px;
+  height: 39px;
+  background-image: url(../images/02/ishadow.png);
+}
+
+.sl2 .sl2-link1:before { top: 70px; left: -30px; }
+.sl2 .sl2-link2:before { top: 80px; left: -20px; }
+.sl2 .sl2-link3:before { top: 73px; left: -15px; }
+.sl2 .sl2-link4:before { top: 73px; left: -15px; }
+
+.sl2 .sl2-link1:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 93px;
+  height: 92px;
+  background-image: url(../images/02/item1.png);
+  background-repeat: no-repeat;
 }
 
 .sl2 .sl2-link2 {
-  top: 610px;
-  left: 580px;
+  top: 611px;
+  left: 584px;
+}
+
+.sl2 .sl2-link2:after {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  width: 79px;
+  height: 79px;
+  background-image: url(../images/02/item2.png);
+  background-repeat: no-repeat;
 }
 
 .sl2 .sl2-link3 {
   top: 610px;
-  left: 717px;
+  left: 721px;
+}
+
+.sl2 .sl2-link3:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  width: 101px;
+  height: 101px;
+  background-image: url(../images/02/item3.png);
+  background-repeat: no-repeat;
 }
 
 .sl2 .sl2-link4 {
   top: 610px;
-  left: 860px;
+  left: 864px;
+}
+
+.sl2 .sl2-link4:after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -5px;
+  width: 107px;
+  height: 107px;
+  background-image: url(../images/02/item4.png);
+  background-repeat: no-repeat;
 }
 
 .sl2 .ovec {
