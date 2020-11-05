@@ -76,16 +76,37 @@ $(document).ready(function () {
     ress();
   });
 
+  setTimeout(function() {
+    $('.sl2 h3').addClass('ac');
+  }, 500);
+  setTimeout(function() {
+    $('.sl2 h4').addClass('ac');
+    $('.sl2 .list').addClass('ac');
+  }, 1000);
+  setTimeout(function() {
+    $('.sl2 .line li').eq(0).addClass('ac');
+  }, 1500);
+  setTimeout(function() {
+    $('.sl2 .line li').eq(1).addClass('ac');
+  }, 2000);
+  setTimeout(function() {
+    $('.sl2 .line li').eq(2).addClass('ac');
+  }, 2500);
+
   $('.main-m .next-move').click(function() {
     hideEl();
     changeToWhite();
     $('.mp2').fadeIn();
+    setTimeout(function() {
+      $('.mp2 .gg .g3').addClass('ac');
+    }, 500);
   });
 
   $('.mp2 .x').click(function() {
     showEl();
     changeToBlue();
     $('.mp2').fadeOut();
+    $('.mp2 .gg .g3').removeClass('ac');
   });
 
 });

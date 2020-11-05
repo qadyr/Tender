@@ -1,0 +1,299 @@
+.mp1 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp1 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp1 .flist,
+.mp1 .slist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp1 .flist.ac,
+.mp1 .slist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp1 .cslist li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp1 .cslist li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp1d .g {
+  height: 0;
+  transition: all 1.25s;
+}
+
+.mp1d .g1.ac { height: 280px; }
+.mp1d .g2.ac { height: 368px; }
+.mp1d .g3.ac { height: 363px; }
+.mp1d .g4.ac { height: 360px; }
+
+.mp1d .g .sp1 {
+  opacity: 0;
+  transition: all 0.5s 1.25s;
+}
+
+.mp1d .g.ac .sp1 { opacity: 1; }
+
+/* ===================================== */
+
+.mp2 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp2 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp2 .flist,
+.mp2 .slist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp2 .flist.ac,
+.mp2 .slist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp2 .cslist li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp2 .cslist li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp2d .g {
+  height: 0;
+  transition: all 1.25s;
+}
+
+.mp2d .g1.ac { height: 280px; }
+.mp2d .g2.ac { height: 368px; }
+.mp2d .g3.ac { height: 363px; }
+.mp2d .g4.ac { height: 360px; }
+
+.mp2d .g .sp1 {
+  opacity: 0;
+  transition: all 0.5s 1.25s;
+}
+
+.mp2d .g.ac .sp1 { opacity: 1; }
+
+/* ===================================== */
+
+.mp3 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp3 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp3 .flist,
+.mp3 .slist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp3 .flist.ac,
+.mp3 .slist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp3 .cslist li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp3 .cslist li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ===================================== */
+
+.mp4 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp4 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp4 .flist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp4 .flist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp4 .cslist li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp4 .cslist li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp4 .slist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp4 .slist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ===================================== */
+
+.mp5 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp5 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp5 .flist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp5 .flist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp5 .cslist li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp5 .cslist li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp5 .slist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp5 .slist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ===================================== */
+
+.mp6 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp6 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp6 .flist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp6 .flist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp6 .cslist li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp6 .cslist li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp6 .slist {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mp6 .slist.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp6d .gw {
+  height: 0;
+  transition: all 1.25s;
+}
+
+.mp6d .gw1.ac { height: 162px; }
+.mp6d .gw2.ac { height: 169px; }
+.mp6d .gw3.ac { height: 326px; }
+.mp6d .gw4.ac { height: 185px; }
+.mp6d .gw5.ac { height: 181px; }
+.mp6d .gw6.ac { height: 326px; }
+
+.mp6d .gw span {
+  opacity: 0;
+  transition: all 0.5s 1.25s;
+}
+
+.mp6d .gw.ac span { opacity: 1; }

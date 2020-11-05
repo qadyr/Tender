@@ -1,0 +1,83 @@
+.sl2 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl2 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl2 h4 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl2 h4.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl2 .list {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl2 .list.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl2 .line li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl2 .line li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp2 .gg1 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg1 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg1 .g3.ac { height: 170px; }
+.mp2 .gg1 .g3.ac span { opacity: 1; }
+
+.mp2 .gg2 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg2 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg2 .g3.ac { height: 170px; }
+.mp2 .gg2 .g3.ac span { opacity: 1; }
+
+.mp2 .gg3 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg3 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg3 .g3.ac { height: 170px; }
+.mp2 .gg3 .g3.ac span { opacity: 1; }
+
+.mp2 .gg4 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg4 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg4 .g3.ac { height: 199px; }
+.mp2 .gg4 .g3.ac span { opacity: 1; }
+
+.mp2 .gg5 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg5 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg5 .g3.ac { height: 305px; }
+.mp2 .gg5 .g3.ac span { opacity: 1; }
+
+.mp2 .gg6 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg6 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg6 .g3.ac { height: 293px; }
+.mp2 .gg6 .g3.ac span { opacity: 1; }
+
+.mp2 .gg7 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg7 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg7 .g3.ac { height: 134px; }
+.mp2 .gg7 .g3.ac span { opacity: 1; }
+
+.mp2 .gg8 .g3 { height: 0; transition: all 1.25s; }
+.mp2 .gg8 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg8 .g3.ac { height: 134px; }
+.mp2 .gg8 .g3.ac span { opacity: 1; }

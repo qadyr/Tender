@@ -80,49 +80,132 @@ $(document).ready(function () {
     $('.mp1').fadeIn();
     changeToGray();
     hideEl();
+    setTimeout(function() {
+      $('.mp1 h3').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.mp1 .list1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.mp1 .list2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.mp1 .cslist li').eq(0).addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.mp1 .cslist li').eq(1).addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.mp1 .cslist li').eq(2).addClass('ac');
+    }, 3000);
+    setTimeout(function() {
+      $('.mp1 .cslist li').eq(3).addClass('ac');
+    }, 3500);
   });
   $('.mp1 .x').click(function() {
     $(this).parent().fadeOut();
     changeToLightBlue();
     showEl();
+    $('.mp1 h3').removeClass('ac');
+    $('.mp1 .flist').removeClass('ac');
+    $('.mp1 .slist').removeClass('ac');
+    $('.mp1 .cslist li').removeClass('ac');
   });
   $('.mp1 .o').click(function() {
     $('.mp1d').fadeIn();
     $(this).parent().fadeOut();
+    setTimeout(function() {
+      $('.mp1d .g').addClass('ac');
+    }, 500);
   });
   $('.mp1d .x').click(function() {
     $(this).parent().fadeOut();
     $('.mp1').fadeIn();
+    $('.mp1d .g').removeClass('ac');
   });
 
   $('.sl1 .o2').click(function() {
     $('.mp2').fadeIn();
     changeToGray();
     hideEl();
+    setTimeout(function() {
+      $('.mp2 h3').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.mp2 .list1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.mp2 .list2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.mp2 .cslist li').eq(0).addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.mp2 .cslist li').eq(1).addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.mp2 .cslist li').eq(2).addClass('ac');
+    }, 3000);
+    setTimeout(function() {
+      $('.mp2 .cslist li').eq(3).addClass('ac');
+    }, 3500);
   });
   $('.mp2 .x').click(function() {
     $(this).parent().fadeOut();
     changeToLightBlue();
     showEl();
+    $('.mp2 h3').removeClass('ac');
+    $('.mp2 .list1').removeClass('ac');
+    $('.mp2 .list2').removeClass('ac');
+    $('.mp2 .cslist li').removeClass('ac');
   });
   $('.mp2 .o').click(function() {
     $('.mp2d').fadeIn();
     $(this).parent().fadeOut();
+    setTimeout(function() {
+      $('.mp2d .g').addClass('ac');
+    }, 500);
   });
   $('.mp2d .x').click(function() {
     $(this).parent().fadeOut();
     $('.mp2').fadeIn();
+    $('.mp2d .g').removeClass('ac');
   });
 
   $('.sl1 .o3').click(function() {
     $('.mp3').fadeIn();
     changeToGray();
     hideEl();
+    setTimeout(function() {
+      $('.mp3 h3').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.mp3 .list1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.mp3 .list2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.mp3 .cslist li').eq(0).addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.mp3 .cslist li').eq(1).addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.mp3 .cslist li').eq(2).addClass('ac');
+    }, 3000);
+    setTimeout(function() {
+      $('.mp3 .cslist li').eq(3).addClass('ac');
+    }, 3500);
   });
   $('.mp3 .x').click(function() {
     $(this).parent().fadeOut();
     changeToLightBlue();
     showEl();
+    $('.mp3 h3').removeClass('ac');
+    $('.mp3 .list1').removeClass('ac');
+    $('.mp3 .list2').removeClass('ac');
+    $('.mp3 .cslist li').removeClass('ac');
   });
   $('.mp3 .o').click(function() {
     $('.mp3d').fadeIn();
@@ -137,22 +220,74 @@ $(document).ready(function () {
     $('.mp4').fadeIn();
     changeToGray();
     hideEl();
+    setTimeout(function() {
+      $('.mp4 h3').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.mp4 .list1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.mp4 .cslist li').eq(0).addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.mp4 .cslist li').eq(1).addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.mp4 .cslist li').eq(2).addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.mp4 .slist').addClass('ac');
+    }, 3000);
   });
   $('.mp4 .x').click(function() {
     $(this).parent().fadeOut();
     changeToLightBlue();
     showEl();
+    $('.mp4 h3').removeClass('ac');
+    $('.mp4 .list1').removeClass('ac');
+    $('.mp4 .flist').removeClass('ac');
+    $('.mp4 .cslist li').removeClass('ac');
+    $('.mp4 .slist').removeClass('ac');
   });
 
   $('.sl1 .o5').click(function() {
     $('.mp5').fadeIn();
     changeToGray();
     hideEl();
+    setTimeout(function() {
+      $('.mp5 h3').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.mp5 .list1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.mp5 .list1-2').addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.mp5 .cslist li').eq(0).addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.mp5 .cslist li').eq(1).addClass('ac');
+    }, 2500);
+    setTimeout(function() {
+      $('.mp5 .cslist li').eq(2).addClass('ac');
+    }, 3000);
+    setTimeout(function() {
+      $('.mp5 .cslist li').eq(3).addClass('ac');
+    }, 3500);
+    setTimeout(function() {
+      $('.mp5 .slist').addClass('ac');
+    }, 4000);
   });
   $('.mp5 .x').click(function() {
     $(this).parent().fadeOut();
     changeToLightBlue();
     showEl();
+    $('.mp5 h3').removeClass('ac');
+    $('.mp5 .list1').removeClass('ac');
+    $('.mp5 .list1-2').removeClass('ac');
+    $('.mp5 .cslist li').removeClass('ac');
+    $('.mp5 .slist').removeClass('ac');
   });
   $('.mp5 .o').click(function() {
     $('.mp5d').fadeIn();
@@ -167,19 +302,42 @@ $(document).ready(function () {
     $('.mp6').fadeIn();
     changeToGray();
     hideEl();
+    setTimeout(function() {
+      $('.mp6 h3').addClass('ac');
+    }, 500);
+    setTimeout(function() {
+      $('.mp6 .list1').addClass('ac');
+    }, 1000);
+    setTimeout(function() {
+      $('.mp6 .cslist li').eq(0).addClass('ac');
+    }, 1500);
+    setTimeout(function() {
+      $('.mp6 .cslist li').eq(1).addClass('ac');
+    }, 2000);
+    setTimeout(function() {
+      $('.mp6 .slist').addClass('ac');
+    }, 2500);
   });
   $('.mp6 .x').click(function() {
     $(this).parent().fadeOut();
     changeToLightBlue();
     showEl();
+    $('.mp6 h3').removeClass('ac');
+    $('.mp6 .list1').removeClass('ac');
+    $('.mp6 .cslist li').removeClass('ac');
+    $('.mp6 .slist').removeClass('ac');
   });
   $('.mp6 .o').click(function() {
     $('.mp6d').fadeIn();
     $(this).parent().fadeOut();
+    setTimeout(function() {
+      $('.mp6d .gw').addClass('ac');
+    }, 500);
   });
   $('.mp6d .x').click(function() {
     $(this).parent().fadeOut();
     $('.mp6').fadeIn();
+    $('.mp6d .gw').removeClass('ac');
   });
 
 });

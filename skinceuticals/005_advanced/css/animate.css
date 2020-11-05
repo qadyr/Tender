@@ -1,0 +1,140 @@
+.sl5 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl5 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl5 .list {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl5 .list.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl5 .line li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl5 .line li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp5 .gg1 .g1 { height: 0; transition: all 1.25s; }
+.mp5 .gg1 .g1.ac { height: 107px; }
+.mp5 .gg1 .g1 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg1 .g1.ac span { opacity: 1; }
+
+.mp5 .gg1 .g2 { height: 0; transition: all 1.25s; }
+.mp5 .gg1 .g2.ac { height: 243px; }
+.mp5 .gg1 .g2 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg1 .g2.ac span { opacity: 1; }
+
+.mp5 .gg1 .g3 { height: 0; transition: all 1.25s; }
+.mp5 .gg1 .g3.ac { height: 255px; }
+.mp5 .gg1 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg1 .g3.ac span { opacity: 1; }
+
+.mp5 .gg1 .g4 { height: 0; transition: all 1.25s; }
+.mp5 .gg1 .g4.ac { height: 313px; }
+.mp5 .gg1 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg1 .g4.ac span { opacity: 1; }
+
+/*  */
+
+.mp5 .gg2 .g1 { height: 0; transition: all 1.25s; }
+.mp5 .gg2 .g1.ac { height: 46px; }
+.mp5 .gg2 .g1 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg2 .g1.ac span { opacity: 1; }
+
+.mp5 .gg2 .g2 { height: 0; transition: all 1.25s; }
+.mp5 .gg2 .g2.ac { height: 120px; }
+.mp5 .gg2 .g2 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg2 .g2.ac span { opacity: 1; }
+
+.mp5 .gg2 .g3 { height: 0; transition: all 1.25s; }
+.mp5 .gg2 .g3.ac { height: 166px; }
+.mp5 .gg2 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg2 .g3.ac span { opacity: 1; }
+
+.mp5 .gg2 .g4 { height: 0; transition: all 1.25s; }
+.mp5 .gg2 .g4.ac { height: 214px; }
+.mp5 .gg2 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg2 .g4.ac span { opacity: 1; }
+
+/*  */
+
+.mp5 .gg3 .g1 { height: 0; transition: all 1.25s; }
+.mp5 .gg3 .g1.ac { height: 57px; }
+.mp5 .gg3 .g1 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg3 .g1.ac span { opacity: 1; }
+
+.mp5 .gg3 .g2 { height: 0; transition: all 1.25s; }
+.mp5 .gg3 .g2.ac { height: 151px; }
+.mp5 .gg3 .g2 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg3 .g2.ac span { opacity: 1; }
+
+.mp5 .gg3 .g3 { height: 0; transition: all 1.25s; }
+.mp5 .gg3 .g3.ac { height: 228px; }
+.mp5 .gg3 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg3 .g3.ac span { opacity: 1; }
+
+.mp5 .gg3 .g4 { height: 0; transition: all 1.25s; }
+.mp5 .gg3 .g4.ac { height: 273px; }
+.mp5 .gg3 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg3 .g4.ac span { opacity: 1; }
+
+/*  */
+
+.mp5 .gg4 .g1 { height: 0; transition: all 1.25s; }
+.mp5 .gg4 .g1.ac { height: 97px; }
+.mp5 .gg4 .g1 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg4 .g1.ac span { opacity: 1; }
+
+.mp5 .gg4 .g2 { height: 0; transition: all 1.25s; }
+.mp5 .gg4 .g2.ac { height: 172px; }
+.mp5 .gg4 .g2 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg4 .g2.ac span { opacity: 1; }
+
+.mp5 .gg4 .g3 { height: 0; transition: all 1.25s; }
+.mp5 .gg4 .g3.ac { height: 244px; }
+.mp5 .gg4 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg4 .g3.ac span { opacity: 1; }
+
+.mp5 .gg4 .g4 { height: 0; transition: all 1.25s; }
+.mp5 .gg4 .g4.ac { height: 273px; }
+.mp5 .gg4 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg4 .g4.ac span { opacity: 1; }
+
+/*  */
+
+.mp5 .gg5 .g1 { height: 0; transition: all 1.25s; }
+.mp5 .gg5 .g1.ac { height: 112px; }
+.mp5 .gg5 .g1 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg5 .g1.ac span { opacity: 1; }
+
+.mp5 .gg5 .g2 { height: 0; transition: all 1.25s; }
+.mp5 .gg5 .g2.ac { height: 165px; }
+.mp5 .gg5 .g2 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg5 .g2.ac span { opacity: 1; }
+
+.mp5 .gg5 .g3 { height: 0; transition: all 1.25s; }
+.mp5 .gg5 .g3.ac { height: 236px; }
+.mp5 .gg5 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg5 .g3.ac span { opacity: 1; }
+
+.mp5 .gg5 .g4 { height: 0; transition: all 1.25s; }
+.mp5 .gg5 .g4.ac { height: 267px; }
+.mp5 .gg5 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp5 .gg5 .g4.ac span { opacity: 1; }

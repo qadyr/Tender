@@ -69,14 +69,40 @@ $(document).ready(function () {
     ress();
   });
 
+  setTimeout(function() {
+    $('.sl5 h3').addClass('ac');
+  }, 500);
+  setTimeout(function() {
+    $('.sl5 .list').addClass('ac');
+  }, 1000);
+  setTimeout(function() {
+    $('.sl5 .line li').eq(0).addClass('ac');
+  }, 1500);
+  setTimeout(function() {
+    $('.sl5 .line li').eq(1).addClass('ac');
+  }, 2000);
+  setTimeout(function() {
+    $('.sl5 .line li').eq(2).addClass('ac');
+  }, 2500);
+
   $('.main-m .next-move').click(function() {
     hideEl();
     $('.mp5').fadeIn();
+    setTimeout(function() {
+      $('.mp5 .gg .g1').addClass('ac');
+      $('.mp5 .gg .g2').addClass('ac');
+      $('.mp5 .gg .g3').addClass('ac');
+      $('.mp5 .gg .g4').addClass('ac');
+    }, 500);
   });
 
   $('.mp5 .x').click(function() {
     showEl();
     $('.mp5').fadeOut();
+    $('.mp5 .gg .g1').removeClass('ac');
+    $('.mp5 .gg .g2').removeClass('ac');
+    $('.mp5 .gg .g3').removeClass('ac');
+    $('.mp5 .gg .g4').removeClass('ac');
   });
 
 });

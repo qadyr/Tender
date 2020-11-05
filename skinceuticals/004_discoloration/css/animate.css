@@ -1,0 +1,75 @@
+.sl4 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl4 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl4 .line li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl4 .line li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp4 .gg1 .g2 { height: 0; transition: all 1.25s; }
+.mp4 .gg1 .g2.ac { height: 77px; }
+.mp4 .gg1 .g3 { height: 0; transition: all 1.25s; }
+.mp4 .gg1 .g3.ac { height: 133px; }
+.mp4 .gg1 .g4 { height: 0; transition: all 1.25s; }
+.mp4 .gg1 .g4.ac { height: 133px; }
+.mp4 .gg1 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp4 .gg1 .g4.ac span { opacity: 1; }
+
+.mp4 .gg2 .g2 { height: 0; transition: all 1.25s; }
+.mp4 .gg2 .g2.ac { height: 36px; }
+.mp4 .gg2 .g3 { height: 0; transition: all 1.25s; }
+.mp4 .gg2 .g3.ac { height: 60px; }
+.mp4 .gg2 .g4 { height: 0; transition: all 1.25s; }
+.mp4 .gg2 .g4.ac { height: 84px; }
+.mp4 .gg2 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp4 .gg2 .g4.ac span { opacity: 1; }
+
+.mp4 .gg3 .g2 { height: 0; transition: all 1.25s; }
+.mp4 .gg3 .g2.ac { height: 27px; }
+.mp4 .gg3 .g3 { height: 0; transition: all 1.25s; }
+.mp4 .gg3 .g3.ac { height: 60px; }
+.mp4 .gg3 .g4 { height: 0; transition: all 1.25s; }
+.mp4 .gg3 .g4.ac { height: 77px; }
+.mp4 .gg3 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp4 .gg3 .g4.ac span { opacity: 1; }
+
+.mp4 .gg4 .g2 { height: 0; transition: all 1.25s; }
+.mp4 .gg4 .g2.ac { height: 134px; }
+.mp4 .gg4 .g3 { height: 0; transition: all 1.25s; }
+.mp4 .gg4 .g3.ac { height: 165px; }
+.mp4 .gg4 .g4 { height: 0; transition: all 1.25s; }
+.mp4 .gg4 .g4.ac { height: 177px; }
+.mp4 .gg4 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp4 .gg4 .g4.ac span { opacity: 1; }
+
+.mp4 .gg5 .g2 { height: 0; transition: all 1.25s; }
+.mp4 .gg5 .g2.ac { height: 27px; }
+.mp4 .gg5 .g3 { height: 0; transition: all 1.25s; }
+.mp4 .gg5 .g3.ac { height: 51px; }
+.mp4 .gg5 .g4 { height: 0; transition: all 1.25s; }
+.mp4 .gg5 .g4.ac { height: 64px; }
+.mp4 .gg5 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp4 .gg5 .g4.ac span { opacity: 1; }
+
+.mp4 .gg6 .g2 { height: 0; transition: all 1.25s; }
+.mp4 .gg6 .g2.ac { height: 74px; }
+.mp4 .gg6 .g3 { height: 0; transition: all 1.25s; }
+.mp4 .gg6 .g3.ac { height: 122px; }
+.mp4 .gg6 .g4 { height: 0; transition: all 1.25s; }
+.mp4 .gg6 .g4.ac { height: 166px; }
+.mp4 .gg6 .g4 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp4 .gg6 .g4.ac span { opacity: 1; }

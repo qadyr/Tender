@@ -1,0 +1,73 @@
+.sl3 h3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl3 h3.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl3 h4 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl3 h4.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl3 .list {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl3 .list.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sl3 .line li {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sl3 .line li.ac {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mp3 .gg1 .g3 { height: 0; transition: all 1.25s; }
+.mp3 .gg1 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp3 .gg1 .g3.ac { height: 84px; }
+.mp3 .gg1 .g3.ac span { opacity: 1; }
+
+.mp3 .gg2 .g3 { height: 0; transition: all 1.25s; }
+.mp3 .gg2 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp3 .gg2 .g3.ac { height: 70px; }
+.mp3 .gg2 .g3.ac span { opacity: 1; }
+
+.mp3 .gg3 .g3 { height: 0; transition: all 1.25s; }
+.mp3 .gg3 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp3 .gg3 .g3.ac { height: 90px; }
+.mp3 .gg3 .g3.ac span { opacity: 1; }
+
+.mp3 .gg4 .g3 { height: 0; transition: all 1.25s; }
+.mp3 .gg4 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp3 .gg4 .g3.ac { height: 236px; }
+.mp3 .gg4 .g3.ac span { opacity: 1; }
+
+.mp3 .gg5 .g3 { height: 0; transition: all 1.25s; }
+.mp3 .gg5 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp3 .gg5 .g3.ac { height: 122px; }
+.mp3 .gg5 .g3.ac span { opacity: 1; }
+
+.mp3 .gg6 .g3 { height: 0; transition: all 1.25s; }
+.mp3 .gg6 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp3 .gg6 .g3.ac { height: 161px; }
+.mp3 .gg6 .g3.ac span { opacity: 1; }

@@ -69,14 +69,35 @@ $(document).ready(function () {
     ress();
   });
 
+  setTimeout(function() {
+    $('.sl3 h3').addClass('ac');
+  }, 500);
+  setTimeout(function() {
+    $('.sl3 h4').addClass('ac');
+    $('.sl3 .list').addClass('ac');
+  }, 1000);
+  setTimeout(function() {
+    $('.sl3 .line li').eq(0).addClass('ac');
+  }, 1500);
+  setTimeout(function() {
+    $('.sl3 .line li').eq(1).addClass('ac');
+  }, 2000);
+  setTimeout(function() {
+    $('.sl3 .line li').eq(2).addClass('ac');
+  }, 2500);
+
   $('.main-m .next-move').click(function() {
     hideEl();
     $('.mp3').fadeIn();
+    setTimeout(function() {
+      $('.mp3 .gg .g3').addClass('ac');
+    }, 500);
   });
 
   $('.mp3 .x').click(function() {
     showEl();
     $('.mp3').fadeOut();
+    $('.mp3 .gg .g3').removeClass('ac');
   });
 
 });
