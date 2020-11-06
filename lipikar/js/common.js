@@ -379,11 +379,11 @@ $(document).ready(function () {
     changeBGtoBlue();
   });
 
-  $('.sl2 .vec4 a').click(function() {
-    $('.m_pop8').fadeIn();
-    hideEl();
-    changeBGtoWhite();
-  });
+  // $('.sl2 .vec4 a').click(function() {
+  //   $('.m_pop8').fadeIn();
+  //   hideEl();
+  //   changeBGtoWhite();
+  // });
 
   $('.main-m .prev-move').click(function(e) {
     if ( $('.sl2').hasClass('_show') ) e.preventDefault();

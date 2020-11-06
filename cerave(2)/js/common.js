@@ -153,11 +153,11 @@ $(document).ready(function () {
     showEl();
   });
 
-  $('.sl2 .vec4 a').click(function() {
-    $('.m_pop4').fadeIn();
-    changeBGtoWhite();
-    hideEl();
-  });
+  // $('.sl2 .vec4 a').click(function() {
+  //   $('.m_pop4').fadeIn();
+  //   changeBGtoWhite();
+  //   hideEl();
+  // });
 
   $('.m_pop3 .o1').click(function() {
     $('.x_pop1').fadeIn();

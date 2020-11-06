@@ -165,11 +165,11 @@ $(document).ready(function () {
     removeGB();
   });
 
-  $('.sl2 .vec4 a').click(function() {
-    $('.m_pop4').fadeIn();
-    changeBGtoWhite();
-    hideEl();
-  });
+  // $('.sl2 .vec4 a').click(function() {
+  //   $('.m_pop4').fadeIn();
+  //   changeBGtoWhite();
+  //   hideEl();
+  // });
 
   var changeBGtoFirstBG = function() {
     $('.wrap .common-bg4').removeClass('hide');

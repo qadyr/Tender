@@ -247,10 +247,10 @@ $(document).ready(function () {
     $(this).parent().fadeOut();
   });
 
-  $('.sl2 .vec4 a').click(function() {
-    $('.m_pop8').fadeIn();
-    changeBGtoWhite();
-  });
+  // $('.sl2 .vec4 a').click(function() {
+  //   $('.m_pop8').fadeIn();
+  //   changeBGtoWhite();
+  // });
 
   $('.main-m .prev-move').click(function(e) {
     if ( $('.sl2').hasClass('_show') ) e.preventDefault();
