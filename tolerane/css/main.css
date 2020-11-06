@@ -440,6 +440,7 @@ a{
 	margin-left: 440px;
 	margin-top: 416px;
 	letter-spacing: 0.01em;
+	white-space: nowrap;
 	color: #565656;
 	font-size: 28px;
 	font-weight: 600;
