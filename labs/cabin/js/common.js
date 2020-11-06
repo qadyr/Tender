@@ -77,6 +77,9 @@ $(window).load(function () {
     setTimeout(function() {
       $('.sl1 .camera').addClass('ac');
     }, 1200);
+    setTimeout(function() {
+      $('.sl1 .submitbtn').addClass('ac');
+    }, 1500);
     
     
     setTimeout(function() {
@@ -156,6 +159,55 @@ $(window).load(function () {
     $('.q3').removeClass('sel')
     $('.q1').removeClass('sel')
     $('.q4').addClass('sel')
+  })
+  
+  function readURL(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      
+      reader.onload = function(e) {
+        $('#uploaded_photo').attr('src', e.target.result);
+      }
+      
+      reader.readAsDataURL(input.files[0]); // convert to base64 string
+    }
+  }
+
+  $('#download').click(function() {
+    $('.modal1').removeClass('ac')
+    $('.modal2').addClass('ac')
+    $('.modal3').removeClass('ac')
+  })
+
+  $('.dislike').click(function() {
+    $('.modal1').removeClass('ac')
+    $('.modal2').removeClass('ac')
+    $('.modal3').addClass('ac')
+  })
+
+  $('#image').change(function(event) {
+    var name = event.target.value.split(/(\\|\/)/g).pop()
+    if (name && name.length) {
+      $('#filename').text(name)
+      readURL(this);
+    } else {
+      $('#filename').text('Файл не выбран')
+    }
+  })
+
+  $('#upload_cabin').submit(function(e) {
+    e.preventDefault()
+    $('.modal1').addClass('ac')
+    $('#upload_cabin').fadeOut()
+    $.ajax({
+      type: $(this).attr('method'),
+      url: $(this).attr('action'),
+      data: {},
+
+      success: function() {
+        alert('Photo uploaded or not ;)')
+      }
+    })
   })
 
 });

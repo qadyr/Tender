@@ -30,12 +30,15 @@
               <div class="num">4</div>
               <div class="desc">Поделитесь снимком<br>в социальных сетях с хэштегом<br><span>#ACDcongress</span></div>
             </div>
-            <div class="abs choose">
-              <div class="t1">выберите файл</div>
-              <input name="image" id="image" type="file" accept="image/*">
-              <label for="image" class="btn btn-primary">Выбрать</label>              
-              <div class="t2">Файл не выбран</div>
-            </div>
+            <form method="post" action="#" id="upload_cabin">
+              <div class="abs choose">
+                <div class="t1">выберите файл</div>
+                <input name="image" id="image" type="file" accept="image/*">
+                <label for="image" class="btn btn-primary-outlined">Выбрать</label>              
+                <div id="filename" class="t2">Файл не выбран</div>
+              </div>
+              <button class="abs submitbtn btn btn-primary">Отправить</button>  
+            </form>  
             <div class="abs camera"></div>
             <div class="abs q1 sel"></div>
             <div class="abs q2"></div>
@@ -45,6 +48,51 @@
           <div class="sl2"></div>
           <div class="sl3"></div>
           <div class="sl4"></div>
+
+          <div class="modal modal1">
+            <div class="modal-inner">
+              <div class="result-text">
+                ПОЖАЛУЙСТА, ПОДОЖДИТЕ<br><br>
+                скачайте фотографию,<br>чтобы узнать результат 
+              </div>
+              <div class="btn-download" id="download">
+                Скачать
+              </div>
+              <div class="share">
+                Поделись своим фото<br>в СОЦИАЛЬНЫХ СЕТЯХ<br>с хештегом <b>#ACDCongress!</b>
+              </div>
+            </div>
+            <div class="btn-dislike dislike">НЕ ПОНРАВИЛОСЬ ФОТО</div>
+          </div>
+
+          <div class="modal modal2">
+            <div class="modal-inner inner2">
+              <img id="uploaded_photo" src alt="">
+            </div>
+            <div class="buttons">
+              <div class="btn-dslk dislike">НЕ ПОНРАВИЛОСЬ ФОТО</div>
+              <div class="btn-dwn">Скачать</div>
+            </div>
+          </div>
+
+          <div class="modal modal3">
+            <div class="dislike-img"></div>
+          <div class="form_upload ac">
+            <div class="title">Вам не понравился снимок? </div>
+            <div class="subtitle">Загрузите свое фото сюда еще раз<br>и мы обработаем его вручную</div>
+            <form method="post" action="#" id="upload_cabin">
+              <div class="t2">Выберите файл</div>
+              <input name="image" id="image" type="file" accept="image/*">
+              <label for="image" class="btn-reupload ">Выбрать</label>  
+              <input type="text" class="input" placeholder="email">            
+              <button class="btn-disabled">загрузить</button>
+          </form>
+          </div>
+          <div class="abs uploaded">
+            <div class="title t3">отправлено!</div>
+            <div class="subtitle t4">Извините за испорченный кадр<br>МЫ ОТПРАВИМ ВАМ ЕГО В ТЕЧЕНИЕ<br>365 дней</div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
