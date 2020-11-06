@@ -278,6 +278,18 @@ $(function(){
 			'opacity' : '1',
 			'transition' : '0.75s',
 		});
+		setTimeout(function() {
+			$('.bar').eq(0).addClass('an');
+		}, 500);
+		setTimeout(function() {
+			$('.bar').eq(1).addClass('an');
+		}, 1000);
+		setTimeout(function() {
+			$('.bar').eq(2).addClass('an');
+		}, 1500);
+		setTimeout(function() {
+			$('.bar').eq(3).addClass('an');
+		}, 2000);
 		$('.container').css({
 			'background' : '#fff'
 		});

@@ -106,12 +106,21 @@ html {
   transform: scale(0);
   transition: all 0.5s;
 
-  width: 90px;
-  height: 80px;
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  overflow: hidden;
   left: 51px;
   top: 410px;
   cursor: pointer;
   background-image: url(../images/01/o2.svg);
+  animation: grow 1.5s infinite;
+}
+
+@keyframes grow {
+  0% { box-shadow: 0 0 50px rgba(0, 0, 0, 0); }
+  50% { box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
+  100% { box-shadow: 0 0 50px rgba(0, 0, 0, 0); }
 }
 
 .sl1 .o4 {
@@ -159,7 +168,7 @@ html {
 .sl1 .tub2 {
   opacity: 0;
   transform: translateY(60px) scale(0.85);
-  transition: all 0.8s;
+  transition: all 0.5s;
 }
 
 .sl1 .tub1 {

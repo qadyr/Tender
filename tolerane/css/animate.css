@@ -1,0 +1,10 @@
+.bar {
+  transform: translateX(-40px);
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.bar.an {
+  transform: translateX(-40px);
+  opacity: 1;
+}
