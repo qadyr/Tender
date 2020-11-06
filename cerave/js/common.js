@@ -158,6 +158,9 @@ $(document).ready(function () {
     $('.m_pop3').fadeIn();
     hideEl();
     changeBGtoGB();
+    setTimeout(function() {
+      $('.m_pop3 .like').addClass('ac');
+    }, 500);
   });
   $('.m_pop3 .x').click(function() {
     $(this).parent().fadeOut();

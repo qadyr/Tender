@@ -86,6 +86,10 @@ $(document).ready(function () {
     ress();
   });
 
+  setTimeout(function() {
+    $('.sl1 .like').addClass('ac');
+  }, 500);
+
   $('.sl1 .like form input').click(function() {
     $(this).attr('disabled', 'disabled');
   });

@@ -133,11 +133,14 @@ html {
   height: 768px;
   opacity: 0;
   transition: all 0.75s;
+
+  transform: translateX(1024px) scale(0.2);
 }
 
 .sl._show {
   z-index: 1;
   opacity: 1;
+  transform: translateX(0) scale(1);
 }
 
 .sl1 { background-image: url(../images/01/bg.png); }
@@ -163,7 +166,13 @@ html {
 
   display: flex;
   align-items: center;
+
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all 0.5s;
 }
+
+.sl1 .like.ac { opacity: 1; transform: translateX(0) scale(1); }
 
 .sl1 .like p {
   font-weight: 300;
@@ -187,6 +196,7 @@ html {
   background-color: transparent;
   cursor: pointer;
   border: 0;
+  transition: all 0.5s;
 }
 
 .sl1 .like form input[disabled] {

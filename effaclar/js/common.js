@@ -112,6 +112,10 @@ $(document).ready(function () {
     ress();
   });
 
+  setTimeout(function() {
+    $('.sl1 .like').addClass('ac');
+  }, 500);
+
   $('.sl1 .like form input').click(function() {
     $(this).attr('disabled', 'disabled');
   });
@@ -119,27 +123,39 @@ $(document).ready(function () {
   $('.sl2 .sl2-link1').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec1').addClass('ac');
+    $(this).parent().addClass('vid');
+    $('.main-vid').addClass('ac').get(0).play();
   });
   $('.sl2 .sl2-link2').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec2').addClass('ac');
+    $(this).parent().removeClass('vid');
+    $('.main-vid').removeClass('ac').get(0).play();
   });
   $('.sl2 .sl2-link3').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec3').addClass('ac');
+    $(this).parent().removeClass('vid');
+    $('.main-vid').removeClass('ac').get(0).play();
   });
   $('.sl2 .sl2-link4').click(function() {
     $('.sl2 .ovec').removeClass('ac');
     $('.sl2 .vec4').addClass('ac');
+    $(this).parent().removeClass('vid');
+    $('.main-vid').removeClass('ac').get(0).play();
   });
 
   $('.sl2 .vec1 a').click(function() {
     $('.m_pop1').fadeIn();
-    hideEl();
-    changeBGtoWhite();
+    $('.main-vid').removeClass('ac').get(0).pause();
+    setTimeout(function() {
+      hideEl();
+      changeBGtoWhite();
+    }, 500);
   });
   $('.m_pop1 .x').click(function() {
     $(this).parent().fadeOut();
+    $('.main-vid').addClass('ac').get(0).play();
     showEl();
     changeBGtoBlue();
   });

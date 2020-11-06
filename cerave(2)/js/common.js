@@ -146,6 +146,9 @@ $(document).ready(function () {
     $('.m_pop3').fadeIn();
     changeBGtoFirstColor();
     hideEl();
+    setTimeout(function() {
+      $('.m_pop3 .like').addClass('ac');
+    }, 500);
   });
   $('.m_pop3 .x').click(function() {
     $(this).parent().fadeOut();

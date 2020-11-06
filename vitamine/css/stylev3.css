@@ -161,7 +161,13 @@ html {
 
   display: flex;
   align-items: center;
+
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all 0.5s;
 }
+
+.sl1 .like.ac { opacity: 1; transform: translateX(0); }
 
 .sl1 .like p {
   font-weight: 300;
@@ -186,6 +192,7 @@ html {
   background-repeat: no-repeat;
   cursor: pointer;
   border: 0;
+  transition: all 0.5s;
 }
 
 .sl1 .like form input[disabled] {
