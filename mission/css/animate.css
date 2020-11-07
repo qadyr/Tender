@@ -1,4 +1,4 @@
-@keyframes circular-one {
+/*@keyframes circular-one {
   0% { top: 151px; left: 373px; }
   20% { top: 232px; left: 138px; }
   40% { top: 436px; left: 221px; }
@@ -41,14 +41,52 @@
   60% { top: 436px; left: 221px; }
   80% { top: 436px; left: 525px; }
   100% { top: 232px; left: 608px; }
+}*/
+
+.cube {
+  top: 220px;
+  left: 315px;
+  width: 400px;
+  height: 400px;
+  animation: cube 24s linear infinite;
 }
 
-.sl1 .item1 { animation: circular-one 12s infinite linear; }
+.sl1 .cube .item1 {
+  top: -49px;
+  left: 58px;
+  animation: items 24s linear infinite;
+}
 
-.sl1 .item5 { animation: circular-two 12s infinite linear; }
+.sl1 .cube .item5 {
+  top: 32px;
+  left: -177px;
+  animation: items 24s linear infinite;
+}
 
-.sl1 .item4 { animation: circular-three 12s infinite linear; }
+.sl1 .cube .item4 {
+  top: 236px;
+  left: -94px;
+  animation: items 24s linear infinite;
+}
 
-.sl1 .item3 { animation: circular-four 12s infinite linear; }
+.sl1 .cube .item3 {
+  top: 236px;
+  left: 210px;
+  animation: items 24s linear infinite;
+}
 
-.sl1 .item2 { animation: circular-five 12s infinite linear; }
+.sl1 .cube .item2 {
+  top: 32px;
+  left: 293px;
+  animation: items 24s linear infinite;
+}
+
+@keyframes cube {
+  from { transform: rotate(0); }
+  to   { transform: rotate(-360deg); }
+}
+
+@keyframes items {
+  from { transform: rotate(0); }
+  to   { transform: rotate(360deg); }
+}
