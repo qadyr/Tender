@@ -3,66 +3,331 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <meta name="theme-color" content="#ffffff" />
-  <meta name="description" content="Страницы проекта" />
-  <title>Страницы проекта</title>
+  <meta name="description" content="Главная" />
+  <title>Главная</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="mask-icon" href="mask-icon.svg" color="#41b883" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
-  <style>
-  body {
-    padding: 1em;
-    font-family: sans-serif;
-    background: #f8f9fa;
-  }
 
-  ul {
-    margin: 0 0 2em;
-  }
-
-  li {
-    margin: 0.7em 0;
-  }
-
-  a {
-    color: #007bff;
-    text-decoration: underline;
-    transition: color 0.3s;
-  }
-
-  a:hover {
-    color: #f00;
-  }
-  </style>
+  <link rel="stylesheet" href="css/main.b8ab.css" />
+  <link href="css/main.b8ab.css" rel="stylesheet" />
 </head>
 
 <body>
-  <h1>Онлайн-конгресс</h1>
+  <div id="app" class="grid">
+    <main class="main">
+      <section class="start">
+        <h1 class="sr-only">Онлайн-конгресс</h1>
+        <div class="preloader">
+          <div class="start__cube">
+            <div class="start__cube-box start__cube-box-center">
+              <div class="logo-text">
+                <div>ACD</div>
+                <div>КОНГРЕСС</div>
+              </div>
+              <a data-id="center" class="cube cube--center">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <button class="menu__toggle-btn">ACD конгресс</button>
+          <div class="menu__box">
+            <div class="menu__account">
+              <div class="account-info">
+                <div data-value="76%" class="account-info__progress">
+                  <div class="account-info__progress-fill" style="width: 76%"></div>
+                </div>
+                <button class="account-info__achievements-btn">Достижения</button>
+                <div aria-hidden="true" hidden="hidden">
+                  <ul class="account-info__achievements">
+                    <li class="account-info__achievements-item">
+                      Поздравляем, Вы полностью прошли модуль
+                      <b>Vichy</b>, что составляет
+                      <b>18%</b> от объёма исследования всего портала.
+                    </li>
+                    <li class="account-info__achievements-item">
+                      Поздравляем, Вы полностью прошли модуль
+                      <b>CeraVe</b>, что составляет
+                      <b>20%</b> от объёма исследования всего портала.
+                    </li>
+                    <li class="account-info__achievements-item">
+                      Поздравляем, Вы полностью прошли модуль
+                      <b>SkinSeuticals</b>, что составляет
+                      <b>21%</b> от объёма исследования всего портала.
+                    </li>
+                    <li class="account-info__achievements-item">
+                      Поздравляем, Вы исследовали
+                      <b>50% портала</b>
+                    </li>
+                    <li class="account-info__achievements-item">
+                      Поздравляем, Вы полностью прошли модуль
+                      <b>LaRoshe Posay</b>, что составляет
+                      <b>19%</b> от объёма исследования всего портала.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="menu__box2">
+              <div class="menu__filter">
+                <form class="form">
+                  <div class="filter">
+                    <button class="filter__toggle-btn">Выбрать бренд</button>
+                    <div aria-hidden="true" hidden="hidden">
+                      <div class="filter__box">
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">La Roche-Posay</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Vichy</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">CeraVe</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">SkinСeuticals</span>
+                        <../labs/label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter">
+                    <button class="filter__toggle-btn">Выбрать нозологию</button>
+                    <div aria-hidden="true" hidden="hidden">
+                      <div class="filter__box">
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Акне</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Алопеция</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Аллергодерматозы</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Атопический дерматит</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Возрастные изменения</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Ксероз</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Псориаз</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Розацеа</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Уход после эстетических процедур</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Фолликулярной кератоз</span>
+                        <../labs/label>
+                        <label class="filter__checkbox">
+                          <input type="checkbox" />
+                          <span class="filter__label">Чувствительная кожа</span>
+                        <../labs/label>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn">
+                    <span>ЗАПИСЬ ВЕБИНАРОВ</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <figure class="logo">
+          <img srcset="img/components/logo/logo.png 1x, img/components/logo/logo@2x.png 2x" alt />
+        </figure>
+        <div class="loreal">
+          <figure class="loreal-logo">
+            <img src="img/svg/loreal.svg" />
+          </figure>
+          <figure class="words">
+            <figure class="word">
+              <img src="img/svg/word/Vector.svg"/>
+              <img src="img/svg/word/Vector-1.svg"/>
+              <img src="img/svg/word/Vector-2.svg"/>
+              <img src="img/svg/word/Vector-3.svg"/>
+              <img src="img/svg/word/Vector-4.svg"/>
+              <img src="img/svg/word/Vector-5.svg" />
+              <img src="img/svg/word/Vector-6.svg" />
+              <img src="img/svg/word/Vector-7.svg" />
+              <img src="img/svg/word/Vector-8.svg" />
+              <img src="img/svg/word/Vector-9.svg" />
+              <img src="img/svg/word/Vector-10.svg" />
+              <img src="img/svg/word/Vector-11.svg" />
+              <img src="img/svg/word/Vector-12.svg" />
+              <img src="img/svg/word/Vector-13.svg" />
+            </figure>
+            <figure class="word">
+              <img src="img/svg/word1/Vector.svg" />
+              <img src="img/svg/word1/Vector-1.svg" />
+              <img src="img/svg/word1/Vector-2.svg" />
+              <img src="img/svg/word1/Vector-3.svg" />
+              <img src="img/svg/word1/Vector-4.svg" />
+              <img src="img/svg/word1/Vector-5.svg" />
+            </figure>
+          </figure>
+        </div>
+        <div class="info">
+          <figure class="play__btn">
+            <img src="img/svg/play.svg" />
+          </figure>При возникновении технических трудностей позвоните по номеру
+          <a href="tel:+496170961709">+496170961709</a>
+        </div>
+        <div>
+          <div class="start__cube start__cube-center">
+            <div class="start__cube-box start__cube-box-center">
+              <div class="cube__logo cube__logo-center">
+                <img src="img/components/cube/edu.png" alt />
+              </div>
+              <a href="../webinars" data-id="center" class="cube cube--center" style="z-index:100;">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+            </div>
+          </div>
+          <div class="start__cube" style="z-index: 10">
+            <div class="start__cube-box">
+              <div class="cube__logo cube__logo-left">
+                <img src="img/components/cube/skin.png" alt />
+              </div>
+              <div class="cube__logo cube__logo-back">
+                <img src="img/components/cube/cerave.png" alt />
+              </div>
+              <div class="cube__logo cube__logo-right">
+                <img src="img/components/cube/vichy.png" alt />
+              </div>
+              <div class="cube__logo cube__logo-front">
+                <img src="img/components/cube/laroshe.png" alt />
+              </div>
+              <a href="../labs/lablsc" data-id="left" class="cube">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+              <a href="../labs/labvichy" data-id="right" class="cube cube--vichy">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+              <a href="../labs/lablrp" data-id="front" class="cube cube--laroche">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+              <a href="../labs/labcerave" data-id="back" class="cube cube--cerave">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+            </div>
+          </div>
+          <div class="start__cube">
+            <div class="start__cube-box small1">
+              <a class="cube small-cube1">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+            </div>
+          </div>
+          <div class="start__cube">
+            <div class="start__cube-box small2">
+              <a class="cube small-cube2">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+            </div>
+          </div>
+          <div class="start__cube">
+            <div class="start__cube-box small3">
+              <a class="cube small-cube3">
+                <div class="cube__side cube__side--front"></div>
+                <div class="cube__side cube__side--back"></div>
+                <div class="cube__side cube__side--left"></div>
+                <div class="cube__side cube__side--right"></div>
+                <div class="cube__side cube__side--top"></div>
+                <div class="cube__side cube__side--bottom"></div>
+                <div class="cube-shadow"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/components/start/bg-992.jpg" media="(min-width: 992px)" />
+          <source srcset="img/components/start/bg-768.jpg" media="(min-width: 768px)" />
+          <img src="img/components/start/bg.jpg" alt class="start__bg" />
+        </picture>
+      </section>
+    </main>
+  </div>
 
-  <ul>
-    <!-- <li>
-      <a href="/storybook-static/">Библиотека компонентов</a>
-    </li>-->
-    <!-- <li>
-      <a href="/svg-sprites.html">svg-иконки в спрайтах</a>
-    </li>-->
-  </ul>
 
-  <ol>
-    <li>
-      <a href="home.html">
-        <b>Главная страница</b>
-      </a>
-    </li>
-    <li>
-      <a href="iframe.html">Внутри iframe'а</a>
-    </li>
-    <li>
-      <a href="redirect.html">HTML-редирект</a>
-    </li>
-  </ol>
+  <noscript>Этот сайт использует JavaScript. Пожалуйста, включите JavaScript в Вашем браузере.</noscript>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs/vue.min.js"></script>
+  <script src="js/main.bundle.e894.js"></script>
+  <script src="js/resize.js"></script>
 </body>
 </html>
