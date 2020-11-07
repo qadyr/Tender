@@ -1,0 +1,64 @@
+@keyframes circular-one {
+  0% { top: 151px; left: 373px; }
+  20% { top: 232px; left: 138px; }
+  40% { top: 436px; left: 221px; }
+  60% { top: 436px; left: 525px; }
+  80% { top: 232px; left: 608px; }
+  100% { top: 151px; left: 373px; }
+}
+
+@keyframes circular-two {
+  0% { top: 232px; left: 138px; }
+  20% { top: 436px; left: 221px; }
+  40% { top: 436px; left: 525px; }
+  60% { top: 232px; left: 608px; }
+  80% { top: 151px; left: 373px; }
+  100% { top: 232px; left: 138px; }
+}
+
+@keyframes circular-three {
+  0% { top: 436px; left: 221px; }
+  20% { top: 436px; left: 525px; }
+  40% { top: 232px; left: 608px; }
+  60% { top: 151px; left: 373px; }
+  80% { top: 232px; left: 138px; }
+  100% { top: 436px; left: 221px; }
+}
+
+@keyframes circular-four {
+  0% { top: 436px; left: 525px; }
+  20% { top: 232px; left: 608px; }
+  40% { top: 151px; left: 373px; }
+  60% { top: 232px; left: 138px; }
+  80% { top: 436px; left: 221px; }
+  100% { top: 436px; left: 525px; }
+}
+
+@keyframes circular-five {
+  0% { top: 232px; left: 608px; }
+  20% { top: 151px; left: 373px; }
+  40% { top: 232px; left: 138px; }
+  60% { top: 436px; left: 221px; }
+  80% { top: 436px; left: 525px; }
+  100% { top: 232px; left: 608px; }
+}
+
+.sl1 .item1 {
+  animation: circular-one 12s infinite linear;
+}
+
+.sl1 .item5 {
+  animation: circular-two 12s infinite linear;
+}
+
+.sl1 .item4 {
+  animation: circular-three 12s infinite linear;
+}
+
+.sl1 .item3 {
+  animation: circular-four 12s infinite linear;
+}
+
+.sl1 .item2 {
+  animation: circular-five 12s infinite linear;
+}
