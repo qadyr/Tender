@@ -43,22 +43,12 @@
   100% { top: 232px; left: 608px; }
 }
 
-.sl1 .item1 {
-  animation: circular-one 12s infinite linear;
-}
+.sl1 .item1 { animation: circular-one 12s infinite linear; }
 
-.sl1 .item5 {
-  animation: circular-two 12s infinite linear;
-}
+.sl1 .item5 { animation: circular-two 12s infinite linear; }
 
-.sl1 .item4 {
-  animation: circular-three 12s infinite linear;
-}
+.sl1 .item4 { animation: circular-three 12s infinite linear; }
 
-.sl1 .item3 {
-  animation: circular-four 12s infinite linear;
-}
+.sl1 .item3 { animation: circular-four 12s infinite linear; }
 
-.sl1 .item2 {
-  animation: circular-five 12s infinite linear;
-}
+.sl1 .item2 { animation: circular-five 12s infinite linear; }

@@ -134,7 +134,7 @@ html {
   opacity: 0;
   transition: all 0.75s;
 
-  transform: translateX(1024px) scale(0.2);
+  transform: translateX(30px) scale(0.9);
 }
 
 .sl._show {
