@@ -11,4 +11,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         })
     })
+    const body = document.querySelector('body')
+    const tooltip = document.querySelector('.tooltip__text')
+    body.addEventListener('scroll', function() {
+        tooltip.classList.add('hide')
+    })
+    body.addEventListener('click', function() {
+        tooltip.classList.add('hide')
+    })
 });

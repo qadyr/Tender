@@ -34,6 +34,35 @@
     box-sizing: border-box;
 }
 
+
+.onair {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #C71A1A;
+}
+
+.live {
+    border: 2px solid #C71A1A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #C71A1A;
+    padding: 15px 20px;
+    position: absolute;
+    left: 80px;
+}
+
 html,
 body {
     height: 100%;
@@ -211,6 +240,7 @@ input[type=text], input[type=email] {
         justify-content: center;
         align-items: center;
         padding: 16px 15px 16px 20px;
+        position: relative;
     }
 }
 
@@ -302,13 +332,82 @@ input[type=text], input[type=email] {
             opacity: 0.7;
         }
     }
+    
+    &__image {
+        background-image: url(../images/btn_1.png);
+        width: 82px;
+        height: 82px;
+    }
 }
 
 .btn_block {
     padding-top: 48px;
     padding-bottom: 64px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    &__text {
+        background-color: #FFFFFF;
+        position: absolute;
+        color: #000;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 16px;
+        white-space: nowrap;
+        left: -115px;
+        top: -15px;
+        transition: opacity 1s;
+        opacity: 1;
+       
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #444444;
+        padding: 10px;
+        width: 296px;
+        margin-bottom: 20px;
+
+        &.hide {
+            opacity: 0;
+        }
+
+        @media (max-width: 1250px) { 
+            left: 15px;
+        }
+        
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 100%; /* At the bottom of the tooltip */
+            left: 50%;
+            margin-left: -10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: #FFFFFF transparent transparent transparent;
+        }
+    }
+    
+
+    &:hover &__text {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.section {
+    position: relative;
 }
 
 .sponsors {
