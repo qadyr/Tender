@@ -71,7 +71,7 @@ html {
   height: 768px;
 }
 
-.sl1 { background-image: url(../images/01/bg.png); }
+.sl1 { background-image: url(../images/01/bg.png); perspective: 600px; }
 
 .sl1 > .back {
   top: 40px;
@@ -97,6 +97,14 @@ html {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #009EE3;
+}
+
+.sl1 .cube {
+  top: 151px;
+  left: 138px;
+  width: 748px;
+  height: 495px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sl1 .item1,
