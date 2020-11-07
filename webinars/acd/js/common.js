@@ -19,4 +19,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
     body.addEventListener('click', function() {
         tooltip.classList.add('hide')
     })
+
+    const currentTime = Date.now()
+    const els = document.querySelectorAll('[data-start]')
+    els.forEach(function(node) {
+        const startTime = node.dataset.start
+        const endTime = node.dataset.end
+        const link = node.dataset.link
+        if (!startTime || !endTime) {
+            return
+        }
+        if (currentTime <= endTime && currentTime >= startTime) {
+            const checkEl = node.querySelector('.accordion__check')
+            checkEl.innerHTML = `<a href="${link ? link : '#'}" target="_blank"  class="onair"></a><a href="${link ? link : '#'}" target="_blank" class="live">LIVE</a>`
+        }
+    })
 });
