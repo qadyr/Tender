@@ -108,7 +108,6 @@ html {
   height: 209px;
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transform-style: preserve-3d;
 }
 
 .sl1 .item1:after,
