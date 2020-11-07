@@ -47,24 +47,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     let target = document.querySelector('#btn_block')
     let subTarget = document.querySelector('.buttons')
-    // функция обратного вызова
     let callback = function(entries, observer){
         entries.forEach(entry => {
-            // если элемент является наблюдаемым
             if (entry.isIntersecting) {
-                const target = entry.target
-                // выводим информацию в консоль - проверка работоспособности наблюдателя
-                console.log(target)
-                // меняем фон контейнера
                 subTarget.classList.remove('ac')
             } else {
-                // меняем фон контейнера
                 subTarget.classList.add('ac')
             }
         })
     }
     
-    // наблюдатель
     let observer = new IntersectionObserver(callback, options)
     observer.observe(target)
 });
