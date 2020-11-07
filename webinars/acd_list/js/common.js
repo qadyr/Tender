@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+    // accordions logic
     const accordions = document.querySelectorAll('.accordion')
     accordions.forEach(function(accordion) {
         const info = accordion.querySelector('.accordion__info')
@@ -11,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         })
     })
+
+    // tooltip
     const body = document.querySelector('body')
     const tooltip = document.querySelector('.tooltip__text')
     body.addEventListener('scroll', function() {
@@ -20,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         tooltip.classList.add('hide')
     })
 
+    // live events
     const currentTime = Date.now()
     const els = document.querySelectorAll('[data-start]')
     els.forEach(function(node) {
@@ -34,4 +38,33 @@ document.addEventListener("DOMContentLoaded", function(event) {
             checkEl.innerHTML = `<a href="${link ? link : '#'}" target="_blank"  class="onair"></a><a href="${link ? link : '#'}" target="_blank" class="live">LIVE</a>`
         }
     })
+
+    // intersection observer
+    let options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 1
+    }
+    let target = document.querySelector('#btn_block')
+    let subTarget = document.querySelector('.buttons')
+    // функция обратного вызова
+    let callback = function(entries, observer){
+        entries.forEach(entry => {
+            // если элемент является наблюдаемым
+            if (entry.isIntersecting) {
+                const target = entry.target
+                // выводим информацию в консоль - проверка работоспособности наблюдателя
+                console.log(target)
+                // меняем фон контейнера
+                subTarget.classList.remove('ac')
+            } else {
+                // меняем фон контейнера
+                subTarget.classList.add('ac')
+            }
+        })
+    }
+    
+    // наблюдатель
+    let observer = new IntersectionObserver(callback, options)
+    observer.observe(target)
 });

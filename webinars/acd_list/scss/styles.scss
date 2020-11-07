@@ -81,6 +81,50 @@ main {
     min-height: 100%;
 }
 
+.main-m {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-m.hide {
+    z-index: 0;
+    opacity: 0;
+}
+
+.main-m a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.25s;
+}
+
+.main-m a.hide {
+    transform: scale(0) rotate(360deg);
+    opacity: 0;
+}
+
+.main-m .prev-move {
+    background-image: url(../images/prev.svg);
+}
+
+.main-vid {
+    top: 0;
+    left: 0;
+    border-left: 1px solid #009D8A;
+    border-right: 1px solid #009D8A;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.main-vid.ac {
+    opacity: 1;
+}
 
 .container {
     max-width: 1040px;
@@ -216,6 +260,9 @@ input[type=text], input[type=email] {
             transition-delay: 0s;
             transition: max-height .7s, opacity .7s, padding 0.7s;
         }
+        .accordion__arrow {
+            transform: rotate(0deg);
+        }
     }
 
     &__arrow {
@@ -224,6 +271,8 @@ input[type=text], input[type=email] {
         align-items: center;
         justify-content: center;
         min-width: 67px;
+        transform: rotate(-90deg);
+        transition: transform .4s;
     }
 
     &__description {
@@ -362,13 +411,31 @@ input[type=text], input[type=email] {
 }
 
 .btn_block {
-    padding-top: 48px;
-    padding-bottom: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 48px;
+    margin-bottom: 64px;
 }
 
+.buttons.ac {
+    bottom: 0;
+    opacity: 1;
+    width: 100%;
+    margin: 0 auto;
+    max-width: none;
+}
+
+.buttons {
+    position: absolute;
+    background: #a7d9da;
+    opacity: 0;
+    transition: opacity .7s;
+
+    .btn_block {
+        margin: 20px auto;
+    }
+}
 
 .tooltip {
     position: relative;
@@ -523,6 +590,12 @@ input[type=text], input[type=email] {
         font-size: 16px;
     }
 
+    .buttons {
+        .btn_block {
+            margin: 0 auto;
+        }
+    }
+
     .sponsors {
         &__item {
             display: none;
@@ -542,4 +615,8 @@ input[type=text], input[type=email] {
         }
     }
     
+    .main-m {
+        left: 20px;
+        top: 20px;
+    }
 }
