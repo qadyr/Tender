@@ -71,7 +71,7 @@ html {
   height: 768px;
 }
 
-.sl1 { background-image: url(../images/01/bg.png); }
+.sl1 { background-image: url(../images/01/bg.png); perspective: 600px; }
 
 .sl1 > .back {
   top: 40px;

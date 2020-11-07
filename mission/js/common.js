@@ -91,4 +91,7 @@ $(window).load(function () {
     $('.sl1 .mp5').removeClass('ac');
   });
 
+  // var mstr = $('.sl1 .item1').css('top');
+  // console.log( mstr.substring(0, mstr.length - 2) );
+
 });
