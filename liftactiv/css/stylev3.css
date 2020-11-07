@@ -132,19 +132,18 @@ html {
   width: 1024px;
   height: 768px;
   opacity: 0;
-  transition: all 0.75s;
-
-  transform: translateX(30px) scale(0.9);
+  transform: translateY(50px) scale(0.8);
+  /*transition: all 0.75s;*/
 }
 
 .sl._show {
   z-index: 1;
   opacity: 1;
-  transform: translateX(0) scale(1);
+  transform: translateY(0) scale(1);
 }
 
 .sl1 { background-image: url(../images/01/bg.png); }
-.sl2 { background-image: url(../images/02/bg.png); }
+.sl2 {}
 
 .sl1 .tub {
   left: 110px;
@@ -255,6 +254,14 @@ html {
   text-transform: uppercase;
 
   color: #444;
+}
+
+.sl2 .tub {
+  top: 53px;
+  left: 110px;
+  width: 253px;
+  height: 678px;
+  background-image: url(../images/02/tub.png);
 }
 
 .sl2 .sl2-links {

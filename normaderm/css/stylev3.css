@@ -120,7 +120,6 @@ html {
   width: 1024px;
   height: 768px;
   opacity: 0;
-  transition: all 0.75s;
 }
 
 .sl._show {
@@ -129,7 +128,7 @@ html {
 }
 
 .sl1 {}
-.sl2 { background-image: url(../images/02/bg.png); }
+.sl2 {}
 
 .sl1 .tub {
   left: 108px;
@@ -223,6 +222,14 @@ html {
   margin-top: 5px;
   font-weight: 300;
   line-height: 37px;
+}
+
+.sl2 .tub {
+  left: 108px;
+  top: 40px;
+  width: 307px;
+  height: 728px;
+  background-image: url(../images/02/tub.png);
 }
 
 .sl2 .sl2-links {

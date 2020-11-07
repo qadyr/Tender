@@ -132,7 +132,6 @@ html {
   width: 1024px;
   height: 768px;
   opacity: 0;
-  transition: all 0.75s;
 }
 
 .sl._show {
@@ -141,10 +140,10 @@ html {
 }
 
 .sl1 { background-image: url(../images/01/bg.png); }
-.sl2 { background-image: url(../images/02/bg.png); }
+.sl2 {}
 
 .sl1 .tub {
-  left: 64px;
+  left: 88px;
   top: 40px;
   width: 397px;
   height: 685px;
@@ -232,6 +231,14 @@ html {
   font-weight: 300;
   line-height: 37px;
   letter-spacing: 0.01em;
+}
+
+.sl2 .tub {
+  top: 40px;
+  left: 88px;
+  width: 397px;
+  height: 685px;
+  background-image: url(../images/02/tub.png);
 }
 
 .sl2 .sl2-links {

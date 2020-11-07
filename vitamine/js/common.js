@@ -25,6 +25,8 @@ $(document).ready(function () {
   var it4 = 1024 / 100;
   var newSize;
 
+  var canClick = true;
+
   function ress() {
     if ($(window).height() > 768) {
       $('.over-wrap').height(768);
@@ -295,26 +297,61 @@ $(document).ready(function () {
   // });
 
   $('.main-m .prev-move').click(function(e) {
+    // if ( $('.sl2').hasClass('_show') ) e.preventDefault();
+    // $('.sl._show').removeClass('_show').prev().addClass('_show');
+    // $('.main-m .next-move').removeClass('hide');
+    // $('.sl2 .sl2-links').removeClass('ac');
+    // $('.sl2 .ovec').removeClass('ac');
+
     if ( $('.sl2').hasClass('_show') ) e.preventDefault();
-    $('.sl._show').removeClass('_show').prev().addClass('_show');
+    if (!canClick) return;
+    canClick = !canClick;
     $('.main-m .next-move').removeClass('hide');
+    $('.sl._show').removeClass('_show').prev().addClass('_show');
+    $('.sl1 .drop').removeClass('hide');
     $('.sl2 .sl2-links').removeClass('ac');
     $('.sl2 .ovec').removeClass('ac');
+    setTimeout(function() {
+      canClick = !canClick;
+    }, 1000);
   });
   $('.main-m .next-move').click(function() {
-    $('.sl._show').removeClass('_show').next().addClass('_show');
+    // $('.sl._show').removeClass('_show').next().addClass('_show');
+    // $(this).addClass('hide');
+    // setTimeout(function() {
+    //   $('.sl2 .sl2-link1').addClass('ac');
+    // }, 500);
+    // setTimeout(function() {
+    //   $('.sl2 .sl2-link2').addClass('ac');
+    // }, 750);
+    // setTimeout(function() {
+    //   $('.sl2 .sl2-link3').addClass('ac');
+    // }, 1000);
+    // setTimeout(function() {
+    //   $('.sl2 .sl2-link4').addClass('ac');
+    // }, 1250);
+
+    if (!canClick) return;
+    canClick = !canClick;
     $(this).addClass('hide');
+    $('.sl1 .drop').addClass('hide');
     setTimeout(function() {
-      $('.sl2 .sl2-link1').addClass('ac');
-    }, 500);
-    setTimeout(function() {
-      $('.sl2 .sl2-link2').addClass('ac');
-    }, 750);
-    setTimeout(function() {
-      $('.sl2 .sl2-link3').addClass('ac');
-    }, 1000);
-    setTimeout(function() {
-      $('.sl2 .sl2-link4').addClass('ac');
+      $('.sl._show').removeClass('_show').next().addClass('_show');
+      setTimeout(function() {
+        $('.sl2 .sl2-link1').addClass('ac');
+      }, 500);
+      setTimeout(function() {
+        $('.sl2 .sl2-link2').addClass('ac');
+      }, 750);
+      setTimeout(function() {
+        $('.sl2 .sl2-link3').addClass('ac');
+      }, 1000);
+      setTimeout(function() {
+        $('.sl2 .sl2-link4').addClass('ac');
+      }, 1250);
+      setTimeout(function() {
+        canClick = !canClick;
+      }, 1500);
     }, 1250);
   });
 

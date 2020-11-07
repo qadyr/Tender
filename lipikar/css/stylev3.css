@@ -158,12 +158,14 @@ html {
   width: 1024px;
   height: 768px;
   opacity: 0;
+  transform: translateY(50px) scale(0.8);
   transition: all 0.75s;
 }
 
 .sl._show {
   z-index: 1;
   opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 .sl1 { background-image: url(../images/01/bg.png); }
