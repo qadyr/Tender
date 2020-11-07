@@ -4,20 +4,18 @@
     <meta charset="utf-8"/>
     <title>Lipikar</title>
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
-    <link href="css/main.b8ab.css" rel="stylesheet" />
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
 	   <script src="js/jquery-3.5.1.min.js"></script>
-     <script type="text/javascript" src="js/preloader.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$('#button').on('click', function() {
+	$('#button').on('click', function() { 		
         $.ajax({
-			url: 'click.php',
-			method: 'get',
-			dataType: 'json',
+			url: 'click.php',         
+			method: 'get',             
+			dataType: 'json',          
 			data: {id: '2'},     //id счетчика
-			success: function(data){
+			success: function(data){   
 				$('#count').html(data.count);
 				//alert(data.ip);
 				if(data.ip){
@@ -25,33 +23,14 @@ $(document).ready(function() {
 				}
 			}
 		});
-
+		
 	});
-
-
+	
+	
 });
 </script>
   </head>
   <body>
-  <div class="preloader">
-          <div class="start__cube">
-            <div class="start__cube-box start__cube-box-center">
-              <div class="logo-text">
-                <div>ACD</div>
-                <div>КОНГРЕСС</div>
-              </div>
-              <a data-id="center" class="cube cube--center">
-                <div class="cube__side cube__side--front"></div>
-                <div class="cube__side cube__side--back"></div>
-                <div class="cube__side cube__side--left"></div>
-                <div class="cube__side cube__side--right"></div>
-                <div class="cube__side cube__side--top"></div>
-                <div class="cube__side cube__side--bottom"></div>
-                <div class="cube-shadow"></div>
-              </a>
-            </div>
-          </div>
-        </div>
     <div class="wrap">
       <div class="common-bg1"></div>
       <div class="common-bg hide"></div>
@@ -61,7 +40,7 @@ $(document).ready(function() {
       <div class="over-wrap">
         <div id="page">
           <nav class="abs main-m">
-            <a href="../labs/lablrp/index.html" class="prev-move"></a>
+            <a href="../labs/002_lab_lrp/index.html" class="prev-move"></a>
             <a href="../main/index.html" class="home-move"></a>
             <a href="#" class="next-move"></a>
           </nav>
