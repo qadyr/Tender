@@ -350,8 +350,11 @@ $(document).ready(function () {
         $('.sl2 .sl2-link4').addClass('ac');
       }, 1250);
       setTimeout(function() {
-        canClick = !canClick;
+        $('.sl2 .sl2-link1').trigger('click');
       }, 1500);
+      setTimeout(function() {
+        canClick = !canClick;
+      }, 1750);
     }, 1250);
   });
 

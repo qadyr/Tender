@@ -72,15 +72,27 @@ a {
   cursor: pointer;
 }
 
-.container-size {
-  width: 1024px;
-  margin: 0 auto;
+.wrap {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%);
 }
 
 .container {
-  height: 100vh;
+  position: relative;
+}
+
+.container-size {
+  height: 768px;
+  margin: auto;
   overflow: hidden;
-  background: linear-gradient(294.36deg, #D0E1FF -1.11%, #ADCDFF 99.15%);
+  position: relative;
+  top: 0;
+  transform-origin: top center;
+  width: 1024px;
 }
 
 .container-1 {
@@ -304,12 +316,14 @@ a {
 }
 
 .cube-1 {
+  position: relative;
   width: 93px;
   height: 92px;
   background: url(../img/cube-1.png) no-repeat;
 }
 
 .cube-2 {
+  position: relative;
   width: 79px;
   height: 79px;
   background: url(../img/cube-2.png) no-repeat;
@@ -317,6 +331,7 @@ a {
 }
 
 .cube-3 {
+  position: relative;
   width: 101px;
   height: 101px;
   background: url(../img/cube-3.png) no-repeat;
@@ -324,10 +339,57 @@ a {
 }
 
 .cube-4 {
+  position: relative;
   width: 107px;
   height: 107px;
   background: url(../img/cube-4.png) no-repeat;
   margin-left: 36px;
+}
+
+.cube-1 .str {
+  position: absolute;
+  top: 98px;
+  left: -6px;
+  text-decoration: none;
+}
+
+.cube-2 .str {
+  position: absolute;
+  top: 92px;
+  left: 7px;
+  text-decoration: none;
+}
+
+.cube-3 .str {
+  position: absolute;
+  top: 103px;
+  left: 34px;
+  text-decoration: none;
+}
+
+.cube-4 .str {
+  position: absolute;
+  top: 106px;
+  left: 28px;
+  text-decoration: none;
+}
+
+.show-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1024px;
+  height: 768px;
+  background-image: url(../img/bg1.png);
+}
+
+.show-1.nbg { background-image: none !important; }
+
+.cubeG1 {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 435px;
 }
 
 .light-1 {
@@ -362,9 +424,10 @@ a {
   position: absolute;
   height: 359px;
   width: 361px;
-  margin-top: 68px;
-  margin-left: 423px;
+  margin-top: 67px;
+  margin-left: 422px;
   background: url(../img/big-cube-1.png) no-repeat;
+  opacity: 0.6;
 }
 
 .big-cube-2 {
@@ -763,7 +826,7 @@ a {
 
 .text-background {
   background: url(../img/background.png) no-repeat;
-  margin-top: 424px;
+  margin-top: 374px;
   padding-top: 28px;
   padding-left: 40px;
   color: #fff;
@@ -783,8 +846,8 @@ a {
   margin-top: 611px;
   color: #565656;
   font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: 300;
+  font-size: 32px;
   line-height: 30px;
   letter-spacing: 1px;
   position: absolute;
@@ -797,6 +860,63 @@ a {
   background: url(../img/bottle-1.png) no-repeat;
   width: 219px;
   height: 608px;
+}
+
+.like {
+  position: absolute;
+  z-index: 1;
+  width: 748px;
+  height: 104px;
+  left: 0px;
+  top: 635px;
+
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.81) 55.21%, rgba(255, 255, 255, 0) 100%);
+
+  padding-left: 76px;
+
+  display: flex;
+  align-items: center;
+
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+}
+
+.like.an { opacity: 1; transform: translateX(0); }
+
+.like p {
+  position: absolute;
+  top: 24px;
+  left: 76px;
+  height: 100%;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #565656;
+  text-shadow: 0px 0px 15px #FFFFFF;
+}
+
+.like form {
+  position: absolute;
+  top: -7px;
+  left: 620px;
+  z-index: 1;
+}
+
+.like form input {
+  display: block;
+  width: 145px;
+  height: 144px;
+  background-image: url(../img/like.svg);
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  transition: all 0.5s;
+}
+
+.like form input[disabled] {
+  background-image: url(../img/clicked.svg);
 }
 
 .chart-1 {
@@ -854,7 +974,7 @@ a {
 
 .ac {
   transform: translateY(0);
-  transition: all 0.25s;
+  transition: all 0.5s;
   opacity: 1;
   position: absolute;
   z-index: 1;
@@ -868,7 +988,7 @@ a {
 
 .ac-1 {
   transform: translateY(0);
-  transition: all 0.25s;
+  transition: all 0.5s;
   opacity: 1;
   position: absolute;
   z-index: 0;

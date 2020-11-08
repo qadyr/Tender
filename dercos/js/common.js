@@ -200,6 +200,9 @@ $(document).ready(function () {
     setTimeout(function() {
       $('.sl2 .sl2-link4').addClass('ac');
     }, 1250);
+    setTimeout(function() {
+      $('.sl2 .sl2-link1').trigger('click');
+    }, 1500);
   });
 
 });

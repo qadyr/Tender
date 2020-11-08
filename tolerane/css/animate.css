@@ -1,3 +1,29 @@
+.cube-1,
+.cube-2,
+.cube-3,
+.cube-4 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.25s;
+}
+
+.cube-1.an,
+.cube-2.an,
+.cube-3.an,
+.cube-4.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.shadows {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.shadows.an { opacity: 1; }
+
+/* ----------------------------------- */
+
 .bottle-38 {
   transform: translateY(40px);
   opacity: 0;

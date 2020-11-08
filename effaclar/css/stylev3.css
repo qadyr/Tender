@@ -165,16 +165,22 @@ html {
   background-image: url(../images/01/next.svg);
 }
 
-.main-vid {
+.main-vid,
+.main-vid2,
+.main-vid3 {
   top: 0;
   left: 0;
-  border-left: 1px solid #009D8A;
-  border-right: 1px solid #009D8A;
   opacity: 0;
   transition: all 0.5s;
 }
 
-.main-vid.ac { opacity: 1; }
+.main-vid,
+.main-vid2,
+.main-vid3 { top: 70px; left: 430px; }
+
+.main-vid.ac,
+.main-vid2.ac,
+.main-vid3.ac { opacity: 1; }
 
 .sl {
   position: absolute;
@@ -193,6 +199,8 @@ html {
 .sl1 { background-image: url(../images/01/bg.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
 .sl2.vid { background-image: url(../images/02/bg2.png); background-position: center center; }
+.sl2.vid2 { background-image: url(../images/02/bg3.png); background-position: center center; }
+.sl2.vid3 { background-image: url(../images/02/bg4.png); background-position: center center; }
 
 .sl1 .like {
   width: 693px;
@@ -463,8 +471,8 @@ html {
 }
 
 .sl2 .vec2 a {
-  top: 186px;
-  left: 607px;
+  top: 196px;
+  left: 604px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -503,11 +511,12 @@ html {
 }
 
 .sl2 .vec2 .cube {
-  top: 87px;
-  left: 474px;
+  top: 98px;
+  left: 471px;
   width: 308px;
   height: 306px;
   background-image: url(../images/02/cube2.png);
+  opacity: 0.8;
 }
 
 .sl2 .vec3 .cube {
@@ -519,11 +528,12 @@ html {
 }
 
 .sl2 .vec4 .cube {
-  top: 35px;
-  left: 406px;
+  top: 36px;
+  left: 404px;
   width: 414px;
   height: 414px;
   background-image: url(../images/02/cube4.png);
+  opacity: 0.7;
 }
 
 .sl2 .ovec .text {

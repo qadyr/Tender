@@ -431,27 +431,27 @@ html {
 
 .c1 {
   background-image: url(../images/ic/i1.png);
-  animation: for-child-1 12s infinite linear;
+  animation: for-child-1 24s infinite linear;
 }
 
 .c2 {
   background-image: url(../images/ic/i2.png);
-  animation: for-child-2 12s infinite linear;
+  animation: for-child-2 24s infinite linear;
 }
 
 .c3 {
   background-image: url(../images/ic/i3.png);
-  animation: for-child-3 12s infinite linear;
+  animation: for-child-3 24s infinite linear;
 }
 
 .c4 {
   background-image: url(../images/ic/i4.png);
-  animation: for-child-4 12s infinite linear;
+  animation: for-child-4 24s infinite linear;
 }
 
 .c5 {
   background-image: url(../images/ic/i5.png);
-  animation: for-child-5 12s infinite linear;
+  animation: for-child-5 24s infinite linear;
 }
 
 @keyframes for-child-1 { 
