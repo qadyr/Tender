@@ -146,11 +146,17 @@ html {
 .sl1 .drop.hide { transform: scale(0); opacity: 0; }
 
 .sl1 .tub {
+  display: none;
   left: 145px;
   top: 43px;
   width: 201px;
   height: 675px;
   background-image: url(../images/01/tub.png);
+}
+
+.sl1 .tubG {
+  top: 85px;
+  left: -353px;
 }
 
 .sl1 .like {
@@ -438,6 +444,69 @@ html {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.sl2 .vec1 .cube {
+  top: 77px;
+  left: 437px;
+  width: 333px;
+  height: 287px;
+  background-image: url(../images/02/cube1.png);
+}
+
+.sl2 .vec2 .cube {
+  top: 78px;
+  left: 478px;
+  width: 304px;
+  height: 296px;
+  background-image: url(../images/02/cube2.png);
+}
+
+.sl2 .vec3 .cube {
+  top: 71px;
+  left: 396px;
+  width: 346px;
+  height: 287px;
+  background-image: url(../images/02/cube3.png);
+}
+
+.sl2 .vec4 .cube {
+  top: 86px;
+  left: 433px;
+  width: 348px;
+  height: 321px;
+  background-image: url(../images/02/cube4.png);
+}
+
+.sl2 .ovec .text {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #565656;
+}
+
+.sl2 .vec1 .text {
+  top: 392px;
+  left: 446px;
+  font-size: 27px;
+}
+
+.sl2 .vec2 .text {
+  top: 393px;
+  left: 512px;
+}
+
+.sl2 .vec3 .text {
+  top: 385px;
+  left: 486px;
+  font-size: 36px;
+}
+
+.sl2 .vec4 .text {
+  top: 420px;
+  left: 642px;
 }
 
 .m_pop1 {

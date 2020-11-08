@@ -384,7 +384,7 @@ html {
 }
 
 .sl2 .vec2 a {
-  top: 211px;
+  top: 181px;
   left: 590px;
   width: 40px;
   height: 40px;
@@ -421,6 +421,69 @@ html {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.sl2 .vec1 .cube {
+  top: 60px;
+  left: 438px;
+  width: 361px;
+  height: 359px;
+  background-image: url(../images/02/cube1.png);
+}
+
+.sl2 .vec2 .cube {
+  top: 83px;
+  left: 458px;
+  width: 307px;
+  height: 306px;
+  background-image: url(../images/02/cube2.png);
+}
+
+.sl2 .vec3 .cube {
+  top: 23px;
+  left: 396px;
+  width: 411px;
+  height: 409px;
+  background-image: url(../images/02/cube3.png);
+}
+
+.sl2 .vec4 .cube {
+  top: 56px;
+  left: 426px;
+  width: 414px;
+  height: 414px;
+  background-image: url(../images/02/cube4.png);
+}
+
+.sl2 .ovec .text {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #565656;
+}
+
+.sl2 .vec1 .text {
+  top: 399px;
+  left: 452px;
+  font-size: 27px;
+}
+
+.sl2 .vec2 .text {
+  top: 403px;
+  left: 482px;
+}
+
+.sl2 .vec3 .text {
+  top: 405px;
+  left: 507px;
+  font-size: 48px;
+}
+
+.sl2 .vec4 .text {
+  top: 430px;
+  left: 662px;
 }
 
 .m_pop1 {

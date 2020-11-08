@@ -455,6 +455,69 @@ html {
   border-radius: 50%;
 }
 
+.sl2 .vec1 .cube {
+  top: 30px;
+  left: 447px;
+  width: 361px;
+  height: 359px;
+  background-image: url(../images/02/cube1.png);
+}
+
+.sl2 .vec2 .cube {
+  top: 112px;
+  left: 458px;
+  width: 307px;
+  height: 306px;
+  background-image: url(../images/02/cube2.png);
+}
+
+.sl2 .vec3 .cube {
+  top: 44px;
+  left: 385px;
+  width: 393px;
+  height: 391px;
+  background-image: url(../images/02/cube3.png);
+}
+
+.sl2 .vec4 .cube {
+  top: 56px;
+  left: 416px;
+  width: 414px;
+  height: 414px;
+  background-image: url(../images/02/cube4.png);
+}
+
+.sl2 .ovec .text {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #565656;
+}
+
+.sl2 .vec1 .text {
+  top: 366px;
+  left: 456px;
+  font-size: 27px;
+}
+
+.sl2 .vec2 .text {
+  top: 434px;
+  left: 492px;
+}
+
+.sl2 .vec3 .text {
+  top: 405px;
+  left: 542px;
+  font-size: 48px;
+}
+
+.sl2 .vec4 .text {
+  top: 431px;
+  left: 652px;
+}
+
 .m_pop1 {
   display: none;
   z-index: 2;

@@ -468,6 +468,68 @@ html {
   border-radius: 50%;
 }
 
+.sl2 .vec1 .cube {
+  top: 52px;
+  left: 568px;
+  width: 388px;
+  height: 387px;
+  background-image: url(../images/02/cube1.png);
+}
+
+.sl2 .vec2 .cube {
+  top: 60px;
+  left: 574px;
+  width: 337px;
+  height: 335px;
+  background-image: url(../images/02/cube2.png);
+}
+
+.sl2 .vec3 .cube {
+  top: 93px;
+  left: 577px;
+  width: 327px;
+  height: 291px;
+  background-image: url(../images/02/cube3.png);
+}
+
+.sl2 .vec4 .cube {
+  top: 50px;
+  left: 584px;
+  width: 395px;
+  height: 395px;
+  background-image: url(../images/02/cube4.png);
+}
+
+.sl2 .ovec .text {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.sl2 .vec1 .text {
+  top: 407px;
+  left: 584px;
+  font-size: 27px;
+}
+
+.sl2 .vec2 .text {
+  top: 386px;
+  left: 614px;
+}
+
+.sl2 .vec3 .text {
+  top: 394px;
+  left: 634px;
+}
+
+.sl2 .vec4 .text {
+  top: 417px;
+  left: 721px;
+}
+
 .m_pop1 {
   display: none;
   top: 0;

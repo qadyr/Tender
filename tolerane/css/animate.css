@@ -1,10 +1,263 @@
+.bottle-38 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-38.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.text-p {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.text-p.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.zero {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.zero.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.strings-text-1 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-1.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .bar {
   transform: translateX(-40px);
-  opacity: 1;
+  opacity: 0;
   transition: all 0.5s;
 }
 
 .bar.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-39 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-39.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.strings-text-2 {
   transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-2.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-40,
+.bottle-41 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-40.an,
+.bottle-41.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.strings-text-3 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-3.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.strings-text-4 {
+  transform: translateX(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-4.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.zero-1 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.zero-1.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-42 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-42.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.strings-text-5 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-5.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-43 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-43.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-44 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-44.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-45,
+.bottle-46 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-45.an,
+.bottle-46.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.strings-text-6,
+.strings-text-8 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-6.an,
+.strings-text-8.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.strings-text-7 {
+  transform: translateX(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-7.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.zero-2 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.zero-2.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ----------------------------------- */
+
+.bottle-47,
+.bottle-48 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.bottle-47.an,
+.bottle-48.an {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.strings-text-10 {
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-10.an {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.strings-text-9 {
+  transform: translateX(40px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.strings-text-9.an {
+  transform: translateX(0);
   opacity: 1;
 }
