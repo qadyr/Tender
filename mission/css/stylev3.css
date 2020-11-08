@@ -99,71 +99,6 @@ html {
   color: #009EE3;
 }
 
-.sl1 .item1,
-.sl1 .item2,
-.sl1 .item3,
-.sl1 .item4,
-.sl1 .item5 {
-  width: 278px;
-  height: 209px;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.sl1 .item1:after,
-.sl1 .item2:after,
-.sl1 .item3:after,
-.sl1 .item4:after,
-.sl1 .item5:after {
-  content: '';
-  position: absolute;
-  top: 190px;
-  left: calc(50% - 168px);
-  width: 336px;
-  height: 90px;
-  background-image: url(../images/ic/shadow.png);
-  transform: translateZ(-1px);
-}
-
-.sl1 .item1:hover,
-.sl1 .item2:hover,
-.sl1 .item3:hover,
-.sl1 .item4:hover,
-.sl1 .item5:hover {
-  z-index: 2;
-}
-
-.sl1 .item1 {
-  top: 151px;
-  left: 373px;
-  background-image: url(../images/ic/i1.png);
-}
-
-.sl1 .item2 {
-  top: 232px;
-  left: 608px;
-  background-image: url(../images/ic/i2.png);
-}
-
-.sl1 .item3 {
-  top: 436px;
-  left: 525px;
-  background-image: url(../images/ic/i3.png);
-}
-
-.sl1 .item4 {
-  z-index: 1;
-  top: 436px;
-  left: 221px;
-  background-image: url(../images/ic/i4.png);
-}
-
-.sl1 .item5 {
-  top: 232px;
-  left: 138px;
-  background-image: url(../images/ic/i5.png);
-}
-
 .sl1 .mp1,
 .sl1 .mp2,
 .sl1 .mp3,
@@ -452,4 +387,114 @@ html {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.parent {
+  animation: for-parent 2s infinite linear alternate;
+  border-radius: 50%;
+}
+
+.parent {
+  position: absolute;
+  top: 260px;
+  left: 210px;
+  height: 300px;
+  width: 600px;
+}
+
+.child {
+  background: #AAA;
+  position: absolute;
+  height: 209px;
+  width: 278px;
+  top: -100px;
+  left: -25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  offset-rotate: 0deg;
+  /* Ниже SVG. Она задает траекторию движения. Именна она отвечает за эллипс. Не родитель! */
+  offset-path: path('m26,239c0,-82.87293 134.25414,-150 300,-150c165.74586,0 300,67.12707 300,150c0,82.87293 -134.25414,150 -300,150c-165.74586,0 -300,-67.12707 -300,-150z');
+}
+
+.child:after {
+  content: '';
+  position: absolute;
+  top: 190px;
+  left: calc(50% - 168px);
+  width: 336px;
+  height: 90px;
+  background-image: url(../images/ic/shadow.png);
+  transform: translateZ(-1px);
+}
+
+.child:hover { z-index: 2; }
+
+.c1 {
+  background-image: url(../images/ic/i1.png);
+  animation: for-child-1 12s infinite linear;
+}
+
+.c2 {
+  background-image: url(../images/ic/i2.png);
+  animation: for-child-2 12s infinite linear;
+}
+
+.c3 {
+  background-image: url(../images/ic/i3.png);
+  animation: for-child-3 12s infinite linear;
+}
+
+.c4 {
+  background-image: url(../images/ic/i4.png);
+  animation: for-child-4 12s infinite linear;
+}
+
+.c5 {
+  background-image: url(../images/ic/i5.png);
+  animation: for-child-5 12s infinite linear;
+}
+
+@keyframes for-child-1 { 
+  0%    { offset-distance: 0%;   }
+  20%   { offset-distance: 20%;  }
+  40%   { offset-distance: 40%;  }
+  60%   { offset-distance: 60%;  }
+  80%   { offset-distance: 80%;  }
+  100%  { offset-distance: 100%; }
+}
+
+@keyframes for-child-2 { 
+  0%    { offset-distance: 20%;  }
+  20%   { offset-distance: 40%;  }
+  40%   { offset-distance: 60%;  }
+  60%   { offset-distance: 80%;  }
+  80%   { offset-distance: 100%; }
+  100%  { offset-distance: 120%; }
+}
+
+@keyframes for-child-3 { 
+  0%    { offset-distance: 40%;  }
+  20%   { offset-distance: 60%;  }
+  40%   { offset-distance: 80%;  }
+  60%   { offset-distance: 100%; }
+  80%   { offset-distance: 120%; }
+  100%  { offset-distance: 140%; }
+}
+
+@keyframes for-child-4 { 
+  0%    { offset-distance: 60%;  }
+  20%   { offset-distance: 80%;  }
+  40%   { offset-distance: 100%; }
+  60%   { offset-distance: 120%; }
+  80%   { offset-distance: 140%; }
+  100%  { offset-distance: 160%; }
+}
+
+@keyframes for-child-5 { 
+  0%    { offset-distance: 80%;  }
+  20%   { offset-distance: 100%; }
+  40%   { offset-distance: 120%; }
+  60%   { offset-distance: 140%; }
+  80%   { offset-distance: 160%; }
+  100%  { offset-distance: 180%; }
 }

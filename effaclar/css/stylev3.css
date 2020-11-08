@@ -459,6 +459,7 @@ html {
   width: 1024px;
   height: 768px;
   background-image: url(../images/02/v2.png);
+  background-repeat: no-repeat;
 }
 
 .sl2 .vec2 a {

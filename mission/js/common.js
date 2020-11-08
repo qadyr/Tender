@@ -60,31 +60,31 @@ $(window).load(function () {
     ress();
   });
 
-  $('.sl1 .item1').click(function() {
+  $('.c1').click(function() {
     $('.sl1 .mp1').addClass('ac');
   });
   $('.sl1 .mp1 .back').click(function() {
     $('.sl1 .mp1').removeClass('ac');
   });
-  $('.sl1 .item2').click(function() {
+  $('.c2').click(function() {
     $('.sl1 .mp2').addClass('ac');
   });
   $('.sl1 .mp2 .back').click(function() {
     $('.sl1 .mp2').removeClass('ac');
   });
-  $('.sl1 .item3').click(function() {
+  $('.c3').click(function() {
     $('.sl1 .mp3').addClass('ac');
   });
   $('.sl1 .mp3 .back').click(function() {
     $('.sl1 .mp3').removeClass('ac');
   });
-  $('.sl1 .item4').click(function() {
+  $('.c4').click(function() {
     $('.sl1 .mp4').addClass('ac');
   });
   $('.sl1 .mp4 .back').click(function() {
     $('.sl1 .mp4').removeClass('ac');
   });
-  $('.sl1 .item5').click(function() {
+  $('.c5').click(function() {
     $('.sl1 .mp5').addClass('ac');
   });
   $('.sl1 .mp5 .back').click(function() {

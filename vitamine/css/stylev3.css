@@ -146,17 +146,11 @@ html {
 .sl1 .drop.hide { transform: scale(0); opacity: 0; }
 
 .sl1 .tub {
-  display: none;
   left: 145px;
   top: 43px;
   width: 201px;
   height: 675px;
   background-image: url(../images/01/tub.png);
-}
-
-.sl1 .tubG {
-  top: 85px;
-  left: -353px;
 }
 
 .sl1 .like {
