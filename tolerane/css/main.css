@@ -72,7 +72,7 @@ a {
   cursor: pointer;
 }
 
-.wrap {
+.wrap { width: 100vw;
   display: flex;
   height: 100vh;
   justify-content: space-around;
