@@ -168,15 +168,11 @@ html {
 .main-vid,
 .main-vid2,
 .main-vid3 {
-  top: 0;
-  left: 0;
+  top: 70px;
+  left: 430px;
   opacity: 0;
   transition: all 0.5s;
 }
-
-.main-vid,
-.main-vid2,
-.main-vid3 { top: 70px; left: 430px; }
 
 .main-vid.ac,
 .main-vid2.ac,
@@ -198,9 +194,25 @@ html {
 
 .sl1 { background-image: url(../images/01/bg.png); }
 .sl2 { background-image: url(../images/02/bg.png); }
-.sl2.vid { background-image: url(../images/02/bg2.png); background-position: center center; }
-.sl2.vid2 { background-image: url(../images/02/bg3.png); background-position: center center; }
-.sl2.vid3 { background-image: url(../images/02/bg4.png); background-position: center center; }
+
+
+.sl2.vid {
+  background-image: url(../images/02/bg2.png);
+  background-position: center center;
+  transition: all 0.5s;
+}
+
+.sl2.vid2 {
+  background-image: url(../images/02/bg3.png);
+  background-position: center center;
+  transition: all 0.5s;
+}
+
+.sl2.vid3 {
+  background-image: url(../images/02/bg4.png);
+  background-position: center center;
+  transition: all 0.5s;
+}
 
 .sl1 .like {
   width: 693px;
