@@ -222,10 +222,8 @@ html {
 
   background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.81) 59.9%, rgba(255, 255, 255, 0.48) 89.06%, rgba(255, 255, 255, 0) 100%);
 
+  padding-top: 9px;
   padding-left: 85px;
-
-  display: flex;
-  align-items: center;
 
   opacity: 0;
   transform: translateX(50%);

@@ -1,6 +1,6 @@
 "use strict";
 
-$(document).ready(function () {
+$(window).load(function () {
 
   var hideEl = function() {
     $('.sl3').removeClass('_show');
