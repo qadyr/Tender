@@ -15,7 +15,7 @@ $(function(){
       'opacity' : '0',
       'transition' : '2s',
     });
-    $('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
+    $('.show-main .text-background, .show-main .header__i, .show-main .text, .show-main .text-1').css({
       'opacity' : '0',
       'transition' : '2s',
     });
@@ -57,7 +57,7 @@ $(function(){
     $('.show-1 .arrows').css({
       'opacity' : '0',
     });
-    $('.show-main .text-background, .show-main .header, .show-main .text, .show-main .text-1').css({
+    $('.show-main .text-background, .show-main .header__i, .show-main .text, .show-main .text-1').css({
       'opacity' : '1',
       'transition' : '3s',
     });
