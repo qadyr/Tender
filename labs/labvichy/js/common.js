@@ -1,6 +1,6 @@
 "use strict";
 
-$(document).ready(function () {
+$(window).load(function () {
 
   var it1 = 768 / 100;
   var it2;

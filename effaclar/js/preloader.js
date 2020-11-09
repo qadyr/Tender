@@ -1,5 +1,3 @@
-$(document).ready(function() {
-  setTimeout(function(){
-  	$('.preloader').fadeOut();
-  }, 1000)
+$(window).load(function() {
+  $('.preloader').fadeOut();
 })

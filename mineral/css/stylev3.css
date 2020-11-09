@@ -158,10 +158,8 @@ html {
 
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.928302) 30.21%, rgba(255, 255, 255, 0.65) 71.65%, rgba(255, 255, 255, 0.343973) 90.67%, rgba(255, 255, 255, 0) 100%);
 
+  padding-top: 19px;
   padding-left: 243px;
-
-  display: flex;
-  align-items: center;
 
   opacity: 0;
   transform: translateX(50%);
