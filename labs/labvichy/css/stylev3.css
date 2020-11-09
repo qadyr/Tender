@@ -285,3 +285,13 @@ html {
   top: 116px;
   left: 0;
 }
+
+.sl1 .cm-back {
+  top: 617px;
+  left: 68px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url(../images/01/back.svg);
+}
