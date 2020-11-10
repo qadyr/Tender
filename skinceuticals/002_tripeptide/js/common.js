@@ -100,6 +100,9 @@ $(window).load(function () {
     setTimeout(function() {
       $('.mp2 .gg .g3').addClass('ac');
     }, 500);
+    setTimeout(function() {
+      $('.mp2 .gg .g2').addClass('ac');
+    }, 200);
   });
 
   $('.mp2 .x').click(function() {
@@ -107,6 +110,7 @@ $(window).load(function () {
     changeToBlue();
     $('.mp2').fadeOut();
     $('.mp2 .gg .g3').removeClass('ac');
+    $('.mp2 .gg .g2').removeClass('ac');
   });
 
 });

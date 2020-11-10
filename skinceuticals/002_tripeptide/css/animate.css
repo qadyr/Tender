@@ -42,42 +42,47 @@
   opacity: 1;
 }
 
-.mp2 .gg1 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg1 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+/* % span */
+.mp2 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .g3.ac span { opacity: 1; }
+
+
+.mp2 .gg1 .g3 { height: 41px; transition: all 1.25s; }
 .mp2 .gg1 .g3.ac { height: 170px; }
-.mp2 .gg1 .g3.ac span { opacity: 1; }
+.mp2 .gg1 .g2 { height: 41px; transition: all 1.25s; }
+.mp2 .gg1 .g2.ac { height: 92px; }
 
-.mp2 .gg2 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg2 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg2 .g3 { height: 41px; transition: all 1.25s; }
 .mp2 .gg2 .g3.ac { height: 170px; }
-.mp2 .gg2 .g3.ac span { opacity: 1; }
+.mp2 .gg2 .g2 { height: 41px; transition: all 1.25s; }
+.mp2 .gg2 .g2.ac { height: 92px; }
 
-.mp2 .gg3 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg3 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg3 .g3 { height: 41px; transition: all 1.25s; }
 .mp2 .gg3 .g3.ac { height: 170px; }
-.mp2 .gg3 .g3.ac span { opacity: 1; }
+.mp2 .gg3 .g2 { height: 41px; transition: all 1.25s; }
+.mp2 .gg3 .g2.ac { height: 92px; }
 
-.mp2 .gg4 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg4 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg4 .g3 { height: 63px; transition: all 1.25s; }
 .mp2 .gg4 .g3.ac { height: 199px; }
-.mp2 .gg4 .g3.ac span { opacity: 1; }
+.mp2 .gg4 .g2 { height: 63px; transition: all 1.25s; }
+.mp2 .gg4 .g2.ac { height: 134px; }
 
-.mp2 .gg5 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg5 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg5 .g3 { height: 118px; transition: all 1.25s; }
 .mp2 .gg5 .g3.ac { height: 305px; }
-.mp2 .gg5 .g3.ac span { opacity: 1; }
+.mp2 .gg5 .g2 { height: 118px; transition: all 1.25s; }
+.mp2 .gg5 .g2.ac { height: 206px; }
 
-.mp2 .gg6 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg6 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg6 .g3 { height: 53px; transition: all 1.25s; }
 .mp2 .gg6 .g3.ac { height: 293px; }
-.mp2 .gg6 .g3.ac span { opacity: 1; }
+.mp2 .gg6 .g2 { height: 53px; transition: all 1.25s; }
+.mp2 .gg6 .g2.ac { height: 184px; }
 
-.mp2 .gg7 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg7 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg7 .g3 { height: 44px; transition: all 1.25s; }
 .mp2 .gg7 .g3.ac { height: 134px; }
-.mp2 .gg7 .g3.ac span { opacity: 1; }
+.mp2 .gg7 .g2 { height: 44px; transition: all 1.25s; }
+.mp2 .gg7 .g2.ac { height: 94px; }
 
-.mp2 .gg8 .g3 { height: 0; transition: all 1.25s; }
-.mp2 .gg8 .g3 span { opacity: 0; transition: all 0.5s 1.25s; }
+.mp2 .gg8 .g3 { height: 44px; transition: all 1.25s; }
 .mp2 .gg8 .g3.ac { height: 134px; }
-.mp2 .gg8 .g3.ac span { opacity: 1; }
+.mp2 .gg8 .g2 { height: 44px; transition: all 1.25s; }
+.mp2 .gg8 .g2.ac { height: 94px; }
