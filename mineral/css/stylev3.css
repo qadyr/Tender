@@ -1273,3 +1273,11 @@ html {
   text-transform: uppercase;
   color: #565656;
 }
+
+.video{
+  margin-top: 116px;
+  background: url(../img/background-1.png) no-repeat;
+  height: 575px;
+  position: absolute;
+  width: 100%;
+}
