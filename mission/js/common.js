@@ -60,35 +60,75 @@ $(window).load(function () {
     ress();
   });
 
-  $('.c1').click(function() {
+  $('.ellipse-1 .dot-1').click(function() {
     $('.sl1 .mp1').addClass('ac');
   });
   $('.sl1 .mp1 .back').click(function() {
     $('.sl1 .mp1').removeClass('ac');
   });
-  $('.c2').click(function() {
+  $('.ellipse-1 .dot-2').click(function() {
     $('.sl1 .mp2').addClass('ac');
   });
   $('.sl1 .mp2 .back').click(function() {
     $('.sl1 .mp2').removeClass('ac');
   });
-  $('.c3').click(function() {
+  $('.ellipse-1 .dot-3').click(function() {
     $('.sl1 .mp3').addClass('ac');
   });
   $('.sl1 .mp3 .back').click(function() {
     $('.sl1 .mp3').removeClass('ac');
   });
-  $('.c4').click(function() {
+  $('.ellipse-1 .dot-4').click(function() {
     $('.sl1 .mp4').addClass('ac');
   });
   $('.sl1 .mp4 .back').click(function() {
     $('.sl1 .mp4').removeClass('ac');
   });
-  $('.c5').click(function() {
+  $('.ellipse-1 .dot-5').click(function() {
     $('.sl1 .mp5').addClass('ac');
   });
   $('.sl1 .mp5 .back').click(function() {
     $('.sl1 .mp5').removeClass('ac');
   });
+
+  var X      = 137,
+      Y      = 290,
+      R      = 155,
+      ANGLE  = 0,
+      ANGLE2 = 1.2,
+      ANGLE3 = 2.4,
+      ANGLE4 = 3.6,
+      ANGLE5 = 4.8;
+
+  setInterval(function() {
+
+    let q1 = Y + 2 * R * Math.cos(ANGLE);
+    let w1 = X + R * Math.sin(ANGLE);
+
+    let e1 = Y + 2 * R * Math.cos(ANGLE2);
+    let r1 = X + R * Math.sin(ANGLE2);
+
+    let t1 = Y + 2 * R * Math.cos(ANGLE3);
+    let y1 = X + R * Math.sin(ANGLE3);
+
+    let d1 = Y + 2 * R * Math.cos(ANGLE4);
+    let f1 = X + R * Math.sin(ANGLE4);
+
+    let g1 = Y + 2 * R * Math.cos(ANGLE5);
+    let h1 = X + R * Math.sin(ANGLE5);
+
+    $(".ellipse-1 .dot-1").css({left: q1 + "px", top: w1 + "px"});
+    $(".ellipse-1 .dot-2").css({left: e1 + "px", top: r1 + "px"});
+    $(".ellipse-1 .dot-3").css({left: t1 + "px", top: y1 + "px"});
+    $(".ellipse-1 .dot-4").css({left: d1 + "px", top: f1 + "px"});
+    $(".ellipse-1 .dot-5").css({left: g1 + "px", top: h1 + "px"});
+
+    ANGLE += 0.02;
+    ANGLE2 += 0.02;
+    ANGLE3 += 0.02;
+    ANGLE4 += 0.02;
+    ANGLE5 += 0.02;
+
+  }, 75);
 
 });

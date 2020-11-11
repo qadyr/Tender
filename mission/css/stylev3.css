@@ -498,3 +498,40 @@ html {
   80%   { offset-distance: 160%; }
   100%  { offset-distance: 180%; }
 }
+
+.ellipse-1 {
+  top: 170px;
+  left: 80px;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+}
+
+.ellipse-1 .dot {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  height: 209px;
+  width: 278px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.ellipse-1 .dot:after {
+  content: '';
+  position: absolute;
+  top: 190px;
+  left: calc(50% - 168px);
+  width: 336px;
+  height: 90px;
+  background-image: url(../images/ic/shadow.png);
+  transform: translateZ(-1px);
+}
+
+.ellipse-1 .dot:hover { z-index: 1; }
+
+.ellipse-1 .dot-1 { background-image: url(../images/ic/i1.png); }
+.ellipse-1 .dot-2 { background-image: url(../images/ic/i2.png); }
+.ellipse-1 .dot-3 { background-image: url(../images/ic/i3.png); }
+.ellipse-1 .dot-4 { background-image: url(../images/ic/i4.png); }
+.ellipse-1 .dot-5 { background-image: url(../images/ic/i5.png); }
