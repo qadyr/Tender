@@ -127,7 +127,7 @@ $(window).load(function () {
     $(this).parent().removeClass('vid2');
     $(this).parent().removeClass('vid3');
     $('.mvid').removeClass('ac');
-    $('.main-vid').addClass('ac').get(0).play();
+    $('.main-vid').addClass('ac')/* .get(0).play() */;
   });
   $('.sl2 .sl2-link2').click(function() {
     $('.sl2 .ovec').removeClass('ac');
@@ -136,7 +136,7 @@ $(window).load(function () {
     $(this).parent().addClass('vid2');
     $(this).parent().removeClass('vid3');
     $('.mvid').removeClass('ac');
-    $('.main-vid2').addClass('ac').get(0).play();
+    $('.main-vid2').addClass('ac')/* .get(0).play() */;
   });
   $('.sl2 .sl2-link3').click(function() {
     $('.sl2 .ovec').removeClass('ac');
@@ -153,12 +153,12 @@ $(window).load(function () {
     $(this).parent().removeClass('vid2');
     $(this).parent().addClass('vid3');
     $('.mvid').removeClass('ac');
-    $('.main-vid3').addClass('ac').get(0).play();
+    $('.main-vid3').addClass('ac')/* .get(0).play() */;
   });
 
   $('.sl2 .vec1 a').click(function() {
     $('.m_pop1').fadeIn();
-    $('.main-vid').removeClass('ac').get(0).pause();
+    $('.main-vid').removeClass('ac')/* .get(0).pause() */;
     setTimeout(function() {
       hideEl();
       changeBGtoWhite();
@@ -166,7 +166,7 @@ $(window).load(function () {
   });
   $('.m_pop1 .x').click(function() {
     $(this).parent().fadeOut();
-    $('.main-vid').addClass('ac').get(0).play();
+    $('.main-vid').addClass('ac')/* .get(0).play() */;
     showEl();
     changeBGtoBlue();
   });
@@ -175,7 +175,7 @@ $(window).load(function () {
     $('.m_pop2').fadeIn();
     $('.main-vid2')
       .css('transition', 'all 0s')
-      .removeClass('ac').get(0).pause();
+      .removeClass('ac')/* .get(0).pause() */;
     changeBGtoLightGreen();
     hideEl();
     setTimeout(function() {
@@ -188,7 +188,7 @@ $(window).load(function () {
     $(this).parent().fadeOut();
     $('.main-vid2')
       .css('transition', 'all 0.5s')
-      .addClass('ac').get(0).play();
+      .addClass('ac')/* .get(0).play() */;
     $('.m_pop2 .g2').removeClass('ac');
     $('.m_pop2 .g4').removeClass('ac');
     $('.m_pop2 .g6').removeClass('ac');
