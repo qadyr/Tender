@@ -64,7 +64,7 @@ $(document).ready(function() {
         <div id="page">
           <nav class="abs main-m">
             <a href="../labs/lablrp/index.html" class="prev-move"></a>
-            <a href="../main/index.html" class="home-move"></a>
+            <a href="../index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
           </nav>
           <img src="shared/vid.gif" width="344" height="344" alt="" class="abs mvid main-vid">
