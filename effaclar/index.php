@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
       <script type="text/javascript" src="js/preloader.js"></script>
-	<script src="js/cookie.js">
+	<script src="js/cookie.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#button').on('click', function() {
@@ -69,7 +69,7 @@ $(document).ready(function() {
         <div id="page">
           <nav class="abs main-m">
             <a href="../labs/lablrp/index.html" class="prev-move"></a>
-            <a href="../index.html" class="home-move"></a>
+            <a href="../main/index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
           </nav>
           <video width="344" height="344" class="abs mvid main-vid" loop="loop" muted="muted">
@@ -381,21 +381,5 @@ $(document).ready(function() {
         </div>
       </div>
     </div>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-ym(69093577, "init", {
-clickmap:true,
-trackLinks:true,
-accurateTrackBounce:true,
-webvisor:true
-});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
   </body>
 </html>
