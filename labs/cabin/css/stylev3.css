@@ -467,7 +467,7 @@ html {
   left: 70px;
   width: 201px;
   height: 281px;
-  background-image: url(../images/q1.png);
+  background-image: url(../images/q1h.png);
   z-index: 1;
 }
 
@@ -476,7 +476,7 @@ html {
   left: 279px;
   width: 202px;
   height: 213px;
-  background-image: url(../images/q2.png);
+  background-image: url(../images/q2h.png);
   z-index: 1;
 }
 
@@ -484,8 +484,8 @@ html {
   top: 341px;
   left: 560px;
   width: 202px;
-  height: 213px;
-  background-image: url(../images/q3.png);
+  height: 202px;
+  background-image: url(../images/q3h.png);
   z-index: 1;
 }
 
@@ -494,7 +494,7 @@ html {
   left: 770px;
   width: 198px;
   height: 281px;
-  background-image: url(../images/q4.png);
+  background-image: url(../images/q4h.png);
   z-index: 1;
 }
 
@@ -778,4 +778,28 @@ input[type="file"] {
 .sl1 .step4 {
   top: 183px;
   left: 710px;
+}
+
+
+input[type="radio"] {
+	display:none;
+}
+.label_radio {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+}
+input:checked + label {
+	
+
+}
+.a_button {
+	width: 70px;
+	padding: 20px;
+	
+	background-color: #00D3FF;
+	color: #FFFFFF;
+	font-family: Helvetica, Arial, sans-serif;
+	
+	cursor: pointer;
 }
