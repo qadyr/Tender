@@ -171,7 +171,7 @@ html {
   top: 70px;
   left: 430px;
   opacity: 0;
-  transition: all 0.5s;
+  transition: opacity 0.5s .2s;
 }
 
 .main-vid.ac,
