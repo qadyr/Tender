@@ -57,6 +57,7 @@ $(document).ready(function() {
 	
 
 	if ($('.account-info__progress')) {
+	if (progress > 100) {progress = 100};
 	$('.account-info__progress').attr("data-value", progress.toString() + "%");
 	$('.account-info__progress-fill').css("width" , progress.toString() + "%");
 }
