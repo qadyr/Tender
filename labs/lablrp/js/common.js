@@ -86,4 +86,10 @@ $(window).load(function () {
     $('.m_pop1').fadeOut();
   });
 
+  // tooltip2
+  var $tips2 = $('.tooltip2');
+  $tips2.on('click', function() {
+    $(this).hide();
+  });
+
 });
