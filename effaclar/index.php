@@ -9,7 +9,7 @@
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
       <script type="text/javascript" src="js/preloader.js"></script>
-	<script src="js/cookie.js">
+	<script src="js/cookie.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#button').on('click', function() {
@@ -64,12 +64,18 @@ $(document).ready(function() {
         <div id="page">
           <nav class="abs main-m">
             <a href="../labs/lablrp/index.html" class="prev-move"></a>
-            <a href="../index.html" class="home-move"></a>
+            <a href="../main/index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
           </nav>
-          <img src="shared/vid.gif" width="344" height="344" alt="" class="abs mvid main-vid">
-          <img src="shared/vid2.gif" width="344" height="344" alt="" class="abs mvid main-vid2">
-          <img src="shared/vid3.gif" width="344" height="344" alt="" class="abs mvid main-vid3">
+          <video width="344" height="344" class="abs mvid main-vid" loop="loop" muted="muted">
+            <source src="shared/vid.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
+          <video width="344" height="344" class="abs mvid main-vid2" loop="loop" muted="muted">
+            <source src="shared/vid2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
+          <video width="344" height="344" class="abs mvid main-vid3" loop="loop" muted="muted">
+            <source src="shared/vid3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
           <div class="sl sl1 _show">
             <div class="abs like">
 
@@ -370,21 +376,5 @@ $(document).ready(function() {
         </div>
       </div>
     </div>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-ym(69093577, "init", {
-clickmap:true,
-trackLinks:true,
-accurateTrackBounce:true,
-webvisor:true
-});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
   </body>
 </html>
