@@ -309,7 +309,7 @@ $(document).ready(function() {
             <div class="abs plsh plsh3">предотвращает и уменьшает<br>побочные эффекты<br>медикаментозной терапии</div>
             <div class="abs mlist">
               <p class="abs e1">
-                <span>+ [ МП-липиды) ]</span>
+                <span>+ [ МП-липиды ]</span>
                 <span>+ [ Керамид 5 ]</span>
                 <span>+ [ Сквален ]</span>
                 <span>+ [ Масло Карите ]</span>
