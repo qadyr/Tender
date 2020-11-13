@@ -72,7 +72,7 @@ $(document).ready(function() {
             <a href="../index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
           </nav>
-             <video width="344" height="344" class="abs mvid main-vid" loop="loop" muted="muted">
+           <video width="344" height="344" class="abs mvid main-vid" loop="loop" muted="muted">
             <source src="shared/vid.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
           </video>
           <video width="344" height="344" class="abs mvid main-vid2" loop="loop" muted="muted">
