@@ -72,9 +72,15 @@ $(document).ready(function() {
             <a href="../index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
           </nav>
-          <img src="#" data-src="shared/vid.gif" width="344" height="344" alt="" class="abs mvid main-vid lazy">
-          <img src="#" data-src="shared/vid2.gif" width="344" height="344" alt="" class="abs mvid main-vid2 lazy">
-          <img src="#" data-src="shared/vid3.gif" width="344" height="344" alt="" class="abs mvid main-vid3 lazy">
+             <video width="344" height="344" class="abs mvid main-vid" loop="loop" muted="muted">
+            <source src="shared/vid.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
+          <video width="344" height="344" class="abs mvid main-vid2" loop="loop" muted="muted">
+            <source src="shared/vid2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
+          <video width="344" height="344" class="abs mvid main-vid3" loop="loop" muted="muted">
+            <source src="shared/vid3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
           <div class="sl sl1 _show">
             <div class="abs like">
 
