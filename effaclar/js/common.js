@@ -470,4 +470,9 @@ $(window).load(function () {
     }, 1250);
   });
 
+  // lazy img
+  var $lazyImg = $('img.lazy');
+  $.each($lazyImg, function() {
+      this.src = this.dataset.src;
+  });
 });

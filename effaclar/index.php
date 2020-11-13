@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8"/>
     <title>EFFaclaR</title>
+
+    <link rel="preload" href="../images/02/bg2.png" as="image">
+    <link rel="preload" href="../images/02/bg3.png" as="image">
+    <link rel="preload" href="../images/02/bg4.png" as="image">
+
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
     <link rel="stylesheet" href="css/animate.css" type="text/css" media="screen, projection"/>
-      <link href="css/main.060f.css" rel="stylesheet" />
+    <link href="css/main.060f.css" rel="stylesheet" />
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
       <script type="text/javascript" src="js/preloader.js"></script>
@@ -67,9 +72,9 @@ $(document).ready(function() {
             <a href="../index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
           </nav>
-          <img src="shared/vid.gif" width="344" height="344" alt="" class="abs mvid main-vid">
-          <img src="shared/vid2.gif" width="344" height="344" alt="" class="abs mvid main-vid2">
-          <img src="shared/vid3.gif" width="344" height="344" alt="" class="abs mvid main-vid3">
+          <img src="#" data-src="shared/vid.gif" width="344" height="344" alt="" class="abs mvid main-vid lazy">
+          <img src="#" data-src="shared/vid2.gif" width="344" height="344" alt="" class="abs mvid main-vid2 lazy">
+          <img src="#" data-src="shared/vid3.gif" width="344" height="344" alt="" class="abs mvid main-vid3 lazy">
           <div class="sl sl1 _show">
             <div class="abs like">
 
