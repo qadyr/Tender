@@ -7,7 +7,9 @@ $(window).load(function () {
   var it4 = 1024 / 100;
   var newSize;
 
-  function ress() {
+function ress() {
+      var aaaa = window.innerHeight;
+      var bbbb = window.innerWidth;
     if ($(window).height() > 768) {
       $('.over-wrap').height(768);
     } else {
@@ -16,7 +18,19 @@ $(window).load(function () {
 
     it2 = Math.round($(window).height() / it1);
 
-    if ( $(window).width() > $(window).height() ) {
+    if ( aaaa < bbbb) {
+        
+        var wwh = bbbb/aaaa;
+        if (wwh>1.8){
+            
+            var it2 = Math.round(aaaa / it1);
+            $('#page').attr('style', '').css({
+        'transform': 'scale(' + (it2 - 1) / 100 + ')'
+      }).css({
+        '-webkit-transform': 'scale(' + (it2 - 1) / 100 + ')'
+      });
+            
+        }else{
       newSize = $(window).height() / 1000 + ( ( $(window).height() / 1000 ) / 100 * 29.9 );
       if ( newSize > 1 && $(window).width() < 1024 && $(window).height() < 768 ) {
         newSize = 0.95;
@@ -28,8 +42,22 @@ $(window).load(function () {
       });
       return;
     }
+    }
 
     if ($(window).height() < 768 || $(window).width() < 1024) {
+        var wh = window.innerHeight;
+        
+        var ww = window.innerWidth;
+        var wwh = ww/wh;
+        if (wwh>1.8){
+            it2 = Math.round(wh / it1);
+            $('#page').attr('style', '').css({
+        'transform': 'scale(' + (it2 - 1) / 100 + ')'
+      }).css({
+        '-webkit-transform': 'scale(' + (it2 - 1) / 100 + ')'
+      });
+            
+        }else{
       it2 = Math.round($(window).width() / it4);
       newSize = $(window).height() / 1000 + ( ( $(window).height() / 1000 ) / 100 * 29.9 );
       $('#page').attr('style', '').css({
@@ -37,6 +65,7 @@ $(window).load(function () {
       }).css({
         '-webkit-transform': 'scale(' + (it2 - 1) / 100 + ')'
       });
+    }
     }
 
     if ($(window).width() > 1024) {
@@ -54,10 +83,14 @@ $(window).load(function () {
 
   ress();
   $(window).resize(function () {
-    ress();
+    setTimeout(ress, 100);
+
   });
   $(window).load(function () {
-    ress();
+    setTimeout(ress, 100);
+  });
+$(document).ready(function () {
+    setTimeout(ress, 100);
   });
 
   $('.ellipse-1 .dot-1').click(function() {
