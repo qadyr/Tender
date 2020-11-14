@@ -467,7 +467,7 @@ html {
   left: 70px;
   width: 201px;
   height: 281px;
-  background-image: url(../images/q1h.png);
+  background-image: url(../images/q1h_w.png);
   z-index: 1;
 }
 
@@ -476,7 +476,7 @@ html {
   left: 279px;
   width: 202px;
   height: 213px;
-  background-image: url(../images/q2h.png);
+  background-image: url(../images/q2h_w.png);
   z-index: 1;
 }
 
@@ -485,7 +485,7 @@ html {
   left: 560px;
   width: 202px;
   height: 202px;
-  background-image: url(../images/q3h.png);
+  background-image: url(../images/q3h_w.png);
   z-index: 1;
 }
 
@@ -494,7 +494,7 @@ html {
   left: 770px;
   width: 198px;
   height: 281px;
-  background-image: url(../images/q4h.png);
+  background-image: url(../images/q4h_w.png);
   z-index: 1;
 }
 
