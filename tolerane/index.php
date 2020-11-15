@@ -9,27 +9,7 @@
     <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
-         <script type="text/javascript">
-$(document).ready(function() {
-	$('#button').on('click', function() {
-        $.ajax({
-			url: 'click.php',
-			method: 'get',
-			dataType: 'json',
-			data: {id: '4'},     //id счетчика
-			success: function(data){
-				$('#count').html(data.count);
-				if(data.ip){
-					$('#button').prop('disabled', true);
-				}
-			}
-		});
-
-	});
-
-
-});
-</script>
+    
     <div class="preloader">
       <div class="start__cube">
         <div class="start__cube-box start__cube-box-center">
@@ -451,9 +431,31 @@ $(document).ready(function() {
         </div>
       </div>
     </div>
+<script src="js/app.js"></script>
     <script src="js/common.js"></script>
  <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
  <script type="text/javascript" src="js/cookie.js"></script>
     <script type="text/javascript" src="js/preloader.js"></script>
+     <script type="text/javascript">
+$(document).ready(function() {
+	$('#button').on('click', function() {
+        $.ajax({
+			url: 'click.php',
+			method: 'get',
+			dataType: 'json',
+			data: {id: '4'},     //id счетчика
+			success: function(data){
+				$('#count').html(data.count);
+				if(data.ip){
+					$('#button').prop('disabled', true);
+				}
+			}
+		});
+
+	});
+
+
+});
+</script>
   </body>
 </html>
