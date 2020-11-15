@@ -3,15 +3,16 @@
 $(window).load(function () {
 
    var hideEl = function() {
-    $('.sl5').removeClass('_show');
+    $('.sl2').removeClass('_show');
     $('.main-m .next-move').addClass('hide');
     $('.main-m .prev-move').addClass('hide');
     $('.x').css('z-index', 3);
   };
   var showEl = function() {
-    $('.sl5').addClass('_show');
+    $('.sl2').addClass('_show');
     $('.main-m .next-move').removeClass('hide');
     $('.main-m .prev-move').removeClass('hide');
+	 $('.main-m .home-move').removeClass('hide');
   };
 
   var pop3Hide = function() {
@@ -217,6 +218,7 @@ $(document).ready(function () {
       $('.m_pop2 .g2').addClass('ac');
       $('.m_pop2 .g4').addClass('ac');
       $('.m_pop2 .g6').addClass('ac');
+      $('.main-m .home-move').addClass('hide');
     }, 500);
   });
   $('.m_pop2 .x').click(function() {

@@ -5,33 +5,6 @@
     <title>CeraVE(II)</title>
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
     <link rel="stylesheet" href="css/animate.css">
-    <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
-    <script src="js/cookie.js"></script>
-
-    <script type="text/javascript" src="js/preloader.js"></script>
-      <link href="css/main.060f.css" rel="stylesheet" />
-<script type="text/javascript">
-$(document).ready(function() {
-	$('#button').on('click', function() {
-        $.ajax({
-			url: 'click.php',
-			method: 'get',
-			dataType: 'json',
-			data: {id: '10'},     //id счетчика
-			success: function(data){
-				$('#count').html(data.count);
-				//alert(data.ip);
-				if(data.ip){
-					$('#button').prop('disabled', true);
-				}
-			}
-		});
-
-	});
-
-
-});
 </script>
   </head>
   <body>
@@ -278,5 +251,32 @@ $(document).ready(function() {
         </div>
       </div>
     </div>
+<script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script src="js/cookie.js"></script>
+
+    <script type="text/javascript" src="js/preloader.js"></script>
+      <link href="css/main.060f.css" rel="stylesheet" />
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#button').on('click', function() {
+        $.ajax({
+			url: 'click.php',
+			method: 'get',
+			dataType: 'json',
+			data: {id: '10'},     //id счетчика
+			success: function(data){
+				$('#count').html(data.count);
+				//alert(data.ip);
+				if(data.ip){
+					$('#button').prop('disabled', true);
+				}
+			}
+		});
+
+	});
+
+
+});
   </body>
 </html>

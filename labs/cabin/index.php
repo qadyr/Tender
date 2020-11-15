@@ -5,21 +5,6 @@
         <title>Lab Vichy!</title>
         <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
         <link href="css/main.060f.css" rel="stylesheet" />
-        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/common.js"></script>
-        <script type="text/javascript" src="js/preloader.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('form').on('submit', function () {
-                    $('#please_wait').css("display", "block");
-                });
-
-                $('#report_button').click(function () {
-                    $('#email_div').css("display", "block");
-                });
-            });
-        </script>
         <style type="text/css">
             .modal.modal2.ac .modal-inner.inner2 img {max-width: 100%;max-height: 100%!important;width: auto!important;min-width: 0;min-height: 0;max-height: 100%;height: auto;}            
             button#do_submit_2 {width: 100%;}
@@ -135,5 +120,20 @@
                 </div>
             </div>
         </div>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/preloader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('form').on('submit', function () {
+                    $('#please_wait').css("display", "block");
+                });
+
+                $('#report_button').click(function () {
+                    $('#email_div').css("display", "block");
+                });
+            });
+        </script>
     </body>
 </html>

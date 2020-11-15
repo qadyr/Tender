@@ -6,9 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="css/main.060f.css" rel="stylesheet" />
-    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
- <script type="text/javascript" src="js/cookie.js"></script>
-    <script type="text/javascript" src="js/preloader.js"></script>
     <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
@@ -147,7 +144,7 @@ $(document).ready(function() {
             <div class="bottle-full"></div>
             <nav class="arrows">
               <a href="#menu" class="arrow-left" id="arrow-2"></a>
-              <a href="../main/index.html" class="arrow-center"></a>
+              <a href="../index.html" class="arrow-center"></a>
             </nav>
           </div>
           <div class="show-3">
@@ -215,7 +212,7 @@ $(document).ready(function() {
               <div class="line-2"></div>
               <nav class="arrows">
                 <a href="#" class="arrow-left" id="arrow-5"></a>
-                <a href="#" class="arrow-center"></a>
+                <a href="../index.html" class="arrow-center"></a>
               </nav>
             </div>
           </div>
@@ -455,5 +452,8 @@ $(document).ready(function() {
       </div>
     </div>
     <script src="js/common.js"></script>
+ <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+ <script type="text/javascript" src="js/cookie.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
   </body>
 </html>
