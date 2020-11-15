@@ -67,7 +67,7 @@ $(document).ready(function() {
         <div id="page">
           <nav class="abs main-m">
             <a href="../labs/labcerave/index.html" class="prev-move"></a>
-            <a href="../main/index.html" class="home-move"></a>
+            <a href="../index.html" class="home-move"></a>
             <!-- <a href="#" class="next-move hide"></a> -->
           </nav>
           <div class="sl sl2 _show">

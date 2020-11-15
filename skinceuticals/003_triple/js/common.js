@@ -2,15 +2,17 @@
 
 $(window).load(function () {
 
-  var hideEl = function() {
-    $('.sl3').removeClass('_show');
-    $('.main-m').addClass('hide');
+   var hideEl = function() {
+    $('.sl5').removeClass('_show');
+    $('.main-m .next-move').addClass('hide');
+    $('.main-m .prev-move').addClass('hide');
+    $('.x').css('z-index', 3);
   };
   var showEl = function() {
-    $('.sl3').addClass('_show');
-    $('.main-m').removeClass('hide');
+    $('.sl5').addClass('_show');
+    $('.main-m .next-move').removeClass('hide');
+    $('.main-m .prev-move').removeClass('hide');
   };
-
   var it1 = 768 / 100;
   var it2;
   var it4 = 1024 / 100;

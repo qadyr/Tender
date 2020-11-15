@@ -3,12 +3,15 @@
 $(window).load(function () {
 
   var hideEl = function() {
-    $('.sl4').removeClass('_show');
-    $('.main-m').addClass('hide');
+    $('.sl5').removeClass('_show');
+    $('.main-m .next-move').addClass('hide');
+    $('.main-m .prev-move').addClass('hide');
+    $('.x').css('z-index', 3);
   };
   var showEl = function() {
-    $('.sl4').addClass('_show');
-    $('.main-m').removeClass('hide');
+    $('.sl5').addClass('_show');
+    $('.main-m .next-move').removeClass('hide');
+    $('.main-m .prev-move').removeClass('hide');
   };
 
   var it1 = 768 / 100;

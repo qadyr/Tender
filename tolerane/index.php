@@ -62,7 +62,7 @@ $(document).ready(function() {
             <div class="new"></div>
             <nav class="arrows">
               <a href="../labs/lablrp/index.html" class="arrow-left"></a>
-              <a href="../main/index.html" class="arrow-center"></a>
+              <a href="../index.html" class="arrow-center"></a>
               <a href="#menu" class="arrow-right" id="arrow-1"></a>
             </nav>
             <h1 class="header__i">TOLERIANE <span>ULTRA</span><br>DERMALLERGO</h1>
