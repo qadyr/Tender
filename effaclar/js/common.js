@@ -6,6 +6,7 @@ $(window).load(function () {
     $('.sl2').removeClass('_show');
     $('.main-m .next-move').addClass('hide');
     $('.main-m .prev-move').addClass('hide');
+    $('.main-m .home-move').addClass('hide');
     $('.x').css('z-index', 3);
   };
   var showEl = function() {
