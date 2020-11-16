@@ -155,13 +155,13 @@
     transform: translate3d(25px,610px,0px) rotateY(0deg);
 }
 }
-@media screen and (min-width: 740px){
+/* @media screen and (min-width: 740px){
 .start__cube {
     transform: scale(.5);
     perspective: 3000px;
     perspective-origin: 30% -150%;
 }
-}
+} */
 @media screen and (max-width: 750px) and (orientation: portrait){
 .start__cube {
     top: -50px;
@@ -171,4 +171,52 @@
     transform: scale(.3);
     perspective-origin: 50% -20%;
 }
+}
+.cube__logo.cube__logo-front {
+    border-radius: 50%;
+    background: radial-gradient(circle closest-side,rgba(0,163,255,0.3), #ffffff00 100%);
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
+
+.cube--laroche .cube__side {
+    background: radial-gradient(transparent 50%, rgba(255, 255, 255,0.4) 100%)!important;
+    
+}
+
+.cube--vichy .cube__side {
+    background: radial-gradient(transparent 50%, rgba(255, 255, 255,0.4) 100%)!important;
+}
+
+.cube--skin .cube__side {
+    background: radial-gradient(transparent 50%, rgba(255, 255, 255,0.4) 100%)!important;
+}
+
+.cube--cerave .cube__side {
+    background: radial-gradient(transparent 50%, rgba(255, 255, 255,0.4) 100%)!important;
+}
+
+.cube__logo.cube__logo-left {
+    border-radius: 50%;
+    background: radial-gradient(circle closest-side,rgba(13,83,165,0.46) 0%, #ffffff00 100%);
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
+
+.cube__logo.cube__logo-back {
+    border-radius: 50%;
+    background: radial-gradient(circle closest-side,rgba(13,83,165,0.46) 0%, #ffffff00 100%);
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
+
+.cube__logo.cube__logo-right {
+    border-radius: 50%;
+    background: radial-gradient(circle closest-side,rgba(93,90,117,0.3) 0%, #ffffff00 100%);
+    width: 100%;
+    height: 100%;
+    padding: 10%;
 }
