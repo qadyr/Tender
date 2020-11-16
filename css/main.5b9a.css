@@ -155,8 +155,20 @@
     transform: translate3d(25px,610px,0px) rotateY(0deg);
 }
 }
+@media screen and (min-width: 740px){
 .start__cube {
     transform: scale(.5);
     perspective: 3000px;
     perspective-origin: 30% -150%;
+}
+}
+@media screen and (max-width: 750px) and (orientation: portrait){
+.start__cube {
+    top: -50px;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    transform: scale(.3);
+    perspective-origin: 50% -20%;
+}
 }

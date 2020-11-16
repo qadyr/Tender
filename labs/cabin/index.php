@@ -5,6 +5,21 @@
         <title>Lab Vichy!</title>
         <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
         <link href="css/main.060f.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/preloader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('form').on('submit', function () {
+                    $('#please_wait').css("display", "block");
+                });
+
+                $('#report_button').click(function () {
+                    $('#email_div').css("display", "block");
+                });
+            });
+        </script>
         <style type="text/css">
             .modal.modal2.ac .modal-inner.inner2 img {max-width: 100%;max-height: 100%!important;width: auto!important;min-width: 0;min-height: 0;max-height: 100%;height: auto;}            
             button#do_submit_2 {width: 100%;}
@@ -12,6 +27,21 @@
         </style>
     </head>
     <body>
+            <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(69093577, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+    webvisor:true
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
         <div class="preloader">
             <div class="start__cube">
                 <div class="start__cube-box start__cube-box-center">
@@ -98,7 +128,7 @@
                         </div>
                         <div class="buttons">
                             <div class="btn-dslk dislike">НЕ ПОНРАВИЛОСЬ ФОТО</div>                                                        
-                            <a class="btn-dwn">Скачать</a>
+                            <a class="btn-dwn" onclick="ym(69093577,'reachGoal','clickfoto'); return true;">Скачать</a>
                         </div>
                     </div>
                     <div class="modal modal3">
@@ -120,20 +150,5 @@
                 </div>
             </div>
         </div>
-<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/common.js"></script>
-        <script type="text/javascript" src="js/preloader.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('form').on('submit', function () {
-                    $('#please_wait').css("display", "block");
-                });
-
-                $('#report_button').click(function () {
-                    $('#email_div').css("display", "block");
-                });
-            });
-        </script>
     </body>
 </html>
