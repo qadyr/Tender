@@ -390,3 +390,7 @@ html {
   top: 370px;
   right: -76px;
 }
+
+.abs.m_pop1 {
+    z-index: 3;
+}

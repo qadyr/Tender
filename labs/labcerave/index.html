@@ -50,12 +50,12 @@
           <div class="abs m_pop1">
             <div class="abs x"></div>
             <p class="abs m_pop1-p1">Церамиды - инновация<br>в восстановлении барьеров кожи</p>
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/7kkmMi148Eo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player1' width="1024" height="575" src="https://www.youtube.com/embed/7kkmMi148Eo?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="abs m_pop2">
             <div class="abs x"></div>
             <p class="abs m_pop1-p1">Уникальная технология MVE<br>для пролонгированного действия средств</p>
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/uuYnMfBoLT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player2' width="1024" height="575" src="https://www.youtube.com/embed/uuYnMfBoLT4?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -76,5 +76,24 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+<script>
+            var player;
+            var player2;
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('player1');
+                player2 = new YT.Player('player2');
+                
+            }
+            //so on jquery event or whatever call the play or stop on the video.
+            //to play player.playVideo();
+            //to stop player.stopVideo();
+            $(".m_pop1 .abs.x").click(function(){
+                player.stopVideo();
+            });
+            $(".m_pop2 .abs.x").click(function(){
+                player2.stopVideo();
+            });
+     </script>
   </body>
 </html>

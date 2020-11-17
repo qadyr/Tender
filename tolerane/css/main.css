@@ -2414,39 +2414,4 @@ span {
     height: 150px;
   }
 }
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    height: 100px;
-    transform: none;
-    /* transform: translateZ(625px) translateY(-70px) rotateY(-30deg); */
-    border-bottom: 1px dotted #000;
-}
-.tooltip .tooltiptext {
-    width: 200px;
-    background-color: hsla(0,0%,100%,.26);
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    font-size: 24px;
-        top: 50px;
-    left: -120px;
-    position: absolute;
-    z-index: 1;
-}
-.tooltip .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  bottom: 100%;  /* At the top of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent hsla(0,0%,100%,.26) transparent;
-}
-
-
-
-
-
+.video{z-index:10;}

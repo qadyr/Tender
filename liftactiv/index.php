@@ -6,7 +6,33 @@
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
     <link rel="stylesheet" href="css/animate.css">
       <link href="css/main.060f.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+ <script type="text/javascript" src="js/cookie.js"></script>
+  <script type="text/javascript" src="js/preloader.js"></script>
 
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#button').on('click', function() {
+        $.ajax({
+			url: 'click.php',
+			method: 'get',
+			dataType: 'json',
+			data: {id: '5'},     //id счетчика
+			success: function(data){
+				$('#count').html(data.count);
+				//alert(data.ip);
+				if(data.ip){
+					$('#button').prop('disabled', true);
+				}
+			}
+		});
+
+	});
+
+
+});
+</script>
   </head>
   <body>
     <div class="preloader">
@@ -104,7 +130,7 @@
             <div class="abs x"></div>
             <p class="abs m_pop1-p1">В каком возрасте начинается уменьшение количества коллагеновых и эластиновых волокон в коже и с чем это связано?</p>
             <p class="abs m_pop1-p2">к.м.н., врач дерматовенеролог, косметолог Наумчик Г.А.</p>
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/VWvGaLMxkFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player1' width="1024" height="575" src="https://www.youtube.com/embed/VWvGaLMxkFI?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="abs m_pop2">
             <div class="abs x"></div>
@@ -270,34 +296,6 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
- <script type="text/javascript" src="js/cookie.js"></script>
-  <script type="text/javascript" src="js/preloader.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$('#button').on('click', function() {
-        $.ajax({
-			url: 'click.php',
-			method: 'get',
-			dataType: 'json',
-			data: {id: '5'},     //id счетчика
-			success: function(data){
-				$('#count').html(data.count);
-				//alert(data.ip);
-				if(data.ip){
-					$('#button').prop('disabled', true);
-				}
-			}
-		});
-
-	});
-
-
-});
-</script>
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
 (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -313,5 +311,16 @@ webvisor:true
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+<script>
+            var player;
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('player1');               
+            }            
+            $(".m_pop1 .abs.x").click(function(){
+                player.stopVideo();
+            });
+
+     </script>
   </body>
 </html>

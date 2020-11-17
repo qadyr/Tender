@@ -53,7 +53,6 @@ $(document).ready(function() {
       </div>
     </div>
     <div class="wrap">
-
       <div class="container">
         <div class="white-bar"></div>
         <div class="container-size">
@@ -65,7 +64,6 @@ $(document).ready(function() {
               <a href="../labs/lablrp/index.html" class="arrow-left"></a>
               <a href="../index.html" class="arrow-center"></a>
               <a href="#menu" class="arrow-right" id="arrow-1"></a>
-		<div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
             </nav>
             <h1 class="header__i">TOLERIANE <span>ULTRA</span><br>DERMALLERGO</h1>
             <p class="text" style="margin-top: 270px;">Интенсивная успокаивающая сыворотка,<br> активирующая защитную функцию кожи</p>
@@ -96,7 +94,7 @@ $(document).ready(function() {
                 </div>
               </nav>
               <div class="video">
-                <iframe width="1024" height="575" src="https://www.youtube.com/embed/GhYai8k7Ekw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id='player1' width="1024" height="575" src="https://www.youtube.com/embed/GhYai8k7Ekw?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -457,5 +455,16 @@ $(document).ready(function() {
       </div>
     </div>
     <script src="js/common.js"></script>
+    <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+<script>
+            var player;
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('player1');               
+            }            
+            $("#arrow-3").click(function(){
+                player.stopVideo();
+            });
+
+     </script>
   </body>
 </html>

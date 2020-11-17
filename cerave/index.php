@@ -5,6 +5,33 @@
     <title>CeraVE</title>
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
     <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+	<script src="js/cookie.js"></script>
+
+       <script type="text/javascript" src="js/preloader.js"></script>
+       <link href="css/main.060f.css" rel="stylesheet" />
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#button').on('click', function() {
+        $.ajax({
+			url: 'click.php',
+			method: 'get',
+			dataType: 'json',
+			data: {id: '9'},     //id счетчика
+			success: function(data){
+				$('#count').html(data.count);
+				if(data.ip){
+					$('#button').prop('disabled', true);
+				}
+			}
+		});
+
+	});
+
+
+});
+</script>
   </head>
   <body>
     <div class="preloader">
@@ -102,7 +129,7 @@
             <div class="abs x"></div>
             <p class="abs m_pop1-p1">Какова роль эмолентов в уходе за сухой кожей?</p>
             <p class="abs m_pop1-p2">д.м.н., проф. Тамразова О.Б.</p>
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/Q__I2ijSyY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player1' width="1024" height="575" src="https://www.youtube.com/embed/Q__I2ijSyY0?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="abs m_pop2">
             <div class="abs x"></div>
@@ -505,32 +532,20 @@
         </div>
       </div>
     </div>
-<script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
-	<script src="js/cookie.js"></script>
+    <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+<script>
+            var player;
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('player1');
 
-       <script type="text/javascript" src="js/preloader.js"></script>
-       <link href="css/main.060f.css" rel="stylesheet" />
-<script type="text/javascript">
-$(document).ready(function() {
-	$('#button').on('click', function() {
-        $.ajax({
-			url: 'click.php',
-			method: 'get',
-			dataType: 'json',
-			data: {id: '9'},     //id счетчика
-			success: function(data){
-				$('#count').html(data.count);
-				if(data.ip){
-					$('#button').prop('disabled', true);
-				}
-			}
-		});
+            }
+            //so on jquery event or whatever call the play or stop on the video.
+            //to play player.playVideo();
+            //to stop player.stopVideo();
+            $(".m_pop1 .abs.x").click(function(){
+                player.stopVideo();
+            });
 
-	});
-
-
-});
-</script>
+     </script>
   </body>
 </html>

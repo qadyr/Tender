@@ -5,6 +5,10 @@
     <title>Lab Skinceuticals!</title>
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
       <link href="css/main.060f.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+ <script type="text/javascript" src="js/cookie.js"></script>
+      <script type="text/javascript" src="js/preloader.js"></script>
   </head>
   <body>
     <div class="preloader">
@@ -51,25 +55,22 @@
           <div class="abs m_pop1">
             <div class="abs x"></div>
             <p class="abs m_pop1-p1">№1 профессиональный<br>бренд по уходу за кожей</p>
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/0POeEZsY-yA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player1' width="1024" height="575" src="https://www.youtube.com/embed/0POeEZsY-yA?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="abs m_pop2">
             <div class="abs x"></div>
             <p class="abs m_pop1-p1">Эксперт в изучении антиоксидантов</p>
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/oGTG4Fk04oE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player2' width="1024" height="575" src="https://www.youtube.com/embed/oGTG4Fk04oE?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="abs m_pop3">
             <div class="abs x"></div>
             <!-- <p class="abs m_pop1-p1">Экспозом - область научных интересов</p> -->
-            <iframe width="1024" height="575" src="https://www.youtube.com/embed/Wizi7tPKGRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id='player3' width="1024" height="575" src="https://www.youtube.com/embed/Wizi7tPKGRg?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
-	<script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
- <script type="text/javascript" src="js/cookie.js"></script>
-      <script type="text/javascript" src="js/preloader.js"></script>
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -85,5 +86,29 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+<script>
+            var player;
+            var player2;
+            var player3;
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('player1');
+                player2 = new YT.Player('player2');
+                player3 = new YT.Player('player3');
+                
+            }
+            //so on jquery event or whatever call the play or stop on the video.
+            //to play player.playVideo();
+            //to stop player.stopVideo();
+            $(".m_pop1 .abs.x").click(function(){
+                player.stopVideo();
+            });
+            $(".m_pop2 .abs.x").click(function(){
+                player2.stopVideo();
+            });
+            $(".m_pop3 .abs.x").click(function(){
+                player3.stopVideo();
+            });
+     </script>
   </body>
 </html>
