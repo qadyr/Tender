@@ -120,9 +120,12 @@ $(document).ready(function () {
   });
 
   // tooltip2
-  var $tips2 = $('.tooltip2');
-  $tips2.on('click', function() {
-    $(this).hide();
-  });
+  $('a.abs').click(function(e){
+	e.preventDefault();
+	var href = $(this).attr("href");
+	$('.tooltip2').hide();
+	//window.location = href;
+})
+
 
 });

@@ -1,5 +1,5 @@
-$(function(){
-	
+$(function(){ 
+  var showTooltip = false;
   var canClick = true;
   setTimeout(function() {
     $('.like').addClass('an');
@@ -11,6 +11,7 @@ $(function(){
     if (!canClick) return;
     canClick = !canClick;
     e.preventDefault();
+    $('.tooltip').fadeOut();
     $('.show-1').css({
       'opacity' : '1',
       'transition' : '2s',
@@ -265,6 +266,8 @@ $(function(){
 
   $('#arrow-11').click(function(e){
     e.preventDefault();
+	$('.tooltip').fadeOut();
+
     $('.show-4').css({
       'opacity' : '1',
       'transition' : '0.75s',

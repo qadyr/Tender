@@ -53,6 +53,7 @@ $(document).ready(function() {
       </div>
     </div>
     <div class="wrap">
+
       <div class="container">
         <div class="white-bar"></div>
         <div class="container-size">
@@ -64,6 +65,7 @@ $(document).ready(function() {
               <a href="../labs/lablrp/index.html" class="arrow-left"></a>
               <a href="../index.html" class="arrow-center"></a>
               <a href="#menu" class="arrow-right" id="arrow-1"></a>
+		<div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
             </nav>
             <h1 class="header__i">TOLERIANE <span>ULTRA</span><br>DERMALLERGO</h1>
             <p class="text" style="margin-top: 270px;">Интенсивная успокаивающая сыворотка,<br> активирующая защитную функцию кожи</p>

@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // live events
     const currentTime = Date.now()
     const els = document.querySelectorAll('[data-start]')
+	console.log(els);
     els.forEach(function(node) {
         const startTime = node.dataset.start
         const endTime = node.dataset.end
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             return
         }
         if (currentTime <= endTime && currentTime >= startTime) {
+		console.log(1);
             const checkEl = node.querySelector('.accordion__check')
             checkEl.innerHTML = `<a href="${link ? link : '#'}" target="_blank"  class="onair"></a><a href="${link ? link : '#'}" target="_blank" class="live">LIVE</a>`
         }
