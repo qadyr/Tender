@@ -4523,22 +4523,22 @@ screen and (min-resolution:2dppx) {
 
 .cube--vichy .cube__side {
     background: radial-gradient(58.34% 58.34% at 49.53% 48.04%, rgb(34 108 195 / 30%) 0, rgb(255 255 255 / 30%) 100%) !important;
-    border: 1px solid rgb(255 255 255 / 30%) !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
 }
 
 .cube--cerave .cube__side {
     background: radial-gradient(58.34% 58.34% at 49.53% 48.04%, rgba(105, 156, 235, 0.3) 0, rgb(255 255 255 / 30%) 100%) !important;
-    border: 1px solid rgb(255 255 255 / 30%) !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
 }
 
 .cube--laroche .cube__side {
     background: radial-gradient(58.34% 58.34% at 49.53% 48.04%, rgba(0, 163, 255, 0.3) 0, rgb(255 255 255 / 30%) 100%) !important;
-    border: 1px solid rgb(255 255 255 / 30%) !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
 }
 
 .cube--skin .cube__side {
     background: radial-gradient(58.34% 58.34% at 49.53% 48.04%, rgba(93, 90, 117, 0.3) 0, rgb(255 255 255 / 30%) 100%) !important;
-    border: 1px solid rgb(255 255 255 / 30%) !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
 }
 
 .cube--center .cube__side {
@@ -4722,7 +4722,4 @@ a{cursor:pointer; text-decoration:none; outline:none;}
     .start__cube-box.start__cube-box_a {
     transform: translate(-100px, -100px) rotateY(0deg);
 }
-}
-.cube__side {
-    outline: none!important;
 }
