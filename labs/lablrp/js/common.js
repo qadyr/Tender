@@ -121,11 +121,12 @@ $(document).ready(function () {
 
   // tooltip2
   $('a.abs').click(function(e){
-	e.preventDefault();
+	//e.preventDefault();
 	var href = $(this).attr("href");
 	$('.tooltip2').hide();
 	//window.location = href;
 })
+
 
 
 });
