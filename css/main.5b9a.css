@@ -1071,8 +1071,8 @@ screen and (min-resolution:2dppx) {
 }
 
 .cube__logo-right {
-    -webkit-animation: rotate-scene-right 12s ease-in-out 1;
-    animation: rotate-scene-right 12s ease-in-out 1;
+    -webkit-animation: none;
+    animation: none;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
@@ -3989,11 +3989,11 @@ screen and (min-resolution:2dppx) {
 
 @keyframes rotate-scene-front__mobile {
     0% {
-        transform: translateZ(650px) translateY(80px) translateX(0) rotateY(-30deg)
+        transform: translateZ(650px) translateY(80px) translateX(0) rotateY(330deg)
     }
 
     50% {
-        transform: translateZ(650px) translateY(80px) translateX(20px) rotateY(150deg)
+        transform: translateZ(650px) translateY(80px) translateX(20px) rotateY(330deg)
     }
 
     to {
@@ -4003,7 +4003,7 @@ screen and (min-resolution:2dppx) {
 
 @-webkit-keyframes rotate-scene-left {
     0% {
-        transform: translateX(-600px) rotateY(-30deg)
+        transform: translateX(-600px) rotateY(330deg)
     }
 
     to {
@@ -4013,7 +4013,7 @@ screen and (min-resolution:2dppx) {
 
 @keyframes rotate-scene-left {
     0% {
-        transform: translateX(-600px) rotateY(-30deg)
+        transform: translateX(-600px) rotateY(330deg)
     }
 
     to {
@@ -4023,7 +4023,7 @@ screen and (min-resolution:2dppx) {
 
 @-webkit-keyframes rotate-scene-right {
     0% {
-        transform: translateX(625px) rotateY(-30deg)
+        transform: translateX(625px) rotateY(330deg)
     }
 
     to {
@@ -4033,7 +4033,7 @@ screen and (min-resolution:2dppx) {
 
 @keyframes rotate-scene-right {
     0% {
-        transform: translateX(625px) rotateY(-30deg)
+        transform: translateX(625px) rotateY(330deg)
     }
 
     to {
@@ -4043,7 +4043,7 @@ screen and (min-resolution:2dppx) {
 
 @-webkit-keyframes rotate-scene-back {
     0% {
-        transform: translateZ(-600px) translateX(-150px) rotateY(-30deg)
+        transform: translateZ(-600px) translateX(-150px) rotateY(330deg)
     }
 
     to {
@@ -4053,7 +4053,7 @@ screen and (min-resolution:2dppx) {
 
 @keyframes rotate-scene-back {
     0% {
-        transform: translateZ(-600px) translateX(-150px) rotateY(-30deg)
+        transform: translateZ(-600px) translateX(-150px) rotateY(330deg)
     }
 
     to {
@@ -4063,11 +4063,11 @@ screen and (min-resolution:2dppx) {
 
 @-webkit-keyframes rotate-scene-center {
     0% {
-        transform: translate3d(100px, 50px, 0) rotateY(-30deg)
+        transform: translate3d(100px, 50px, 0) rotateY(330deg)
     }
 
     50% {
-        transform: translate3d(100px, 100px, 0) rotateY(150deg)
+        transform: translate3d(100px, 100px, 0) rotateY(330deg)
     }
 
     to {
@@ -4077,11 +4077,11 @@ screen and (min-resolution:2dppx) {
 
 @keyframes rotate-scene-center {
     0% {
-        transform: translate3d(100px, 50px, 0) rotateY(-30deg)
+        transform: translate3d(100px, 50px, 0) rotateY(330deg)
     }
 
     50% {
-        transform: translate3d(100px, 100px, 0) rotateY(150deg)
+        transform: translate3d(100px, 100px, 0) rotateY(330deg)
     }
 
     to {
