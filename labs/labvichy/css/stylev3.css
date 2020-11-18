@@ -295,3 +295,27 @@ html {
   overflow: hidden;
   background-image: url(../images/01/back.svg);
 }
+
+.tooltip2:after {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid transparent;
+  border-top-color: hsla(216, 87%, 69%, 0.4);
+}
+
+.tooltip2--photo {
+  top: 370px;
+  left: 87px;
+}
+
+.tooltip2--download {
+  top: 370px;
+  right: -76px;
+}
+
+.abs.m_pop1 {
+    z-index: 3;
+  }
