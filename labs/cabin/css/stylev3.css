@@ -790,16 +790,20 @@ input[type="radio"] {
 	display: inline-block;
 }
 input:checked + label {
-	
+
 
 }
 .a_button {
 	width: 70px;
 	padding: 20px;
-	
+
 	background-color: #00D3FF;
 	color: #FFFFFF;
 	font-family: Helvetica, Arial, sans-serif;
-	
+
 	cursor: pointer;
+}
+
+.abs.back.ac {
+    z-index: 1;
 }
