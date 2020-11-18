@@ -4774,3 +4774,8 @@ a.cube.cube--skin {
     left: 300%;
 }
 }
+@media screen and (max-width: 768px) and (orientation: portrait){
+.logo-text {
+    transform: translate(0, 0px);
+}
+}
