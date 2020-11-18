@@ -69,6 +69,7 @@ $(document).ready(function() {
           <nav class="abs main-m">
             <a href="../labs/labcerave/index.html" class="prev-move"></a>
             <a href="../index.html" class="home-move"></a>
+            <div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
             <!-- <a href="#" class="next-move hide"></a> -->
           </nav>
           <div class="sl sl2 _show">
@@ -292,7 +293,7 @@ $(document).ready(function() {
             $(".m_pop1 .abs.x").click(function(){
                 player.stopVideo();
             });
-            
+
      </script>
   </body>
 </html>

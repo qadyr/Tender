@@ -9,27 +9,6 @@
     <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
-         <script type="text/javascript">
-$(document).ready(function() {
-	$('#button').on('click', function() {
-        $.ajax({
-			url: 'click.php',
-			method: 'get',
-			dataType: 'json',
-			data: {id: '4'},     //id счетчика
-			success: function(data){
-				$('#count').html(data.count);
-				if(data.ip){
-					$('#button').prop('disabled', true);
-				}
-			}
-		});
-
-	});
-
-
-});
-</script>
     <div class="preloader">
       <div class="start__cube">
         <div class="start__cube-box start__cube-box-center">
@@ -61,6 +40,7 @@ $(document).ready(function() {
               <a href="../labs/lablrp/index.html" class="arrow-left"></a>
               <a href="../index.html" class="arrow-center"></a>
               <a href="#menu" class="arrow-right" id="arrow-1"></a>
+              <div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
             </nav>
             <h1 class="header__i">TOLERIANE <span>ULTRA</span><br>DERMALLERGO</h1>
             <p class="text" style="margin-top: 270px;">Интенсивная успокаивающая сыворотка,<br> активирующая защитную функцию кожи</p>
@@ -145,6 +125,7 @@ $(document).ready(function() {
             <nav class="arrows">
               <a href="#menu" class="arrow-left" id="arrow-2"></a>
               <a href="../index.html" class="arrow-center"></a>
+
             </nav>
           </div>
           <div class="show-3">
@@ -453,15 +434,37 @@ $(document).ready(function() {
     </div>
         <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
  <script type="text/javascript" src="js/cookie.js"></script>
+ <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/preloader.js"></script>
 <script type="text/javascript" src="../common/message.js"></script>
     <script src="js/common.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+$('#button').on('click', function() {
+   $.ajax({
+ url: 'click.php',
+ method: 'get',
+ dataType: 'json',
+ data: {id: '4'},     //id счетчика
+ success: function(data){
+   $('#count').html(data.count);
+   if(data.ip){
+     $('#button').prop('disabled', true);
+   }
+ }
+});
+
+});
+
+
+});
+</script>
     <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
 <script>
             var player;
             function onYouTubePlayerAPIReady() {
-                player = new YT.Player('player1');               
-            }            
+                player = new YT.Player('player1');
+            }
             $("#arrow-3").click(function(){
                 player.stopVideo();
             });

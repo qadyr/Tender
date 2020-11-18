@@ -71,6 +71,7 @@ $(document).ready(function() {
             <a href="../labs/lablrp/index.html" class="prev-move"></a>
             <a href="../index.html" class="home-move"></a>
             <a href="#menu" class="next-move"></a>
+            <div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
           </nav>
           <img src="#" data-src="shared/vid.gif" width="344" height="344" alt="" class="abs mvid main-vid lazy">
           <img src="#" data-src="shared/vid2.gif" width="344" height="344" alt="" class="abs mvid main-vid2 lazy">
@@ -379,8 +380,8 @@ $(document).ready(function() {
 <script>
             var player;
             function onYouTubePlayerAPIReady() {
-                player = new YT.Player('player1');               
-            }            
+                player = new YT.Player('player1');
+            }
             $(".m_pop1 .abs.x").click(function(){
                 player.stopVideo();
             });

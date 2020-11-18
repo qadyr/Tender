@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>Dercos</title>
+      <link href="css/main.060f.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/><link href="../common/message.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/animate.css">
     <script type="text/javascript" src="js/app.js"></script>
@@ -13,7 +14,7 @@
 
       <script type="text/javascript" src="js/preloader.js"></script>
 <script type="text/javascript" src="../common/message.js"></script>
-      <link href="css/main.060f.css" rel="stylesheet" />
+
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#button').on('click', function() {
@@ -65,6 +66,7 @@ $(document).ready(function() {
             <a href="../labs/labvichy/index.html" class="prev-move"></a>
             <a href="../index.html" class="home-move"></a>
             <a href="#" class="next-move"></a>
+            <div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
           </nav>
           <div class="sl sl1 _show">
             <div class="abs like">
@@ -246,8 +248,8 @@ webvisor:true
 <script>
             var player;
             function onYouTubePlayerAPIReady() {
-                player = new YT.Player('player1');               
-            }            
+                player = new YT.Player('player1');
+            }
             $(".m_pop1 .abs.x").click(function(){
                 player.stopVideo();
             });

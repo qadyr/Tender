@@ -63,6 +63,8 @@ $(document).ready(function() {
             <a href="../labs/labvichy/index.html" class="prev-move"></a>
             <a href="../index.html" class="home-move"></a>
             <a href="#" class="next-move"></a>
+            <div class="tooltip" style=""><span class="tooltiptext">Пройти дальше</span></div>
+          </nav>
           </nav>
           <div class="sl sl1 _show">
             <div class="abs like">
@@ -257,8 +259,8 @@ webvisor:true
 <script>
             var player;
             function onYouTubePlayerAPIReady() {
-                player = new YT.Player('player1');               
-            }            
+                player = new YT.Player('player1');
+            }
             $(".m_pop1 .abs.x").click(function(){
                 player.stopVideo();
             });
