@@ -31,9 +31,7 @@ $(function(){
     $('.show-main .arrows').css({
       'opacity' : '0',
     });
-    $('.show-1 .arrows').css({
-      'opacity' : '1',
-    });
+    
     $('.show-1').removeClass('nbg');
     setTimeout(function() {
       $('.cube-1').addClass('an');
@@ -55,15 +53,16 @@ $(function(){
     }, 2750);
     setTimeout(function() {
       canClick = !canClick;
-    }, 1000);
+      $('.show-1 .arrows').css({
+      'opacity' : '1',
+    });
+    }, 4000);
   });
   $('#arrow-2').click(function(e){
 	 if (!canClick) return;
     canClick = !canClick;
     e.preventDefault();
-    $('.show-main .arrows').css({
-      'opacity' : '1',
-    });
+    
     $('.show-1 .arrows').css({
       'opacity' : '0',
     });
@@ -92,7 +91,12 @@ $(function(){
     $('.show-cube-1, .show-cube-2, .show-cube-3, .show-cube-4').removeClass('ac');
     $('.cubeG1').css('display', 'none');
     $('.show-1').addClass('nbg');
-
+setTimeout(function() {
+      canClick = !canClick;
+      $('.show-main .arrows').css({
+      'opacity' : '1',
+    });
+    }, 3500);
   });
 
   $('#arrow-3').click(function(e){
