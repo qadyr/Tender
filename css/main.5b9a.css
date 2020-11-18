@@ -4680,7 +4680,8 @@ screen and (min-resolution:2dppx) {
     -webkit-animation: none;
     transform: translate(-100px, -100px) rotateY(30deg);
 }
-
+.account-info {margin: 0;}
+.menu__account {display: block;}
 
 @media (min-width:992px) {
 
@@ -4778,4 +4779,8 @@ a.cube.cube--skin {
 .logo-text {
     transform: translate(0, 0px);
 }
+}
+
+.menu.is-open {
+    height: 100%;
 }
