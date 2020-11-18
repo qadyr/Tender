@@ -4784,3 +4784,17 @@ a.cube.cube--skin {
 .menu.is-open {
     height: 100%;
 }
+@media screen and (max-width: 768px){
+figure.logo {
+    display: block;
+    left: 10px;
+    width: 20%;
+    bottom: 10px;
+}
+.info {
+    padding: 10px;
+    font-size: 10px;
+    width: 50%;
+    display: block;
+}
+}
