@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>Lab Vichy!</title>
-    <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/><link href="../common/message.css" rel="stylesheet"/>
       <link href="css/main.060f.css" rel="stylesheet" />
 	  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>

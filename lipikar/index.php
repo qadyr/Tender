@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>Lipikar</title>
-    <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/><link href="../common/message.css" rel="stylesheet"/>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
  <script type="text/javascript" src="js/cookie.js"></script>

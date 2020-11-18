@@ -8,13 +8,12 @@
     <link rel="preload" href="../images/02/bg3.png" as="image">
     <link rel="preload" href="../images/02/bg4.png" as="image">
 
-    <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/><link href="../common/message.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/animate.css" type="text/css" media="screen, projection"/>
     <link href="css/main.060f.css" rel="stylesheet" />
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
       <script type="text/javascript" src="js/preloader.js"></script>
-<script type="text/javascript" src="../common/message.js"></script>
 	<script src="js/cookie.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
