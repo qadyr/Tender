@@ -6,9 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="css/main.060f.css" rel="stylesheet" />
-    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
- <script type="text/javascript" src="js/cookie.js"></script>
-    <script type="text/javascript" src="js/preloader.js"></script>
     <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
@@ -454,6 +451,10 @@ $(document).ready(function() {
         </div>
       </div>
     </div>
+        <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+ <script type="text/javascript" src="js/cookie.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="../common/message.js"></script>
     <script src="js/common.js"></script>
     <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
 <script>

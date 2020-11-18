@@ -9,6 +9,7 @@
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
       <script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="../common/message.js"></script>
 	  <script type="text/javascript">
 	  $(document).ready(function() {
 		$('form').on('submit', function() {

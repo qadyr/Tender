@@ -1,0 +1,70 @@
+.live-container {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    position: relative;
+}
+
+.button {
+    background:  #C71A1A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px 13px;
+    width: 80px;
+    height: 40px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.button:before {
+    content: ' ';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 15px;
+    /* position: relative; */
+    left: -6px;
+    z-index: 5;
+    border: 3px solid white;
+    background: #C71A1A;
+}
+
+
+.onair {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #C71A1A;
+}
+
+.text {
+    color: #007DB7;;
+    width: 250px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.text > span {
+    font-family: Gilroy;
+    
+    font-weight: 800;
+}
+
+.close-button {
+    z-index: 6;
+}

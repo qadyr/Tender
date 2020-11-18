@@ -10,6 +10,7 @@
 	<script src="js/cookie.js"></script>
 
        <script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="../common/message.js"></script>
        <link href="css/main.060f.css" rel="stylesheet" />
 <script type="text/javascript">
 $(document).ready(function() {
