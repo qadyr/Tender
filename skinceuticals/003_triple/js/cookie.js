@@ -41,24 +41,25 @@ function countSpecial(str) {
 
 
 $(document).ready(function() {
-	var pages = getCookie('visited');
-	if(!pages.length){
-	pages = '/';	
+	var pages = localStorage.getItem('visited');
+	if(pages === null ||  !pages.length){
+	pages = '/';
 }
 	var url = window.location.href.toString().split(window.location.host)[1];
 	var formattedUrl = url.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+
 	var page = formattedUrl + "/";
 	if (!pages.includes(page)) {
-	pages+=page;	
+	pages+=page;
 }
 	var json_str = pages;
-
-	console.log(countSpecial(pages));
-	createCookie('visited', json_str, 1);
+	localStorage.setItem('visited', json_str);
 	var progress = 	countSpecial(pages)/40 * 100;
-	
+
 
 	if ($('.account-info__progress')) {
+	if (progress > 100) {progress = 100};
 	$('.account-info__progress').attr("data-value", progress.toString() + "%");
+	$('.account-info__progress-fill').css("width" , progress.toString() + "%");
 }
 })
