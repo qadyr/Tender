@@ -311,14 +311,21 @@
         accurateTrackBounce:true,
         webvisor:true
    });
-  
+
 
 
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/69093577" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
+<script>
+if ($(window).width() < 1200 && $(window).width() > 1000) {
+$('.info').contents().first().replaceWith('Техподдержка');
+}
+</script>
+
   <script>
-  
+
   (function(){
       var t='a4a6a23298624174b55a0b8cd7e14b44';
 function getAllUrlParams() {
