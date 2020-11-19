@@ -1546,15 +1546,16 @@ html {
     border-radius: 6px;
     font-size: 24px;
         top: 50px;
-    left: -120px;
+    left: -130px;
     position: absolute;
     z-index: 1;
 }
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
-  bottom: 100%;  /* At the top of the tooltip */
+  /* bottom: 100%;  /* At the top of the tooltip */ */
   left: 50%;
+  top: -10px;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;

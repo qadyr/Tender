@@ -296,6 +296,18 @@ html {
   background-image: url(../images/01/back.svg);
 }
 
+.tooltip2 {
+  position: absolute;
+  z-index: 3;
+  background-color: hsla(216, 87%, 69%, 0.4);
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #000;
+  transform: translate(-50%, 0);
+}
+
 .tooltip2:after {
   content: ' ';
   position: absolute;
@@ -318,4 +330,4 @@ html {
 
 .abs.m_pop1 {
     z-index: 3;
-  }
+}

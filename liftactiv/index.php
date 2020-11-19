@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8"/>
     <title>LifTActiV</title>
+          <link href="css/main.060f.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/><link href="../common/message.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/animate.css">
-      <link href="css/main.060f.css" rel="stylesheet" />
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
  <script type="text/javascript" src="js/cookie.js"></script>
