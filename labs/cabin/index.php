@@ -5,11 +5,11 @@
         <title>Lab Vichy!</title>
         <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/><link href="../common/message.css" rel="stylesheet"/>
         <link href="css/main.060f.css" rel="stylesheet" />
-      <link href="../common/message.css" rel="stylesheet"/>  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+      <link href="../../common/message.css" rel="stylesheet"/>  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/common.js"></script>
         <script type="text/javascript" src="js/preloader.js"></script>
-<script type="text/javascript" src="../common/message.js"></script>
+<script type="text/javascript" src="../../common/message.js"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 $('form').on('submit', function () {
@@ -22,7 +22,7 @@
             });
         </script>
         <style type="text/css">
-            .modal.modal2.ac .modal-inner.inner2 img {max-width: 100%;max-height: 100%!important;width: auto!important;min-width: 0;min-height: 0;max-height: 100%;height: auto;}            
+            .modal.modal2.ac .modal-inner.inner2 img {max-width: 100%;max-height: 100%!important;width: auto!important;min-width: 0;min-height: 0;max-height: 100%;height: auto;}
             button#do_submit_2 {width: 100%;}
             .abs.uploaded {display: none;}
         </style>
@@ -86,7 +86,7 @@
                         </div>
                         <form method="post" action="" id="upload_cabin">
                             <div class="abs choose">
-                                <div class="t1">выберите файл</div>                               
+                                <div class="t1">выберите файл</div>
                                 <input name="image_file" type="file" id="image_file" accept="image/*" required />
                                 <label for="image_file" class="btn btn-primary-outlined">Выбрать</label>
                                 <div id="filename" class="t2">Файл не выбран</div>
@@ -99,9 +99,9 @@
                             <label for="bg3" class="label_radio"><div class="abs q3"></div></label>
                             <input type="radio" id="bg4" name="bg" value="4"/>
                             <label for="bg4" class="label_radio"><div class="abs q4"></div></label>
-                            <input name="submit" type="submit" value="Отправить" class="abs submitbtn btn btn-primary" />                            
+                            <input name="submit" type="submit" value="Отправить" class="abs submitbtn btn btn-primary" />
                         </form>
-                        <div class="abs camera"></div>                        
+                        <div class="abs camera"></div>
                     </div>
                     <div class="sl2"></div>
                     <div class="sl3"></div>
@@ -125,10 +125,10 @@
 
                     <div class="modal modal2">
                         <div class="modal-inner inner2">
-                            <img src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' id='uploaded_photo' />                            
+                            <img src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' id='uploaded_photo' />
                         </div>
                         <div class="buttons">
-                            <div class="btn-dslk dislike">НЕ ПОНРАВИЛОСЬ ФОТО</div>                                                        
+                            <div class="btn-dslk dislike">НЕ ПОНРАВИЛОСЬ ФОТО</div>
                             <a class="btn-dwn" onclick="ym(69093577,'reachGoal','clickfoto'); return true;">Скачать</a>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                         <div class="form_upload ac">
                             <div class="title">Вам не понравился снимок? </div>
                             <div class="subtitle">Мы обработаем его вручную</div>
-                            <form method="post" action="#" id="upload_cabin2">                                
+                            <form method="post" action="#" id="upload_cabin2">
                                 <input type="hidden" id="resubmit" name="resubmit"/>
                                 <input type="text" class="input" placeholder="email"/>
                                 <button id="do_submit_2" class="btn">отправить</button>

@@ -121,6 +121,7 @@ $(document).ready(function () {
 
   // tooltip2
   $('a.abs').click(function(e){
+        if ($(this).hasClass('o4')) return;
 	e.preventDefault();
 	var href = $(this).attr("href");
 	$('.tooltip2').hide();
