@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="css/main.060f.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/animate.css">
+    <link href="../common/message.css" rel="stylesheet"/>
   </head>
   <body>
     <div class="preloader">
