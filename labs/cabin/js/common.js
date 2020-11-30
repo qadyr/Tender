@@ -252,6 +252,8 @@ $(document).ready(function () {
                     jQuery('#uploaded_photo').attr('src', 'https://demo.lorealcongress.ru/php/preview.php?img=' + d.name);
                     jQuery('.modal2 .btn-dwn').attr('href', 'https://demo.lorealcongress.ru/php/download_eve.php?img=' + d.name);
                     jQuery('#resubmit').val(d.name);
+                    $(".bg_bg").fadeIn(0);
+$(".bg_in_out").fadeIn(0);
                     //jQuery('.modal1 .result-text').html(['<img src="https://demo.lorealcongress.ru/php/download.php?img=', d.name, '"/>'].join(''));
                 }
             } catch (e) {
@@ -283,4 +285,14 @@ $(document).ready(function () {
         jQuery('#upload_cabin2').show();
     });
 
+});
+$(document).ready(function(){
+$(".bg_bg").click(function(){
+$(this).fadeOut(0);
+$(".bg_in_out").fadeOut(0);
+});
+$(".close_bg_bg").click(function(){
+$(".bg_bg").fadeOut(0);
+$(".bg_in_out").fadeOut(0);
+});
 });

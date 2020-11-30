@@ -4,7 +4,7 @@
         <meta charset="utf-8"/>
         <title>Lab Vichy!</title>
         <link rel="stylesheet" href="css/stylev3.css" type="text/css" media="screen, projection"/>
-        <link href="css/main.060f.css" rel="stylesheet" />
+        <link href="css/main.060f_2.css" rel="stylesheet" />
       <link href="../../common/message.css" rel="stylesheet"/>
        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
@@ -149,9 +149,16 @@
                             <div class="title t3">отправлено!</div>
                             <div class="subtitle t4">Извините за испорченный кадр<br>МЫ ОТПРАВИМ ВАМ ЕГО В ТЕЧЕНИЕ<br>3 дней</div>
                         </div>
-                    </div>
+                        </div>
+                        <div class="bg_bg" style="display:none;"></div>
+                        <div class="bg_in_out" style="display:none;">
+                            <div class="close_bg_bg"></div>
+                            <p>Выложите пост в Инстаграм до 27 ноября с <b>#ACDCONGRESS</b>. Случайным образом будет выбрано 20 человек, которые получат книги по дерматологии с автографом!</p>
+                        </div>
+                       
                 </div>
             </div>
         </div>
+        
     </body>
 </html>
