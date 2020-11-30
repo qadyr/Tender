@@ -23,20 +23,21 @@ var currentTime = Date.now();
 
     if (currentTime <= endTime && currentTime >= startTime) {
       // if (true){
-        var obj = document.createElement('div');
+        let obj = document.createElement('div');
         obj.className = "message";
-        obj.style.cssText = 'position: fixed;top: -60px;width: 500px;left: calc(50% - 250px);height: 66px; border: 1px solid rgb(221, 221, 221);transition: transform linear 1s;background: rgba(255, 255, 255, 0.86);border-radius:8px';
+        obj.style.cssText = 'position: fixed;top: -60px;width: 500px;left: calc(50% - 250px);height: 66px; border: 1px solid rgb(221, 221, 221);transition: transform linear 1s;background: rgba(255, 255, 255, 0.86);border-radius:8px; z-index:1';
+console.log(obj);
+       $('html').append(obj);
 
-        document.querySelectorAll("body")[0].appendChild(obj);
 
         setTimeout(()=>{
            obj.style.cssText+='transform:translateY(70px)';
-        }, 500)
+        }, 500);
 
         obj.innerHTML = 
                 "<div class=\"live-container\">" +
-                  "<div class='close-button'><img src='../common/white.svg'></div>" +
-                  "<div class='text'>Сейчас в эфире секция: <span>" + name + "</span> </div> "+ 
+                  "<div class='close-button'><img src='../../common/white.svg'></div>" +
+                  "<div class='textus'>Сейчас в эфире секция: <span>" + name + "</span> </div> "+ 
                   "<a href=\"".concat(link, "\" target=\"_blank\" class=\"button\">LIVE</a>" +
                   "</div>");
     }
