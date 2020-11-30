@@ -55,8 +55,8 @@ $(document).ready(function() {
 }
 	var json_str = pages;
 	localStorage.setItem('visited', json_str);
-	var progress = 	countSpecial(pages)/40 * 100;
-
+	var progressOut = 	countSpecial(pages)/40 * 100;
+    var progress = progressOut.toFixed(1);
 
 	if ($('.account-info__progress')) {
 	if (progress > 100) {progress = 100};
